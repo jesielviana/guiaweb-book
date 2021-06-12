@@ -1,71 +1,62 @@
 ---
 description: >-
-  Material da disciplina de Programação para Internet II do Curso de Análise e
-  Desenvolvimento de Sistemas do IFPI Campus Picos
+  Este material faz parte das disciplinas de Programação para Internet do Curso
+  Superior de Tecnologia em Análise e Desenvolvimento de Sistemas (ADS) do IFPI
+  Campus Picos.
 ---
 
-# Visão Geral
+# Apresentação
 
-#### Visão do Curso
+#### 
 
-Este material faz parte da disciplina de Programação para Internet II do Curso Superior de Tecnologia em Análise e Desenvolvimento de Sistemas \(ADS\) do IFPI Campus Picos.
+### Visão Geral
 
- Nossas aulas online serão nas **quartas-feiras às 14h** e nas **sextas-feiras às 13h**.
+Este curso apresentará conceitos fundamentais da Web e como utilizar as tecnologias básicas da Web \(HTML, CSS e Javascript\) para criação de aplicativos. No decorrer do curso o aluno vai ver como os conceitos fundamentais do desenvolvimento da Web podem ser aplicados para desenvolver software da Web real, independentemente das tecnologias, idiomas ou estruturas. Embora enfatizemos os conceitos, você demonstrará sua competência no desenvolvimento da Web desenvolvendo software dinâmico da Web com as tecnologias de programação mais comumente usadas.
 
-Este curso apresentará conceitos fundamentais de comunicação na Web e arquitetura cliente-servidor. No decorrer do curso o aluno vai aprender como aplicar os conceitos fundamentais do desenvolvimento _backend_ \(lado servidor\) para construir aplicações Web reais, integrando com o _frontend_, independentemente das tecnologias ou estruturas.
+_Problem-Based Learning \(PBL\)_ é o método de ensino utilizado neste curso, cujo objetivo é trabalhar e desenvolver conhecimentos e habilidades técnicas, além de desenvolver habilidades interpessoais, tais como trabalho em equipe, comunicação, gerenciamento de tempo e resolução de problemas reais.
 
-Embora enfatizamos os conceitos, serão desenvolvidas atividades práticas para que o aluno possa desenvolver competências relacionadas ao desenvolvimento Web \(_backend_ e _frontend_\) utilizando tecnologias de programação, servidor e banco dedados comumente usadas, tais como Javascript, Node.js, MongoDB e PostgreSQL.
+Após concluir este curso, você compreenderá o funcionamento da Web e estará capacitado para resolver problemas que envolva o projeto e implementação de páginas Web utilizando HTML, CSS e Javascript.
 
-O aluno trabalhará em equipes no desenvolvido de projeto, arquitetura e implementação de aplicações Web com integrações com _frontend_, APIs externas e banco de dados, caso necessário. Além disso, a equipe irá realizar a implantação dessas aplicações em ambientes online, tornando sua aplicações disponíveis para qualquer um acessar.
+### Objetivos de Aprendizagem
 
-Durante o curso, o aluno desenvolverá algumas atividades individuais, no entanto a maioria das atividades serão em equipes. Até o final do curso, cada equipe terá construído no mínimo uma aplicação Web. Com grande parte do processo que envolve trabalho em equipe, habilidades interpessoais e gerenciamento de conflitos e gerenciamento de tempo, este curso o ajudará a praticar e se preparar para o seu desenvolvimento profissional.
+* Compreender o funcionamento da Web e demonstrar um entendimento do modelo cliente-servidor;
+* Desenvolver software da Web usando tecnologias específicas, incluindo HTML, CSS e Javascript.
+* Desenvolver habilidades e técnicas para criar interfaces de páginas Web responsivas e com boa usabilidade;
+* Desenvolver habilidades técnicas para construção de soluções conforme os requisitos do cliente, incluindo critérios de avaliação de usabilidade e acessibilidade;
+* Desenvolver habilidades de trabalho em equipe, para poder colaborar profissionalmente com seu parceiro de projeto contribuindo para o sucesso do mesmo.
 
-Após concluir este curso, você entenderá o funcionamento dos servidores Web, a comunicação entre aplicações Web e poderá projetar e implementar suas próprias aplicações _backend_ com integrações com APIs, banco de dados e interface gráfica \(_frontend_\).
-
-#### Objetivos de Aprendizagem
-
-* Compreender o funcionamento da Web e demonstrar um entendimento do modelo cliente-servidor e integrações entre aplicações;
-* Desenvolver competências para construção de aplicações Web \(_backend_ e _frontend_\) usando tecnologias específicas, incluindo HTML, CSS, Javascript, Node.js e banco e dados \(MongoDB ou PostgreSQL\).
-* Desenvolver competências para projetar e construir soluções Web de acordo com os requisitos do cliente e critérios de interoperabilidade, segurança e performance;
-* Desenvolver habilidades de trabalho em equipe, para que possa colaborar profissionalmente com seu parceiro de projeto contribuindo para o sucesso do mesmo.
-
-#### Pré-requisitos
+### Pré-Requisitos
 
 * Conhecimento básico em algoritmos e estrutura de dados;
-* Noções de comandos básicos do terminal linux/windows/mac;
+* Noções de comandos básicos do terminal Linux/Windows/Mac;
 * Noções básicas de redes de computadores.
-* Conhecimento avançado de HTML, CSS e Javascript
-* Conhecimento intermediário de banco de dados relacional
 
-#### Setup
+### Conteúdo do Curso
 
-* Computador
-* Navegador Web \([Brave](https://brave.com/),
+1. Introdução aos conceitos de Internet e Web;
+2. Linguagens de Marcação - HTML;
+3. Fundamentos de folhas de estilo - CSS;
+4. Princípios de Design responsivo;
+5. Usabilidade na Web;
+6. Javascript do lado cliente;
+7. Integração com APIs;
+8. Testes automatizados; e
+9. Implantação automatizada.
 
-  [Chrome](https://www.google.com/intl/pt-BR/chrome/), [Firefox](https://www.mozilla.org/en-US/firefox/new/), etc\)
+### Ferramentas
 
-* [Node.js](https://nodejs.org/pt-br/download)
-* Banco de dados [Mongodb](https://www.mongodb.com/) e/ou [PostgreSQL](https://www.postgresql.org/)
-* Editor de código \([Visual Studio Code - VS Code](https://code.visualstudio.com/)\);
-* Instalar o pacote de extensões [Web Dev Extension Pack](https://marketplace.visualstudio.com/items?itemName=jesielviana.web-dev-extension-pack) no seu VS Code;
-* [Git](https://git-scm.com/) e [Github](https://github.com/)
+* [**Brave**](https://brave.com/) - Brave é um navegador web livre e de código aberto, baseado no navegador web Chromium.
+* [**Visual Studio Code \(VS Code\)**](https://code.visualstudio.com/) - é um editor de código/IDE altamente recomendado para desenvolvimento web. É gratuito, _open-source_ e está disponível para todos os principais sistemas operacionais. O VS Code oferece muitas extensões,e o melhor são fáceis de instalar e configurar. Recomendo a instalação do pacote de extensões [**Web Dev Extension Pack**](https://marketplace.visualstudio.com/items?itemName=jesielviana.web-dev-extension-pack)\*\*\*\*
+* [**Git**](https://git-scm.com/) - é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software.
+* [**Github**](https://github.com/) - é uma plataforma de hospedagem de código-fonte com controle de versão usando o Git.
 
-#### Estilo de Código e Padrões Web
+### Material para estudos \(Referências\)
 
-* Todo código **HTML** de qualquer atividade ou projeto deverá
+Não existe um livro didático obrigatório para este curso, e não conheço um livro que seja uma combinação perfeita com o material para um curso de Web. O conteúdo do curso é definido pelo conteúdo programático e suas respectivas aulas. Em toda aula será informado o material base de referência e outros materiais extras. Você precisará de material de referência adicional para concluir os projetos de programação, mas esse material está disponível na Web. Uma boa fonte online para documentação de referência em HTML, CSS e DOM é a [**Mozilla Developer Network - MDN**](https://developer.mozilla.org/pt-BR/).
 
-  seguir o padrão [HTML Style Guide and Coding Conventions](https://www.w3schools.com/html/html5_syntax.asp);
-
-* Todo código **Javascript** de qualquer atividade ou projeto deverá
-
-  seguir o padrão [JavaScript Standard Style](https://standardjs.com/);
-
-* No início do curso leia \(obrigatoriamente\) o artigo [A web e seus padrões](https://developer.mozilla.org/pt-BR/docs/Aprender/Getting_started_with_the_web/A_web_e_seus_padr%C3%B5es).
-
-#### Avaliação
-
-* Atividades individuais: 20%
-* Participação em aulas, fóruns e aplicativos de mensagens : 20%
-* Projeto: 60% \(A avaliação do projeto será baseada no resultado final alcançado levando em consideração os aspectos técnicos e interpessoais de cada aluno e do grupo como um todo\)
-* Avaliação Final \(Prática\): 100%
+* Referência base
+  * [https://developer.mozilla.org/pt-BR/](https://developer.mozilla.org/pt-BR)
+* Referências extras:
+  * [https://www.w3schools.com/](https://www.w3schools.com)
+  * [Livro Eloquent JavaScript](https://braziljs.github.io/eloquente-javascript/)
 
