@@ -2,7 +2,7 @@
 
 Exemplo de código HTML
 
-```text
+```markup
 <!DOCTYPE html>
 <html lang="en">
 <head>
