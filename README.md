@@ -7,8 +7,6 @@ description: >-
 
 # Apresentação
 
-#### 
-
 ### Visão Geral
 
 Este curso apresentará conceitos fundamentais da Web e como utilizar as tecnologias básicas da Web \(HTML, CSS e Javascript\) para criação de aplicativos. No decorrer do curso o aluno vai ver como os conceitos fundamentais do desenvolvimento da Web podem ser aplicados para desenvolver software da Web real, independentemente das tecnologias, idiomas ou estruturas. Embora enfatizemos os conceitos, você demonstrará sua competência no desenvolvimento da Web desenvolvendo software dinâmico da Web com as tecnologias de programação mais comumente usadas.
