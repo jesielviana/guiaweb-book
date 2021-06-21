@@ -38,16 +38,10 @@ Por fim, podemos descrever a **Internet** como uma **infraestrutura** formada po
 
 {% embed url="https://www.youtube.com/watch?v=2Z-9OAB9eLQ" %}
 
-{% embed url="https://open.spotify.com/episode/0TY9R9Qx26Ar5dMbd0uKui" %}
+{% embed url="https://open.spotify.com/episode/0TY9R9Qx26Ar5dMbd0uKui" caption="Podcast B-a-bá do Dev \#1 - Surgimento da Internet e Web" %}
 
 Outros links:
 
 * [Como a Internet funciona?](https://developer.mozilla.org/pt-BR/docs/Learn/Common_questions/How_does_the_Internet_work)
 * [A história da Internet - TecMundo](https://www.youtube.com/watch?v=pKxWPo73pX0)
-
-
-
-
-
-
 
