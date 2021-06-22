@@ -1,4 +1,15 @@
+---
+description: >-
+  O objetivo deste capítulo é apresentar uma breve introdução sobre o surgimento
+  da internet e da Web e descrever suas características.
+---
+
 # Introdução a Web
+
+> Objetivos de aprendizagem
+>
+> * Conhecer as origens da Internet e da Web
+> * Compreender as características e diferenças entre Internet e Web
 
 ### Surgimento da Internet
 

@@ -5,6 +5,7 @@
 ## Introdução
 
 * [Introdução a Web](introducao/aula-1-tecnologias-e-ferramentas-para-desenvolvimento-web.md)
+* [HTML](introducao/html.md)
 
 ## Frontend
 
