@@ -1,5 +1,7 @@
 ---
-description: Introdução a linguagem de marcação utilizada para criar páginas Web
+description: >-
+  Introdução a Hypertext Markup Language (HTML), linguagem de marcação utilizada
+  para criar páginas Web
 ---
 
 # HTML
@@ -14,7 +16,7 @@ description: Introdução a linguagem de marcação utilizada para criar página
 
 Como descrito na aula anterior, a Web é baseada na interligação de documentos de hipermídia que podem conter textos, imagens, vídeos, etc. Para criação desses documentos, conhecidos como páginas Web, utiliza-se a linguagem de marcação HTML - Hypertext Markup Language. 
 
-A linguagem HTML permite estruturar uma página web e seu conteúdo com texto, imagens, vídeos, etc e interligá-los com outras páginas na Web de forma simples e padronizada.
+A linguagem HTML permite estruturar uma página web e seu conteúdo com texto, imagens, vídeos, etc. E interligá-los com outras páginas na Web de forma simples e padronizada.
 
 HTML **não** é uma linguagem de **programação**, na verdade, HTML é uma linguagem de marcação, formada por um conjunto de elementos. Os elementos HTML são definidos por meio de _tags,_ que são utilizadas para definir a estrutura do conteúdo.
 
@@ -62,7 +64,7 @@ A figura abaixo apresenta detalhadamente as partes que compõe um elemento HTML,
 
 As principais partes de um elemento são:
 
-* **Tag de abertura** - consiste no nome do elemento \(no caso, `p`\), envolvido pelos caracteres `<` \(menor que\) e `>` \(maior que\). Isso demonstra onde o elemento começa, ou onde seu efeito se inicia — nesse caso, onde é o começo do parágrafo.
+* **Tag de abertura** - consiste no nome do elemento \(no caso, o elemento `p`\), envolvido pelos caracteres `<` \(menor que\) e `>` \(maior que\). Isso demonstra onde o elemento começa, ou onde seu efeito se inicia — nesse caso, onde é o começo do parágrafo.
 * **Tag de fechamento**  - Similar tag de abertura, exceto que inclui uma barra antes do nome do elemento. Isso demonstra onde o elemento acaba — nesse caso, o fim do parágrafo. 
 * **Conteúdo** - é literalmente o conteúdo do elemento \(texto, imagens, links, etc.\), no exemplo do parágrafo acima é apenas texto.
 * Por fim, a tag de abertura, a de fechamento, e o conteúdo formam o **Elemento**.
@@ -91,7 +93,7 @@ Agora vamos criar nosso "olá mundo" com HTML. Para isso vamos criar um document
 
 Para visualizar a nossa página, basta salvar o documento com o nome index.html \(pode ser qualquer nome com a extensão .`html`\) e abri o arquivo em qualquer navegador Web.
 
-Nossa primeira página Web está criada, porém, ainda está muito simples e faltando algumas configurações básicas, tais como o _charset_  e título da página. Vamos adicionar essas configurações e também transformar o texto "Olá mundo, HTML!" em um texto maior e negrito, tipo cabeçalho, com mais destaque. 
+Nossa primeira página Web está criada, porém, ainda está muito simples e faltando algumas configurações básicas, tais como o _`charset`_  e título da página. Vamos adicionar essas configurações e também transformar o texto "Olá mundo, HTML!" em um texto maior e negrito, tipo cabeçalho, com mais destaque. 
 
 ```markup
 <!DOCTYPE html>
@@ -154,7 +156,7 @@ Já outros elementos vazios possuem atributos específicos que são utilizados p
 </html>
 ```
 
-Para adicionar uma imagem em uma página HTML utiliza-se o elemento `<img>` passando o endereço da imagem para o atributo `src.` Agora quando você salvar o código do exemplo acima e abrir no navegador será exibida abaixo do texto a imagem carregada do link/endereço passado como valor para o atributo `src`  do elemento `<img>`.
+Para adicionar uma imagem em uma página HTML utiliza-se o elemento `<img>` passando o endereço da imagem para o atributo `src.` Agora quando você salvar o código do exemplo acima e abrir no navegador será exibida abaixo do texto a imagem "carregada" do link/endereço passado como valor para o atributo `src`  do elemento `<img>`.
 
 ### Conclusão
 

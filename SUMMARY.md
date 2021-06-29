@@ -9,6 +9,7 @@
 ## Frontend
 
 * [HTML](frontend/html.md)
+* [CSS](frontend/css.md)
 
 ## Backend
 
