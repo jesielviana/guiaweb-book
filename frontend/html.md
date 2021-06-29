@@ -6,7 +6,7 @@ description: >-
 
 # HTML
 
-> Objetivos de aprendizagem
+> **Objetivos de aprendizagem**
 >
 > * Conhecer a linguagem de marcação HTML
 > * Entender a sintaxe básica da linguagem

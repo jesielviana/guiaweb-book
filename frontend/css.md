@@ -6,3 +6,11 @@ description: >-
 
 # CSS
 
+> **Objetivos de aprendizagem**
+>
+> * Conhecer a linguagem de estilo CSS
+> * Entender a sintaxe básica da linguagem CSS
+> * Conhecer as propriedades básicas da CSS
+
+
+
