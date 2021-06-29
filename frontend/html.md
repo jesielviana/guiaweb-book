@@ -128,7 +128,7 @@ Qualquer elemento HTML pode receber atributos, que são utilizados para adiciona
  <h1 class="titulo-pagina">Olá mundo, HTML!</h1>
 ```
 
-Nesse exemplo, foi adicionado o atributo `class` ao elemento h1, esse atributo é utilizado para categorizar elementos, pode ser adicionado a qualquer elemento. No entanto, a simples utilização de um atributo `class` não impacta em nada a exibição do conteúdo do elemento pelo navegador. Há diversos atributos que podem ser adicionados à qualquer elemento, sendo conhecidos como atributos globais \([veja quais são aqui](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Global_attributes)\) e outros que são específicos para determinados elementos.
+Nesse exemplo, foi adicionado o atributo `class` ao elemento h1, esse atributo é utilizado para categorizar elementos, pode ser adicionado a qualquer elemento. No entanto, a simples utilização de um atributo `class` não impacta em nada a exibição do conteúdo do elemento pelo navegador. Há diversos atributos que podem ser adicionados à qualquer elemento, sendo conhecidos como atributos globais \([veja quais são aqui](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Global_attributes)\) e outros que são específicos para determinados elementos \(conheça todos os atributos HTML\).
 
 Vale destacar que os atributos de um elemento sempre devem ser adicionados na tag de abertura, seguindo a sintaxe `<tag nome-do-atributo="valor-do-atributo">` . Incia-se com um espaço entre ele e o nome do elemento \(ou o atributo anterior, caso o elemento já contenha um ou mais atributos.\), após o nome do atributo vem o sinal de `=` separando-o do seu valor, por fim, o valor do atributo deve ser colocado entre aspas duplas.
 
@@ -160,11 +160,9 @@ Para adicionar uma imagem em uma página HTML utiliza-se o elemento `<img>` pass
 
 Nesta aula conhecemos a linguagem de marcação HTML e para que ela é utilizada. Além disso, aprendemos o básico de sua sintaxe e a utilizar de forma prática as tags básicas para criar elementos, atributos e páginas Web.
 
-Agora é com você, modifique os exemplos criados na aula, adicione mais elementos nas páginas e crie outros documentos HTML. 
+**O mais importante nesse momento é compreender a estrutura da HTML e ter a consciência de que existem elementos específicos para cata tipo de conteúdo que pode ser exibido em uma página HTML, tais como títulos, parágrafos, tabelas, listas ordenadas e não ordenadas, imagens, vídeos,  etc.**\(Conheça todos os elementos HTML\).
 
-> [Conheça todos os elementos HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element)
->
-> [Conhaça todos os atributos HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Attributes)
+Agora é com você, modifique os exemplos criados na aula, adicione mais elementos nas páginas e crie outros documentos HTML. 
 
 Por fim, acesse o material complementar.
 
