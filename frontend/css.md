@@ -85,7 +85,7 @@ Vamos entender detalhadamente cada item da sintaxe do CSS.
 
 Veja mais sobre seletores, propriedades e valores na próxima seção.
 
-### Seletores, propriedades e valores
+### Seletores
 
 Aplicação de CSS é feita por Seletores. Os seletores CSS são usados para "encontrar" \(ou selecionar\) elementos HTML com base no nome do elemento, id, classe, etc.
 
@@ -101,9 +101,12 @@ Há muitos tipos diferentes de seletores. Abaixo, é mostrado os **seletores de 
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">tag</td>
-      <td style="text-align:left"><code>p { } </code>
-        <br />Seleciona os elementos html <code> &lt;p&gt;</code>
+      <td style="text-align:left">tag ou elemento</td>
+      <td style="text-align:left">
+        <p><code>p { </code>
+        </p>
+        <p><code>} </code>
+        </p>
       </td>
       <td style="text-align:left">Todos os elementos HTML de determinado tipo (tag). Qualquer tag/elemento
         pode ser usada como seletor.</td>
@@ -111,19 +114,14 @@ Há muitos tipos diferentes de seletores. Abaixo, é mostrado os **seletores de 
     <tr>
       <td style="text-align:left">id</td>
       <td style="text-align:left"><code>#my-id {  } </code>
-        <br />Seleciona o elemento html <code>&lt;p id=&quot;my-id&quot;&gt;..&lt;/p&gt;</code>
       </td>
       <td style="text-align:left">O elemento na p&#xE1;gina com o id espec&#xED;ficado. S&#xF3; deve haver
-        um elemento com o mesmo ID por p&#xE1;gina HTML. O seletor de id inicia
-        com uma hashtag <code>#</code>.</td>
+        um elemento com o mesmo <code>id</code> por p&#xE1;gina HTML. O seletor de
+        id inicia com uma hashtag <code>#</code>.</td>
     </tr>
     <tr>
       <td style="text-align:left">classe</td>
-      <td style="text-align:left">
-        <p><code>.my-class {  } </code>Seleciona os elementos html <code>&lt;p class=&quot;my-class&quot;&gt;..&lt;/p&gt;</code>
-        </p>
-        <p><code>&lt;h1 class=&quot;my-class&quot;&gt;..&lt;/h1&gt;</code>
-        </p>
+      <td style="text-align:left"><code>.my-class { } </code>
       </td>
       <td style="text-align:left">O(s) elemento(s) na p&#xE1;gina com a classe espec&#xED;ficada. V&#xE1;rios
         elementos podem possuir a mesma classe. O seletor de classe inicia com
@@ -131,9 +129,12 @@ Há muitos tipos diferentes de seletores. Abaixo, é mostrado os **seletores de 
     </tr>
     <tr>
       <td style="text-align:left">pseudo-classe</td>
-      <td style="text-align:left"><code>a:hover</code>
-        <br />Seleciona <code>&lt;a&gt;</code>, mas somente quando o mouse est&#xE1;
-        em cima do elemento <code>&lt;a&gt; </code>(link).</td>
+      <td style="text-align:left">
+        <p><code>a:hover { </code>
+        </p>
+        <p><code>}</code>
+        </p>
+      </td>
       <td style="text-align:left">O(s) elemento(s) espec&#xED;ficado(s), mas somente quando estiver no estado
         especificado. No exemplo &#xE9; utilizado o hover que &#xE9; um estado
         ativado quando o mouse est&#xE1; sobre o elemeto. O seletor de pseudo-classe
@@ -141,6 +142,8 @@ Há muitos tipos diferentes de seletores. Abaixo, é mostrado os **seletores de 
     </tr>
   </tbody>
 </table>
+
+### Propriedades e Valores
 
 
 
