@@ -145,13 +145,94 @@ Há muitos tipos diferentes de seletores. Abaixo, é mostrado os **seletores de 
 
 ### Propriedades e Valores
 
+Propriedade é a forma pela qual você estiliza um elemento HTML. Cada propriedade está relacionada a uma característica que pode ser modificada no elemento HTML. 
 
+Valor da propriedade é a forma pela qual você define o estilo para determinada propriedade, afetando diretamente a aparência do elemento HTML. 
 
+Abaixo é apresentado alguns exemplos de propriedades e valores. Os comentários descrevem cada propriedade listada. Comentários em CSS é definido entre barras e asterisco, como:`/* comentários */`
 
+{% tabs %}
+{% tab title="style.css" %}
+```css
 
+/* CSS aplicado ao elemento body, ou seja, aplicato a página toda */
+body { 
+    text-align: center; /* deixa o texto centralizado */
+    color: green; /* define a cor de todo texto da página como verde */
+    font-size: 16px; /*d efine o tamanho da fonte do texto */
+}
+```
+{% endtab %}
 
+{% tab title="index.html" %}
+```markup
+<!DOCTYPE html>
+<html>
+ 
+ <head>
+   <meta charset="UTF-8">
+   <title>Webdev book</title>
+   <link rel="stylesheet"  href="css/style.css">
+ </head>
 
+ <body>
+  <h2>Olá CSS, vamos pra aula!</h2>
+ </body>
 
+</html>
+```
+{% endtab %}
+{% endtabs %}
+
+Como pode ser visto nos comentários do código CSS acima, algumas propriedades do CSS são específicas para determinados tipos de elementos HTML, como `text-align`, `color`   e `font-size`, que só fazem efeitos em elementos de texto. Já outras podem ser aplicadas com efeitos em qualquer elemento, tais como `width`, `margin`, etc. Vamos ver mais detalhes sobre elas na próxima seção. 
+
+### No HTML tudo é box \(caixa\)
+
+A maioria dos elementos HTML podem ser pensados como caixas, que podem ser agrupadas de forma horizontal, vertical ou colocada dentro de outra. Ao trabalhar com as propriedades CSS isso fica mais evidente, frequentemente você precisará indicar o tamanho dos elementos\(largura e altura\), cor, posição em relação aos demais e seu conteúdo interno, etc.
+
+O box \(caixa\) que representa um elemento HTML é composto por conteúdo, margem interna \(`padding`\), borda \(`border`\) e margem externa \(`margin`\). A figura abaixo tem a representação gráfica de um elemento.
+
+![Caixa de um elemento HTML](../.gitbook/assets/box-elemento-html.png)
+
+Abaixo um exemplo de código aplicando essas propriedades CSS, em seguida será explicada cada uma.
+
+{% tabs %}
+{% tab title="style.css" %}
+```css
+/* CSS aplicado a todos elementos que possuem a classe 'retangulo' */
+.retangulo {
+    width: 400px; /*  define a largura do elemento */
+    height: 200px; /*  define a altura do elemento */
+    border: 1px solid red;
+    background-color: #eee; /* define a cor de fundo do elemento  */
+    padding: 10px 10px 10px 10px; /*  define uma distância interna entre as bordas do elemento e seu conteúdo */
+    margin: 5px 5px 5px 5px; /*  define uma distância externa  entre as bordas do elemento os demais em volta*/
+}
+
+```
+{% endtab %}
+
+{% tab title="index.html" %}
+```markup
+<!DOCTYPE html>
+<html>
+ 
+ <head>
+   <meta charset="UTF-8">
+   <title>IFPI Campus Picos</title>
+   <link rel="stylesheet"  href="css/style.css">
+ </head>
+
+ <body>
+  <div class="retangulo">
+    <p>By Jesiel Viana</p>
+  </div>
+ </body>
+
+</html>
+```
+{% endtab %}
+{% endtabs %}
 
 ### Referências
 
