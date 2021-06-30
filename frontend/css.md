@@ -66,7 +66,95 @@ Como pode ser visto no exemplo acima, o elemento &lt;link&gt; recebe dois atribu
 
 Dessa forma, todo código CSS adicionado no arquivo style.css está vinculado ao arquivo index.html. 
 
+Agora vamos entender sobre a sintaxe do CSS, sua anatomia básica.
 
+### Sintaxe do CSS
+
+Podemos as instruções CSS como um conjunto de regras de formatação para serem aplicadas às páginas Web.
+
+A sintaxe das regras do CSS é formada por um **seletor** e **bloco de declarações**, dentro de um bloco de declarações pode haver várias declarações, cada declaração é composta por  **propriedade** e **valor.** Veja a imagem abaixo.
+
+![Sintaxe do CSS](../.gitbook/assets/sintaxe-css.png)
+
+Vamos entender detalhadamente cada item da sintaxe do CSS.
+
+* O **seletor** seleciona quais elementos  HTML receberão o estilo definido no bloco de declarações. No exemplo da figura acima, todos os elementos `<p>` \(paragrafo\) serão estilizados conforme o bloco de declarações.
+* O **bloco de declaração**, delimitado por chaves `{}`, contém uma ou mais declarações separadas por ponto e vírgula.
+* Cada declaração inclui um nome de **propriedade** CSS e um **valor**, separados por **dois pontos**.
+* As propriedades `text-align` e `color` são utilizadas para definir o alinhamento do texto e cor do texto respectivamente. No exemplo da imagem acima, para o `text-align` foi atribuído o valor `right`, que alinha o texto à direita e para a `color` foi atribuído o valor `green`, que deixa a cor de texto verde.  
+
+Veja mais sobre seletores, propriedades e valores na próxima seção.
+
+### Seletores, propriedades e valores
+
+Aplicação de CSS é feita por Seletores. Os seletores CSS são usados para "encontrar" \(ou selecionar\) elementos HTML com base no nome do elemento, id, classe, etc.
+
+Há muitos tipos diferentes de seletores. Abaixo, é mostrado os **seletores de elementos**, que selecionam todos os elementos de um determinado tipo nos documentos HTML. No entanto, é possível fazer seleções mais específicas.  Veja abaixo alguns dos tipos mais comuns de seletores:
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Seletor</th>
+      <th style="text-align:left">Exemplo</th>
+      <th style="text-align:left">O que ele seleciona</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">tag</td>
+      <td style="text-align:left"><code>p { } </code>
+        <br />Seleciona os elementos html <code> &lt;p&gt;</code>
+      </td>
+      <td style="text-align:left">Todos os elementos HTML de determinado tipo (tag). Qualquer tag/elemento
+        pode ser usada como seletor.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">id</td>
+      <td style="text-align:left"><code>#my-id {  } </code>
+        <br />Seleciona o elemento html <code>&lt;p id=&quot;my-id&quot;&gt;..&lt;/p&gt;</code>
+      </td>
+      <td style="text-align:left">O elemento na p&#xE1;gina com o id espec&#xED;ficado. S&#xF3; deve haver
+        um elemento com o mesmo ID por p&#xE1;gina HTML. O seletor de id inicia
+        com uma hashtag <code>#</code>.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">classe</td>
+      <td style="text-align:left">
+        <p><code>.my-class {  } </code>Seleciona os elementos html <code>&lt;p class=&quot;my-class&quot;&gt;..&lt;/p&gt;</code>
+        </p>
+        <p><code>&lt;h1 class=&quot;my-class&quot;&gt;..&lt;/h1&gt;</code>
+        </p>
+      </td>
+      <td style="text-align:left">O(s) elemento(s) na p&#xE1;gina com a classe espec&#xED;ficada. V&#xE1;rios
+        elementos podem possuir a mesma classe. O seletor de classe inicia com
+        um ponto <code>.</code> .</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">pseudo-classe</td>
+      <td style="text-align:left"><code>a:hover</code>
+        <br />Seleciona <code>&lt;a&gt;</code>, mas somente quando o mouse est&#xE1;
+        em cima do elemento <code>&lt;a&gt; </code>(link).</td>
+      <td style="text-align:left">O(s) elemento(s) espec&#xED;ficado(s), mas somente quando estiver no estado
+        especificado. No exemplo &#xE9; utilizado o hover que &#xE9; um estado
+        ativado quando o mouse est&#xE1; sobre o elemeto. O seletor de pseudo-classe
+        &#xE9; definido com o nome do seletor, dois pontos e o estado, ex.: <code>seletor:estado</code> .</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+### Referências
+
+{% embed url="https://developer.mozilla.org/pt-BR/docs/Learn/Getting\_started\_with\_the\_web/CSS\_basics" %}
+
+{% embed url="https://www.w3schools.com/css/default.asp" %}
 
 
 
