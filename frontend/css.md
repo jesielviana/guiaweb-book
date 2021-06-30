@@ -186,6 +186,10 @@ body {
 
 Como pode ser visto nos comentários do código CSS acima, algumas propriedades do CSS são específicas para determinados tipos de elementos HTML, como `text-align`, `color`   e `font-size`, que só fazem efeitos em elementos de texto. Já outras podem ser aplicadas com efeitos em qualquer elemento, tais como `width`, `margin`, etc. Vamos ver mais detalhes sobre elas na próxima seção. 
 
+Não tente decorar todas as propriedades e valores do CSS, são muitas propriedades e para cada propriedade pode haver infinitas possibilidades de valores, o importante é entender a sintaxe e ir utilizando de acordo com o que você deseja fazer. 
+
+Vale destacar que para maioria das propriedades existem um conjunto de valores pré-definidos. Veja todas as propriedades e valores do CSS aqui: [https://developer.mozilla.org/pt-BR/docs/Web/CSS/Reference](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Reference).
+
 ### No HTML tudo é box \(caixa\)
 
 A maioria dos elementos HTML podem ser pensados como caixas, que podem ser agrupadas de forma horizontal, vertical ou colocada dentro de outra. Ao trabalhar com as propriedades CSS isso fica mais evidente, frequentemente você precisará indicar o tamanho dos elementos\(largura e altura\), cor, posição em relação aos demais e seu conteúdo interno, etc.
@@ -194,7 +198,18 @@ O box \(caixa\) que representa um elemento HTML é composto por conteúdo, mar
 
 ![Caixa de um elemento HTML](../.gitbook/assets/box-elemento-html.png)
 
-Abaixo um exemplo de código aplicando essas propriedades CSS, em seguida será explicada cada uma.
+
+
+Diante do apresentado acima,  agora sabemos que cada elemento HTML que ocupa um espaço na sua página tem propriedades como essas:
+
+* `padding` - espaço entre a borda e o conteúdo.
+* `border` - linha que envolve todo o elemento.
+* `margin` - espaço externo a um elemento.
+* `width` - largura de um elemento;
+* `height` - altura de um elemento;
+* `background-color` - a cor de fundo do elemento.
+
+Abaixo um exemplo de código aplicando essas propriedades CSS.
 
 {% tabs %}
 {% tab title="style.css" %}
@@ -233,6 +248,8 @@ Abaixo um exemplo de código aplicando essas propriedades CSS, em seguida será 
 ```
 {% endtab %}
 {% endtabs %}
+
+
 
 ### Referências
 
