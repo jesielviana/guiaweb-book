@@ -55,6 +55,7 @@ Um documento HTML é formado por elementos, que na sua maioria é composto por u
 * `<html>` - é o elemento raiz de uma página HTML, composto pela _tag_ `<html>`, que indica o início do documento e pela _tag_ `</html>` que delimita o final do documento. Observe que a tag de fechamento tem uma `/`. Isso é padrão para todos os elementos que possuem tag de fechamento;
 * `<head>`  - elemento que contém configurações e meta informações sobre o documento, o conteúdo colocado dentro deste elemento não fica visível no página Web, quando acessada pelo navegador. Este elemento também formado pelas tags de abertura e fechamento;
 * `<body>`  - elemento que indica o corpo do documento, contém todo conteúdo  visível da página Web. Também formado pelas tags de abertura e fechamento.
+* `<!-- Conteúdo aqui -->` - esse trecho de código na linha 9 é um exemplo de comentário. Comentários é como fazemos anotações em nosso HTML, eles são ignorados pelo navegador. Começamos um comentário HTML com `<! -` e terminamos um comentário com `->`.
 
 ### Anatomia de um elemento HTML
 
