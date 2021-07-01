@@ -194,20 +194,18 @@ Vale destacar que para maioria das propriedades existem um conjunto de valores p
 
 A maioria dos elementos HTML podem ser pensados como caixas, que podem ser agrupadas de forma horizontal, vertical ou colocada dentro de outra. Ao trabalhar com as propriedades CSS isso fica mais evidente, frequentemente você precisará indicar o tamanho dos elementos\(largura e altura\), cor, posição em relação aos demais e seu conteúdo interno, etc.
 
-O box \(caixa\) que representa um elemento HTML é composto por conteúdo, margem interna \(`padding`\), borda \(`border`\) e margem externa \(`margin`\). A figura abaixo tem a representação gráfica de um elemento.
+O box \(caixa\) que representa um elemento HTML é composto por **conteúdo**, **margem interna** \(`padding`\), **borda** \(`border`\) e **margem externa** \(`margin`\). Todas essas partes que compõe o elemento é conhecida como _**box model.**_ A figura abaixo tem a representação gráfica de um elemento.
 
 ![Caixa de um elemento HTML](../.gitbook/assets/box-elemento-html.png)
 
-
-
 Diante do apresentado acima,  agora sabemos que cada elemento HTML que ocupa um espaço na sua página tem propriedades como essas:
 
-* `padding` - espaço entre a borda e o conteúdo.
-* `border` - linha que envolve todo o elemento.
+* `width` - largura de um elemento, pode ser definido com valor fixo usando píxel \(px\) ou valor dinâmico usando porcentagem \(%\);
+* `height` - altura de um elemento, pode ser definido com valor fixo usando píxel \(px\) ou valor dinâmico usando porcentagem \(%\);
 * `margin` - espaço externo a um elemento.
-* `width` - largura de um elemento;
-* `height` - altura de um elemento;
-* `background-color` - a cor de fundo do elemento.
+* `border` - linha que envolve todo o elemento.
+* `padding` - espaço entre a borda e o conteúdo.
+* `background-color` - a cor de fundo do elemento, as propriedades de cores podem receber valores literais \(nome da cor em inglês\), ou cores em hexadecimal \(aquelas que começam \#\) ou cores RGB 
 
 Abaixo um exemplo de código aplicando essas propriedades CSS.
 
@@ -218,10 +216,10 @@ Abaixo um exemplo de código aplicando essas propriedades CSS.
 .retangulo {
     width: 400px; /*  define a largura do elemento */
     height: 200px; /*  define a altura do elemento */
-    border: 1px solid red;
+    border: 1px solid red; /* define uma borda sólida vermelha na largura de 1px para todos os lados do elemento */
     background-color: #eee; /* define a cor de fundo do elemento  */
-    padding: 10px 10px 10px 10px; /*  define uma distância interna entre as bordas do elemento e seu conteúdo */
-    margin: 5px 5px 5px 5px; /*  define uma distância externa  entre as bordas do elemento os demais em volta*/
+    padding: 10px; /*  define uma distância interna entre as bordas do elemento e seu conteúdo */
+    margin: 5px; /*  define uma distância externa  entre as bordas do elemento os demais em volta*/
 }
 
 ```
@@ -248,6 +246,61 @@ Abaixo um exemplo de código aplicando essas propriedades CSS.
 ```
 {% endtab %}
 {% endtabs %}
+
+As propriedades `padding`, `margin` e `border` são aplicadas aos quatro lados de um elemento: topo, direita, baixo e esquerda. No exemplo acima, essas propriedades receberam apenas um valor, com isso esse valor é aplicado a todos os lados do elemento, no entanto, é possível especificar valor específico para cada lado. Para as propriedades `margin` e `padding` há duas formas de fazer isso.
+
+Atribuindo valores separadas por espaço referentes a cada lado, conforme o exemplo: 
+
+```css
+seletor {
+    padding: 2px 5px 3px 4px; 
+    margin: 5px 7px;
+}
+```
+
+Quando é atribuído quatro valores, eles são aplicados a cada lado de acordo com a seguinte ordem: primeiro valor é para o topo, segundo valor é para a direita, terceiro é para baixo e o último é aplicado a esquerda. No exemplo acima,  o `padding` aplicado é `2px` para o topo, `5px` para a direita, `3px` para baixo e `4px` para esquerda.
+
+Já quando é atribuído dois valores, o primeiro é aplicado na vertical \(topo e baixo\) e o segundo é aplicado à horizontal \(direita e esquerda\). No exemplo acima,  a `margin` aplicada é `5px` para o topo e baixo e `7px` para esquerda e direita.
+
+A outra forma é que o CSS tem propriedades específicas para cada lado, podendo ser utilizadas em conjunto ou individualmente.
+
+* Propriedades individuais de `margin`:
+  * `margin-top`
+  * `margin-right`
+  * `margin-bottom`
+  * `margin-left`
+* Propriedades individuais de `padding`:
+  * `padding-top`
+  * `padding-right`
+  * `padding-bottom`
+  * `padding-left`
+* Propriedades individuais de `border`
+  * `border-top`
+  * `border-right`
+  * `border-bottom`
+  * `border-left`
+
+As propriedades de borda \(`border`\) recebem três valores: largura da borda, tipo da borda e cor da borda.
+
+Veja um exemplo utilizando as propriedades específicas para cada lado. 
+
+```css
+seletor {
+  margin-top: 100px;
+  margin-bottom: 30px;
+  margin-right: 150px;
+  margin-left: 50px;
+  
+  margin-top: 100px;
+  padding-left: 80px;
+  
+  border-bottom: 1px solid #000;
+}
+```
+
+Quando utilizamos as propriedades `padding`, `margin` e `border` , estamos usando a forma abreviada das propriedades individuais, com isso deixamos o código mais curto e limpo, facilitando a manutenção do mesmo. Sempre que possível utilize a forma abreviada, só recomendo a utilização das propriedades individuais quando realmente for necessário fazer customizações para lados específicos do elemento.
+
+### Conclusão
 
 
 
