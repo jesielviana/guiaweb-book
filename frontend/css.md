@@ -310,6 +310,18 @@ Foi possível entender a sintaxe da CSS, sua importância e também aprendemos a
 
 Por fim, recomendo os materiais complementares para aprofundamento no assunto.
 
+### Ativiades
+
+Construir uma página web pessoal \(portfólio\) baseado nesses exemplos de layout: [https://www.w3schools.com/html/html\_layout.asp](https://www.w3schools.com/html/html_layout.asp)
+
+**Requisitos mínimos:**
+
+* Ter pelo menos quatro divisões semânticas \(header, aside, main, footer\)
+* Ter conteúdo em todas as partes do site
+* Ter pelo menos menos uma imagem
+* Ter pelo menos um link externo
+* Ter textos de cabeçalho, parágrafo e listas
+
 ### Materiais complementares
 
 {% embed url="https://www.youtube.com/watch?v=1IeAU1y\_1hA&list=PLAxN8g6Knm0c3lzNJwrTZVlMKpH8vi5bu&index=6" %}
