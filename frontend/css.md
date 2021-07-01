@@ -302,6 +302,24 @@ Quando utilizamos as propriedades `padding`, `margin` e `border` , estamos usand
 
 ### Conclusão
 
+Neste capítulo conhecemos a CSS,  linguagem que usamos para definir o estilo de um documento HTML. Utilizamos CSS para definir como os elementos HTML devem ser exibidos pelo navegador.
+
+Foi possível entender a sintaxe da CSS, sua importância e também aprendemos algumas de suas propriedades básicas e como utilizá-las.  
+
+É importante usar CSS para separar o conteúdo de uma página Web da representação visual do site. Utilizando o CSS é possível alterar o tamanho dos elementos HTML, cores de fundo, alinhamento, cor do texto, fonte e espaçamento entre elementos.
+
+Por fim, recomendo os materiais complementares para aprofundamento no assunto.
+
+### Materiais complementares
+
+{% embed url="https://www.youtube.com/watch?v=1IeAU1y\_1hA&list=PLAxN8g6Knm0c3lzNJwrTZVlMKpH8vi5bu&index=6" %}
+
+{% embed url="https://www.youtube.com/watch?v=zfN2XOn01vY&list=PLAxN8g6Knm0c3lzNJwrTZVlMKpH8vi5bu&index=7" %}
+
+{% embed url="https://www.youtube.com/watch?v=1mf4mZE9o\_4&list=PLAxN8g6Knm0c3lzNJwrTZVlMKpH8vi5bu&index=10" %}
+
+{% embed url="https://open.spotify.com/episode/16blP66TE07k8ZAwumQeKP?si=O4JSqjW7RCyB\_BNWR9TwMA&nd=1" %}
+
 
 
 ### Referências
