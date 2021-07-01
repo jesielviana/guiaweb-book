@@ -83,6 +83,13 @@ Vamos entender detalhadamente cada item da sintaxe do CSS.
 * Cada declaração inclui um nome de **propriedade** CSS e um **valor**, separados por **dois pontos**.
 * As propriedades `text-align` e `color` são utilizadas para definir o alinhamento do texto e cor do texto respectivamente. No exemplo da imagem acima, para o `text-align` foi atribuído o valor `right`, que alinha o texto à direita e para a `color` foi atribuído o valor `green`, que deixa a cor de texto verde.  
 
+Resumo sobre a sintaxe do CSS:
+
+* `{}` \(chaves\) determina o inicio e o fim de um bloco de declarações; 
+* `:` \(dois pontos\) separa a propriedade do valor;
+* `;` \(ponto e vírgula\) encerra uma declaração; 
+* **Ambos são obrigatórios.**
+
 Veja mais sobre seletores, propriedades e valores na próxima seção.
 
 ### Seletores
