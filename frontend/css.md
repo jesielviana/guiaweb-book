@@ -438,7 +438,7 @@ Construir uma página web pessoal \(portfólio\) baseado nesses exemplos de layo
 
 * Ter pelo menos quatro divisões semânticas \(header, aside, main, footer\)
 * Ter conteúdo em todas as partes do site
-* Ter pelo menos menos uma imagem
+* Ter pelo menos uma imagem
 * Ter pelo menos um link externo
 * Ter textos de cabeçalho, parágrafo e listas
 
