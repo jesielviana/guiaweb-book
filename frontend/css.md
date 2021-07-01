@@ -307,6 +307,119 @@ seletor {
 
 Quando utilizamos as propriedades `padding`, `margin` e `border` , estamos usando a forma abreviada das propriedades individuais, com isso deixamos o código mais curto e limpo, facilitando a manutenção do mesmo. Sempre que possível utilize a forma abreviada, só recomendo a utilização das propriedades individuais quando realmente for necessário fazer customizações para lados específicos do elemento.
 
+## CSS para o Layout de elementos semânticos
+
+No capítulo anterior foi criado um layout HTML utilizando elementos semânticos, porém ficou faltando o CSS para estilizar a página conforme a figura. Abaixo é apresentado a figurao do layout, o código e HTML e também o código CSS.
+
+{% tabs %}
+{% tab title="Layout" %}
+![Elementos sem&#xE2;nticos do HTML](../.gitbook/assets/elementos-sema-nticos.png)
+{% endtab %}
+
+{% tab title="Código HTML semântico" %}
+```markup
+<!DOCTYPE html>
+<html>
+ 
+ <head>
+   <meta charset="UTF-8">
+   <title>IFPI Campus Picos</title>
+   <link rel="stylesheet" type="text/css" href="style.css">
+ </head>
+
+ <body>
+
+  <nav>
+    Elementos de Menu
+  </nav>
+
+  <header>
+    Elementos do Topo
+  </header>
+
+  <main>
+    <section>
+      Conteúdo da Seção 1
+    </section>
+
+    <section>
+      Conteúdo da Seção 2
+    </section>
+  </main>
+
+  <aside>
+    Conteúdo secundário 
+  </aside>
+
+  <footer>
+    Conteúdo do Rodapé - 2021
+  </footer>
+
+ </body>
+
+</html>
+```
+{% endtab %}
+
+{% tab title="Código CSS" %}
+```css
+/* Usa-se o * para definir um CSS a ser aplicado a todos os elementos da página */
+
+* {
+  box-sizing: 0;
+}
+
+/* CSS para os elmenetos nav, header, main, aside, footer.
+Quando temos declarações de CSS comun a vários elementos/seletores
+podemos colocar os seletores separados por vírgular para recebers as declarações.
+  */
+nav, header, main, aside, footer {
+  background-color: #8e7cc3;
+  text-align: center;
+  margin-bottom: 5px;
+  padding: 5px;
+  color: #fff;
+}
+
+nav {
+  height: 40px;
+}
+
+header {
+  height: 100px;
+}
+
+main, aside {
+  min-height: 450px;
+}
+
+main {
+  width: 73%;
+  margin-right: 1%;
+  float: left;
+}
+
+section {
+  margin-top: 20px;
+  width: 100%;
+  height: 200px;
+  background-color: #b4a7d6;
+}
+
+aside {
+  width: 23%;
+  float: right;
+}
+
+footer {
+  clear: both;
+  height: 60px;
+}
+
+```
+{% endtab %}
+{% endtabs %}
+
 ### Conclusão
 
 Neste capítulo conhecemos a CSS,  linguagem que usamos para definir o estilo de um documento HTML. Utilizamos CSS para definir como os elementos HTML devem ser exibidos pelo navegador.
@@ -317,7 +430,7 @@ Foi possível entender a sintaxe da CSS, sua importância e também aprendemos a
 
 Por fim, recomendo os materiais complementares para aprofundamento no assunto.
 
-### Ativiades
+### Atividade
 
 Construir uma página web pessoal \(portfólio\) baseado nesses exemplos de layout: [https://www.w3schools.com/html/html\_layout.asp](https://www.w3schools.com/html/html_layout.asp)
 
