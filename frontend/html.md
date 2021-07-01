@@ -159,6 +159,76 @@ Já outros elementos vazios possuem atributos específicos que são utilizados p
 
 Para adicionar uma imagem em uma página HTML utiliza-se o elemento `<img>` passando o endereço da imagem para o atributo `src.` Agora quando você salvar o código do exemplo acima e abrir no navegador será exibida abaixo do texto a imagem "carregada" do link/endereço passado como valor para o atributo `src`  do elemento `<img>`.
 
+### Elementos semânticos
+
+Os elementos HTML que proveem conteúdo para ser exibido pelo navegador possuem um valor semântico, por exemplo: `<h1>Novo título</h1>`, qualquer texto colocado dentro do elemento `h1` tem o valor semântico de um título, o navegador entende isso e exibe-o com destaque \(negrito e grande\), além disso, qualquer desenvolvedor que conhece HTML  ao ver o código sabe que representa um título. 
+
+Porém, nem todos os elementos HTML geram conteúdo para ser exibido, alguns elementos são utilizados apenas para delimitação de código ou agrupamento de outros elementos, são elementos que não geram conteúdo visual na página, mas tem valores semânticos específicos, são geralmente conhecidos como **elementos semânticos**.
+
+Além de estrutura os documentos HTML o principal objetivo dos elementos semânticos é descrever o significado do conteúdo presente em documentos HTML. Abaixo será apresentado os principais elementos semânticos do HTML.
+
+* `<header>` - Utilizado para descrever o cabeçalho de um documento ou seção;
+* `<main>` - Define o conteúdo principal de um documento, o conteúdo mais importante;
+* `<nav>` - Deve ser utilizado para agrupar os links de navegação interna do site \(menu\);
+* `<section>` - Representa uma seção dentro de um documento HTML.
+* `<aside>` - Utilizado para definir um conteúdo secundário ao conteúdo principal, geralmente um conteúdo lateral;
+* `<footer>` - Define o rodapé \(parte final de uma página\) de um documento HTML.
+* Veja mais elementos em: [https://developer.mozilla.org/pt-BR/docs/Glossary/Semantics\#elementos\_sem%C3%A2nticos](https://developer.mozilla.org/pt-BR/docs/Glossary/Semantics#elementos_sem%C3%A2nticos)
+
+Veja abaixo uma representação gráfica dos elementos semântico e seu código HTML \(_obs.: para que os elementos HTML sejam exibidos conforme a figura é necessário fazer a estilização com CSS, assunto do próximo capítulo_\)
+
+{% tabs %}
+{% tab title="Imagem" %}
+![Elementos sem&#xE2;nticos do HTML](../.gitbook/assets/elementos-sema-nticos.png)
+{% endtab %}
+
+{% tab title="Código HTML semântico" %}
+```markup
+<!DOCTYPE html>
+<html>
+ 
+ <head>
+   <meta charset="UTF-8">
+   <title>IFPI Campus Picos</title>
+ </head>
+
+ <body>
+
+  <nav>
+    Elementos de Menu
+  </nav>
+
+  <header>
+    Elementos do Topo
+  </header>
+
+  <main>
+    <section>
+      Conteúdo da Seção 1
+    </section>
+
+    <section>
+      Conteúdo da Seção 2
+    </section>
+  </main>
+
+  <aside>
+    Conteúdo secundário 
+  </aside>
+
+  <footer>
+    Conteúdo do Rodapé - 2021
+  </footer>
+
+ </body>
+
+</html>
+```
+{% endtab %}
+{% endtabs %}
+
+É importante destacar que nem todos os elementos HTML possuem valor semântico, um desses elementos mais conhecidos é a `<div>.` Podemos descrever o elemento `<div>` como um caixa genérica para qualquer conteúdo, que de certa forma não representa nada por não possuir valor semântico. Geralmente é utilizado para agrupar elementos para serem referenciados pelo CSS. Ele deve ser utilizado somente quando não tiver outro elemento de semântica específico para o que se deseja.
+
 ### Conclusão
 
 Nesta aula conhecemos a linguagem de marcação HTML e para que ela é utilizada. Além disso, aprendemos o básico de sua sintaxe e a utilizar de forma prática as tags básicas para criar elementos, atributos e páginas Web.
