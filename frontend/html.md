@@ -251,7 +251,3 @@ Por fim, acesse o material complementar.
 
 {% embed url="https://developer.mozilla.org/pt-BR/docs/Learn/Getting\_started\_with\_the\_web/What\_will\_your\_website\_look\_like" %}
 
-
-
-
-
