@@ -452,13 +452,9 @@ Construir uma página web pessoal \(portfólio\) baseado nesses exemplos de layo
 
 {% embed url="https://open.spotify.com/episode/16blP66TE07k8ZAwumQeKP?si=O4JSqjW7RCyB\_BNWR9TwMA&nd=1" %}
 
-
-
 ### Referências
 
 {% embed url="https://developer.mozilla.org/pt-BR/docs/Learn/Getting\_started\_with\_the\_web/CSS\_basics" %}
 
 {% embed url="https://www.w3schools.com/css/default.asp" %}
-
-
 
