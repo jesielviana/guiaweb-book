@@ -115,3 +115,15 @@ Para hospedagem dos exemplos deste livro, utilizamos e recomendamos o Github Pag
 
 ### Conclusão
 
+Em qualquer área atuação sempre há um conjunto de ferramentas que são essenciais para auxiliar o profissional para realização do seu trabalho. No desenvolvimento de software para Web não é diferente, para a construção de uma página Web ou uma API é essencial o uso de ferramentas que apoiam o desenvolvvimento e produtividade, principalmente aquelas que dão suporte à colaboração.
+
+Escolhas suas ferramentas e domine-as. O conhecimento de Git é essencial e obrigatório para todo desenvolvedor de software. Use sempre, mesmo naqueles projetinhos pessoais e atividades acadêmicas.
+
+### Materiais complementares
+
+{% embed url="https://www.youtube.com/watch?v=UMhskLXJuq4" %}
+
+{% embed url="https://www.youtube.com/watch?v=P4BNi\_yPehc" %}
+
+{% embed url="https://open.spotify.com/episode/28lVsU2OqtkdwmijazZdYt" %}
+
