@@ -28,22 +28,11 @@ Os editores de textos mais simples para desenvolvedores são conhecidos como edi
 
 Editor de código ou IDE é uma ferramenta essencial para a escrita de código e desenvolvimento de software, conhecer os atalhos e funcionalidades disponíveis é importante para aumento da produtividade e resolução de problemas por meio de ‘debug’ e recursos que auxiliam o desenvolvedor durante o processo de escrita e sincronização de código e implantação do software. 
 
-A escolha do editor pode variar de acordo com a linguagem de programação a ser utilizada. Atualmente um dos editores mais utilizado no mundo dev é o Visual Studio Code \([VS Code](https://code.visualstudio.com/)\), que é open-source desenvolvido pela Microsoft. Eu particularmente uso o [VSCodium](https://vscodium.com/), que é o binário compilado do VS Code sem a marca e monitoramento da Microsoft e o [Sublime Text](https://www.sublimetext.com/), que é muito rápido.
-
-Segue uma lista de alguns editores bastante utilizados no desenvolvimento Web:
-
-* [Eclipse](https://www.eclipse.org/downloads/) - open-source, grátis, bastante utilizada no mundo Java
-* [Atom](https://atom.io/) - open-source, grátis, utilizada para codificação em HTML, CSS, Javascript
-* [Sublime Text](https://www.sublimetext.com/) - proprietário, versão grátis e versão paga, utilizada para codificação em HTML, CSS, Javascript
-* [IntelliJ](https://www.jetbrains.com/idea/) - Proprietária, versão grátis e versão paga, indicada para codificação Java
-* [PyCharm](https://www.jetbrains.com/pycharm/) - Proprietário, versão grátis e versão paga, indicada para codificação Python
-* [WebStorm](https://www.jetbrains.com/webstorm/) - Proprietário, versão grátis e versão paga, utilizada para codificação em HTML, CSS, Javascript
-* [PHPStorm](https://www.jetbrains.com/phpstorm/) - Proprietário, versão grátis e versão paga, indicada para codificação PHP
-* [VS Code](https://code.visualstudio.com/) - open-source, totalmente gratuito, um dos editores de código mais utilizado atualmente, com suporte a praticamente todas as linguagens de programação.
+A escolha do editor pode variar de acordo com a linguagem de programação a ser utilizada. Atualmente um dos editores mais utilizado é o Visual Studio Code \([VS Code](https://code.visualstudio.com/)\), que é _open-source_ desenvolvido pela Microsoft. Outro que é muito bom também é o [Sublime Text](https://www.sublimetext.com/), simples e muito rápido.
 
 A instalação de qualquer um desses editores é bem simples, basta acessar o link e seguir o passo-a-passo para instalação que tem no próprio site da ferramenta.
 
-Se você é iniciante eu recomendo a instalação do [VS Code](https://code.visualstudio.com/), é uma ótima ferramente para com o desenvolvimento Web.
+Para desenvolvimento Web eu recomendo fortemente o ****[**VS Code**](https://code.visualstudio.com/), fácil de instalar e já vem com todos os recursos necessários para iniciar no desenvolvimento, além disso, possui um _marketplace_ de extensões fantástico, com muitas extensões para tudo que precisamos durante o desenvolvimento Web.
 
 ### Armazenamento de código e controle de versão
 
