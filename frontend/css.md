@@ -307,7 +307,7 @@ seletor {
 
 Quando utilizamos as propriedades `padding`, `margin` e `border` , estamos usando a forma abreviada das propriedades individuais, com isso deixamos o código mais curto e limpo, facilitando a manutenção do mesmo. Sempre que possível utilize a forma abreviada, só recomendo a utilização das propriedades individuais quando realmente for necessário fazer customizações para lados específicos do elemento.
 
-## CSS para o Layout de elementos semânticos
+### CSS para o Layout de elementos semânticos
 
 No capítulo anterior foi criado um layout HTML utilizando elementos semânticos, porém ficou faltando o CSS para estilizar a página conforme a figura. Abaixo é apresentado a figurao do layout, o código e HTML e também o código CSS.
 
