@@ -121,9 +121,9 @@ Escolhas suas ferramentas e domine-as. O conhecimento de Git é essencial e obri
 
 ### Materiais complementares
 
+{% embed url="https://jesielviana.github.io/web-dev/slides/aula-04\#/" %}
+
 {% embed url="https://www.youtube.com/watch?v=fVVSBXbVhog" %}
-
-
 
 {% embed url="https://www.youtube.com/watch?v=UMhskLXJuq4" %}
 
