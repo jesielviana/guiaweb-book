@@ -121,6 +121,10 @@ Escolhas suas ferramentas e domine-as. O conhecimento de Git é essencial e obri
 
 ### Materiais complementares
 
+{% embed url="https://www.youtube.com/watch?v=fVVSBXbVhog" %}
+
+
+
 {% embed url="https://www.youtube.com/watch?v=UMhskLXJuq4" %}
 
 {% embed url="https://www.youtube.com/watch?v=P4BNi\_yPehc" %}
