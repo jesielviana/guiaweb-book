@@ -9,7 +9,7 @@ description: >-
 
 ### Visão Geral
 
-Este curso apresentará conceitos fundamentais da Web e como utilizar as tecnologias básicas da Web \(HTML, CSS e Javascript\) para criação de aplicativos. No decorrer do curso o aluno vai ver como os conceitos fundamentais do desenvolvimento da Web podem ser aplicados para desenvolver software da Web real, independentemente das tecnologias, idiomas ou estruturas. Embora enfatizemos os conceitos, você demonstrará sua competência no desenvolvimento da Web desenvolvendo software dinâmico da Web com as tecnologias de programação mais comumente usadas.
+Este ebook apresenta os conceitos fundamentais da Web e como utilizar as tecnologias básicas da Web \(HTML, CSS e Javascript\) para criação de aplicativos. No decorrer do curso o aluno vai ver como os conceitos fundamentais do desenvolvimento da Web podem ser aplicados para desenvolver software da Web real, independentemente das tecnologias, idiomas ou estruturas. Embora enfatizemos os conceitos, você demonstrará sua competência no desenvolvimento da Web desenvolvendo software dinâmico da Web com as tecnologias de programação mais comumente usadas.
 
 _Problem-Based Learning \(PBL\)_ é o método de ensino utilizado neste curso, cujo objetivo é trabalhar e desenvolver conhecimentos e habilidades técnicas, além de desenvolver habilidades interpessoais, tais como trabalho em equipe, comunicação, gerenciamento de tempo e resolução de problemas reais.
 
@@ -56,5 +56,12 @@ Não existe um livro didático obrigatório para este curso, e não conheço um 
   * [https://developer.mozilla.org/pt-BR/](https://developer.mozilla.org/pt-BR)
 * Referências extras:
   * [https://www.w3schools.com/](https://www.w3schools.com)
-  * [Livro Eloquent JavaScript](https://braziljs.github.io/eloquente-javascript/)
+
+
+
+Este material foi criado e mantido pelo professor Jesiel Viana, fale comigo pelos contatos abaixo.
+
+* Twitter: [**https://twitter.com/jesielviana**](https://twitter.com/jesielviana)\*\*\*\*
+* Github: [**https://github.com/jesielviana**](https://github.com/jesielviana)\*\*\*\*
+* Blog:  [**https://www.jesielviana.com/**](https://www.jesielviana.com/)\*\*\*\*
 
