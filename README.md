@@ -1,8 +1,8 @@
 ---
 description: >-
-  Este material faz parte das disciplinas de Programação para Internet do Curso
+  Este material faz parte das disciplinas de Programação para Web do Curso
   Superior de Tecnologia em Análise e Desenvolvimento de Sistemas (ADS) do IFPI
-  Campus Picos.
+  Campus Picos. By prof. Jesiel Viana.
 ---
 
 # Apresentação
