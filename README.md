@@ -44,7 +44,7 @@ Após concluir este curso, você compreenderá o funcionamento da Web e estará 
 ### Ferramentas
 
 * [**Brave**](https://brave.com/) - Brave é um navegador web livre e de código aberto, baseado no navegador web Chromium.
-* [**Visual Studio Code \(VS Code\)**](https://code.visualstudio.com/) - é um editor de código/IDE altamente recomendado para desenvolvimento web. É gratuito, _open-source_ e está disponível para todos os principais sistemas operacionais. O VS Code oferece muitas extensões,e o melhor são fáceis de instalar e configurar. Recomendo a instalação do pacote de extensões [**Web Dev Extension Pack**](https://marketplace.visualstudio.com/items?itemName=jesielviana.web-dev-extension-pack)\*\*\*\*
+* [**Visual Studio Code \(VS Code\)**](https://code.visualstudio.com/) - é um editor de código/IDE altamente recomendado para desenvolvimento web. É gratuito, _open-source_ e está disponível para todos os principais sistemas operacionais. O VS Code oferece muitas extensões, e o melhor são fáceis de instalar e configurar. Recomendo a instalação do pacote de extensões [**Web Dev Extension Pack**](https://marketplace.visualstudio.com/items?itemName=jesielviana.web-dev-extension-pack)\*\*\*\*
 * [**Git**](https://git-scm.com/) - é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software.
 * [**Github**](https://github.com/) - é uma plataforma de hospedagem de código-fonte com controle de versão usando o Git.
 
