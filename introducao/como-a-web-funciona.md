@@ -15,7 +15,7 @@ description: >-
 
 Para começar a entender o funcionamento da Web precisamos conhecer alguns componentes básicos que compõem a arquitetura da Web. Iniciaremos pelos conceitos de Clientes e Servidores.
 
-Qualquer dispositivo conectado na internet é conhecido como Cliente ou Servidor, depende da função dele na rede.
+Qualquer dispositivo conectado na internet é conhecido como Cliente ou Servidor, depende de sua função na rede.
 
 * **Clientes** - são os dispositivos conectados à Internet pelos quais os usuários acessam as páginas Web \(por exemplo, seu computador conectado ao seu Wi-Fi ou seu telefone conectado à sua rede móvel\). Geralmente as páginas Web são acessadas por através de navegadores Web \(Chrome, Firefox, Brave, etc.\) instalados nesses dispositivos.
 * **Servidores** - são computadores que armazena arquivos que compõem os sites \(por exemplo, documentos HTML, imagens, folhas de estilo, e arquivos JavaScript\) e disponibilizam esses arquivos/páginas/sites para serem acessados pelos dispositivos clientes. Para isso, o servidor deve está conectado a Internet, e assim, poderá ser acessado através do seu endereço IP ou nome de domínio \(por exemplo, `jesielviana.com`\). 
