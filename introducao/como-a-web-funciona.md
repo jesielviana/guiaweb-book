@@ -38,5 +38,17 @@ De forma resumida, para que um dispositivo A possa se comunicar com um dispositi
 
 De acordo com a explicação acima, para nós podermos acessar um determinado site, deveríamos saber qual o endereço IP do servidor que armazena site e a porta em que aquele site está disponível, mas, na prática, não fazemos isso.
 
-Quando acessamos um determinado site a partir do nosso computador ou smarphone, geralmente informamos para o navegador o endereço do site, também conhecido como domínio. E o navegador se encarrega de descobrir qual o endereço do servidor que armazena o site. Para fazer isso, o navegador utiliza um recurso chamado de DNS - Domain Name System. 
+Quando acessamos um determinado site a partir do nosso computador ou smarphone, geralmente informamos para o navegador o endereço do site, também conhecido como domínio. E o navegador se encarrega de descobrir qual o endereço do servidor que armazena o site. Para fazer isso, o navegador utiliza um recurso chamado de DNS - Domain Name System.
+
+
+
+{% embed url="https://docs.google.com/presentation/d/1BzgZoTPmfnv7n9x596fkt3Q8UU4K0zv0wlP1Isx5Noc" %}
+
+### Referências 
+
+{% embed url="https://developer.mozilla.org/pt-BR/docs/Learn/Getting\_started\_with\_the\_web/How\_the\_Web\_works" %}
+
+{% embed url="https://developer.mozilla.org/pt-BR/docs/Learn/Common\_questions/What\_is\_a\_web\_server" %}
+
+
 
