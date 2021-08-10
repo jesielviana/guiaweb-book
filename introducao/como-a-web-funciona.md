@@ -50,5 +50,3 @@ Quando acessamos um determinado site a partir do nosso computador ou smarphone, 
 
 {% embed url="https://developer.mozilla.org/pt-BR/docs/Learn/Common\_questions/What\_is\_a\_web\_server" %}
 
-
-
