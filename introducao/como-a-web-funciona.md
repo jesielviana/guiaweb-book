@@ -70,6 +70,12 @@ Quando você digita um endereço da web no seu navegador:
 3. Se o servidor aprovar a requisição do cliente, o servidor enviará ao cliente uma mensagem de "OK",  e então começa a enviar os arquivos da página solicitada para o navegador.
 4. O navegador carrega os arquivos recebidos \(html, css, js, etc\), monta a página e exibe-a para o usuário.
 
+{% embed url="https://www.youtube.com/watch?v=DmUk0RJ\_xdc" %}
+
+{% embed url="https://www.youtube.com/watch?v=xCytYkNzuK4" %}
+
+
+
 {% embed url="https://docs.google.com/presentation/d/1BzgZoTPmfnv7n9x596fkt3Q8UU4K0zv0wlP1Isx5Noc" %}
 
 ### Referências 
