@@ -74,8 +74,6 @@ Quando você digita um endereço da web no seu navegador:
 
 {% embed url="https://www.youtube.com/watch?v=xCytYkNzuK4" %}
 
-
-
 {% embed url="https://docs.google.com/presentation/d/1BzgZoTPmfnv7n9x596fkt3Q8UU4K0zv0wlP1Isx5Noc" %}
 
 ### Referências 
