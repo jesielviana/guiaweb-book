@@ -38,13 +38,29 @@ De forma resumida, para que um dispositivo A possa se comunicar com um dispositi
 
 De acordo com a explicação acima, para nós podermos acessar um determinado site, deveríamos saber qual o endereço IP do servidor que armazena site e a porta em que aquele site está disponível, mas, na prática, não fazemos isso.
 
-Quando acessamos um determinado site a partir do nosso computador ou smarphone, geralmente informamos para o navegador o endereço do site, também conhecido como domínio. E o navegador se encarrega de descobrir qual o endereço do servidor que armazena o site. Para fazer isso, o navegador utiliza um recurso chamado DNS - Domain Name System \(Servidor de Nome de Domínio em português\).
+Quando acessamos um determinado site a partir do nosso computador ou smartphone, geralmente informamos para o navegador o endereço do site, também conhecido como URL \(_Uniform Resource Locator_\). E o navegador se encarrega de descobrir qual o endereço do servidor que armazena o site. 
+
+URL é  o endereço de um determinado recurso exclusivo na Web. Esse recurso pode ser uma página HTML, um documento CSS, uma imagem, um arquivo PDF, etc. Veja na figura a seguir as partes que formam uma URL, abaixo será descrito cada parte.
+
+![](../.gitbook/assets/url.png)
+
+Agora vamos descrever cada uma das partes da URL:
+
+* **Protocolo \(obrigatório\) -** informa ao navegador qual o protocolo de comunicação, pode ser `http` ou `https`. Quando não digitamos na barra de endereço o próprio navegador preenche.
+* **Subdomínio \(opcional\)** - serve como uma extensão do nome de domínio, geralmente utilizado para disponibilizar diferentes sites/sistemas no mesmo domínio.
+* **Domínio \(obrigatório\)** - é basicamente o nome \(identificador\) do site. Deve ser informado pelo usuário na barra de endereços do navegador, SEMPRE!
+* **Porta \(opcional\)** - identifica a porta em que o site está disponível no servidor, quando não é informada o navegador preenche internamente com a porta padrão de acordo com o protocolo utilizado \(80 para http e 443 para https\);
+* **Recurso/path \(obrigatório\)** - identifica qual o recurso o navegador vai buscar no servidor, quando não é informado pelo usuário o próprio navegador preenche com uma "/", que significa página inicial do site.
+* **Query e parâmetros \(opcional\)** - utilizado para enviar dados no formato de chave e valor pela URL. No exemplo o `id` é a chave e `12345` é o valor.
+* **Âncora \(opcional\)** - utilizado para exibir partes específicas da página Web.
+
+Para descobrir o endereço IP de um site o navegador utiliza a parte de domínio da URL e  interage com um recurso chamado DNS - Domain Name System \(Servidor de Nome de Domínio em português\).
 
 ### DNS - Domain Name System
 
 Servidores DNS guardam uma grande lista de nomes de sites \(domínios\) e seus respectivos endereços IPs, com isso, ele sabe em qual computador \(pelo endereço IP\) da Internet está hospedado determinado site \(pelo domínio\).  Quando você digita um endereço web no seu navegador, o navegador procura no servidor de DNS para localizar o endereço IP do servidor que hospeda o site, para ele poder acessar o site diretamente.  
 
-Vamos ver um exemplo de como funciona o fluxo de troca de mensagens entre o navegador e DS quando informamos uma **URL** \(_Uniform Resource Locator_\) de um site que desejamos acessar na barra de endereços do nosso navegador.
+Vamos ver um exemplo de como funciona o fluxo de troca de mensagens entre o navegador e DS quando informamos uma URL de um site que desejamos acessar na barra de endereços do nosso navegador.
 
 1. **Usuário** digita `www.jesielviana.com/` na barra de endereços do navegador; 
 2. **Navegador** vai até o servidor DNS e pergunta:  olá DNS, você sabe o endereço IP do servidor que hospeda o domínio `www.jesielviana.com`?
