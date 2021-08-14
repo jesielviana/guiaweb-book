@@ -79,12 +79,17 @@ Vamos nos aprofundar mais sobre HTTP no próximo capítulo.
 
 ### Conclusão
 
-Quando você digita um endereço da web no seu navegador:
+A figura abaixo resume de forma simplificada o que acontece quando você digita um endereço da web no seu navegador:
 
-1. O navegador vai para o servidor de DNS e encontra o endereço verdadeiro de onde o site está hospedado.
-2. O navegador manda uma mensagem de requisição HTTP para o servidor que está hospedando o site, pedindo que o servidor envie uma cópia de determinada página, de acordo com a URL informada pelo usuário.
-3. Se o servidor aprovar a requisição do cliente, o servidor enviará ao cliente uma mensagem de "OK",  e então começa a enviar os arquivos da página solicitada para o navegador.
-4. O navegador carrega os arquivos recebidos \(html, css, js, etc\), monta a página e exibe-a para o usuário.
+![Fluxo de mensagens ao acessar uma p&#xE1;gina Web](../.gitbook/assets/fluxo-web.png)
+
+Segue a explicação de cada passo mostrado na figura acima:
+
+1. O navegador pergunta ao DNS qual o endereço IP do servidor onde o site está hospedado.
+2. O DNS retorna o endereço IP daquele site de acordo com o domínio;
+3. O navegador manda uma mensagem de requisição HTTP para o servidor que está hospedando o site, pedindo que o servidor envie uma cópia de determinada página, de acordo com a URL informada pelo usuário.
+4. Se o servidor aprovar a requisição do cliente, o servidor enviará ao cliente uma mensagem de "OK",  e então começa a enviar os arquivos da página solicitada para o navegador.
+5. O navegador carrega os arquivos recebidos \(html, css, js, etc\), monta a página e exibe-a para o usuário.
 
 {% embed url="https://www.youtube.com/watch?v=DmUk0RJ\_xdc" %}
 
