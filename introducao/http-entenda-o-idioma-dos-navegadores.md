@@ -109,3 +109,7 @@ No entanto, é possível você iniciar com desenvolvimento Web sem se preocupar 
 
 * HTTP: Learn your browser's language, disponível em: ****[https://b0rk.gumroad.com/l/http-zine](https://b0rk.gumroad.com/l/http-zine)
 
+{% embed url="https://open.spotify.com/episode/2Je1O1e4wzMMqyysihMyhg" %}
+
+
+
