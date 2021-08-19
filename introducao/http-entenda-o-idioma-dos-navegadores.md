@@ -4,7 +4,7 @@ description: >-
   navegadores e servidores Web.
 ---
 
-# HTTP - Entenda o idioma dos navegadores
+# HTTP - Conheça o idioma dos navegadores
 
 > Objetivos de aprendizagem
 >
