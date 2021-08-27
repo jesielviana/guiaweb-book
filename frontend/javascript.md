@@ -93,7 +93,22 @@ O Javascript possui seis tipos de dados primitivos:
 
 Além dos tipos primitivo, há também o tipo `Object`.
 
-`Object` - \(Objeto\) - é um tipo mais dinâmico, que ao desenvolvedor criar atributos e métodos, além de já possuir um conjunto de métodos pré-definidos. 
+`Object` - \(Objeto\) - é um tipo mais dinâmico, que ao desenvolvedor criar atributos e métodos, além de já possuir um conjunto de métodos pré-definidos. Geralmente, cria-se objetos para agrupar valores em uma única referência. Veja um exemplo abaixo da notação literal de um objeto:
+
+```javascript
+const pessoa = { nome: 'Steve', idade: 35 }
+```
+
+Como visto no exemplo acima, usando notação literal, um objeto é definido por um conjuntos de chave-valor separados por dois pontos `:`, entre chaves, a chave identifica a propriedade do objeto.
+
+Podemos acessar o valor de uma propriedade do objeto ou atribuir um novo valor seguindo a sintaxe de `objeto.propriedade`. Veja o exemplo abaixo:
+
+```javascript
+console.log(pessoa.idade) // exibe 35
+pessoa.idade = 36 // atribui um novo valor para a idade
+```
+
+
 
 
 
