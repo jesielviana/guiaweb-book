@@ -24,7 +24,7 @@ Diante disso, eu diria que dominar a linguagem **Javascript é fundamental para 
 
 Nas próximas seções vamos aprender a sintaxe básica da linguagem, tipos de dados, controle de fluxo, laços de repetição e funções.
 
-### Sintaxe
+### Sintaxe básica
 
 JavaScript é uma linguagem **dinamicamente tipada**. Isso significa que você não precisa especificar o tipo de dado quando vai declarar uma variável. O tipo de dado da variável é inferido automaticamente a partir do seu valor. 
 
@@ -51,4 +51,49 @@ Além de variáveis, podemos declarar constantes, para isso utilizamos a palavra
 ```javascript
 const pi = 3.14
 ```
+
+**Comentários, uso de aspas e ponto e vírgula**
+
+No Javascript há duas formas de definir comentários, `//` para comentários de uma linha e `/* */` para comentários de múltiplas linhas. Veja os exemplos abaixo:
+
+```javascript
+// comentário de uma linha
+
+
+/* isto é um comentário longo
+   de múltiplas linhas.
+ */
+```
+
+Como a maioria das linguagens de programação strings literais são colocadas entre aspas, no Javascript qualquer coisa \(zero ou mais caracteres\) entre aspas é uma string. Uma característica peculiar do Javascript é que podemos criar strings literais usando aspas duplas \(`"`\) ou aspas simples \(`'`\).  No entanto, é importante destacar que a string deve ser delimitada por aspas do mesmo tipo; ou seja, as duas aspas simples ou ambas aspas duplas. Veja alguns exemplos de strings literais:
+
+```javascript
+'Estou aprendendo Javascript' // String com aspas simples
+"Quero ser programador Web" // String com aspas duplas
+"12345" // String composta por números
+'true' // String com o valor 'true'
+```
+
+Eu uso e recomendo utilizar sempre aspas simples, por ser a forma mais utilizada, inclusive é recomendado pelo [Google Style Guide](https://google.github.io/styleguide/jsguide.html#features-strings-use-single-quotes).
+
+Outro ponto a se destacar em relação à sintaxe do Javascript é a utilização do ponto e vírgula, que é opcional, ou seja, **não é obrigatório adicionar ponto e vírgula no final de suas declarações**. No entanto, é recomendado seguir um padrão, **ou utiliza-se ponto e vírgula em todas as suas declarações ou não em nenhuma**.  
+
+### Tipos de dados
+
+Como citado anteriormente, não é necessário informar o tipo de dado quando vamos declarar uma variável ou constante em Javascript, mas internamente o Javascript atribui um tipo de dado para suas variáveis e constantes inferidos de seus respectivos valores.
+
+O Javascript possui seis tipos de dados primitivos:
+
+* `Boolean` - armazena valores lógicos: `true` e `false`.
+* `null` - palavra-chave que indica valor nulo. 
+* `undefined` - indefinido, identifica a falta de valor para uma determinada variável é.
+* `Number`. - armazena valores numéricos, inteiros e de ponto flutuantes: `42` ou `3.14159`.
+* `String` - armazena uma sequência de caracteres: `"bob"`
+* `Symbol` \(novo em ECMAScript 6\). Um tipo de dado cuja as instâncias são únicas e imutáveis \(pouco utilizado ainda\).
+
+Além dos tipos primitivo, há também o tipo `Object`.
+
+`Object` - \(Objeto\) - é um tipo mais dinâmico, que ao desenvolvedor criar atributos e métodos, além de já possuir um conjunto de métodos pré-definidos. 
+
+
 
