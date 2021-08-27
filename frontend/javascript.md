@@ -24,6 +24,31 @@ Diante disso, eu diria que dominar a linguagem **Javascript é fundamental para 
 
 Nas próximas seções vamos aprender a sintaxe básica da linguagem, tipos de dados, controle de fluxo, laços de repetição e funções.
 
-  
+### Sintaxe
 
+JavaScript é uma linguagem **dinamicamente tipada**. Isso significa que você não precisa especificar o tipo de dado quando vai declarar uma variável. O tipo de dado da variável é inferido automaticamente a partir do seu valor. 
+
+**Declaração de variáveis e constantes**
+
+Em Javascript, podemos declarar variáveis utilizando a palavra-chave `var` ou `let`.
+
+* `var` - declara uma variável, opcionalmente, inicializando-a com um valor. Atualmente não é recomendado o uso de `var`. Veja abaixo um exemplo de declaração de varável com `var`: 
+
+```javascript
+var quantidade = 20
+```
+
+* `let` - declara uma variável, opcionalmente, inicializando-a com um valor. O `let` foi introduzido na versão 6 do Javascript. Variáveis declaradas com `let`  possuem escopo mais restrito do que as variáveis declaradas com `var` \(vamos explicar mais sobre escopo nas próximas seções\). Veja abaixo um exemplo de declaração de varável com `let`: 
+
+```javascript
+let nome = 'Steve'
+```
+
+Além de variáveis, podemos declarar constantes, para isso utilizamos a palavra-chave `const`. 
+
+*  `const` - declara uma constante de escopo de bloco, que deve ser inicializada na declaração e após sua inicialização é utilizada somente para leitura.Veja abaixo um exemplo de declaração de varável com `const`: 
+
+```javascript
+const pi = 3.14
+```
 
