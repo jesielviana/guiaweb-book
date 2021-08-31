@@ -362,5 +362,3 @@ Segue a explicação de cada um dos comandos da declaração acima:
 
 {% embed url="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Grammar\_and\_Types" %}
 
-
-
