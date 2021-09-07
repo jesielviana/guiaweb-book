@@ -366,6 +366,7 @@ Quando um `for` é executado, ocorre os seguintes passos:
 Vamos de um exemplo prático, caso tenhamos uma lista de nomes para ser exibida, temos que percorrer toda a lista para exibir cada nome individualmente. Nesse caso, podemos muito bem usar o laço `for`, veja o código abaixo:
 
 ```javascript
+// nomes é um array, estrutura de dados para armazenar coleções de elementos
 const nomes = ['Jesiel', 'Viana', 'Silva']
 
 for (let index = 0; index < nomes.length; index++) {
@@ -373,9 +374,9 @@ for (let index = 0; index < nomes.length; index++) {
 }
 ```
 
-* let index = 0; é a expressão inicial, onde é criado uma variável chamada index e atribuído o valor 0 a ela;
-* index &lt; nomes.length; é a condição, onde verifica se a variável index é menor do que o tamanho do array nomes;
-* index++; é o incremento, ou seja, soma se mais 1 a variável index a cada repetição do laço
+* `let index = 0;` é a expressão inicial, onde é criado uma variável chamada index e atribuído o valor 0 a ela;
+* `index < nomes.length;` - é a condição, onde verifica se a variável index é menor do que o tamanho do array nomes;
+* `index++;`  - é o incremento, ou seja, soma se mais 1 a variável index a cada repetição do laço
 
 Diante disso, o laço acima será executado 3 vezes:
 
@@ -503,7 +504,49 @@ Com isso, é possível acessar a variável a fora do bloco onde ela foi declarad
 
 Diante disso, evite usar o var para definição de variáveis, **USE SEMPRE let para criação de variáveis** e tenha mais controle do seu escopo \([Recomendado pelo Google Style Guide](https://google.github.io/styleguide/jsguide.html#features-local-variable-declarations)\).
 
-### Arrays
+### Arrays \(Vetores em português\)
+
+Array é uma estrutura de dados que armazena uma coleção de elementos \(valores ou variáveis\), cada elemento do array é identificado por um index, iniciando por 0. O promeiro elemento do array está no index 0, o segundo elmento no index 1 e assim sucessivamente. 
+
+Em Javascript, os Arrays são objetos que vêm com uma série de métodos embutidos para realizar operações de travessia e mutação. Nem o tamanho de um array JavaScript nem os tipos de elementos são fixos. Já que o tamanho de um array pode ser alterado a qualquer momento por meio de operações de adição e remoção de elementos, assim também como podemos adicionar tipos de dados diferentes em um mesmo array.
+
+Veja os exemplos de criação e manipulação de arrays abaixo, com código comentado:
+
+```javascript
+// Criação de array com notação literal, usa-se colchetes: 
+const frutas = ['laranja', 'manga', 'caju']
+
+// a propriedade 'length' exibe o tamanho do array
+console.log(frutas.length) // imprime 3
+
+// podemos acessar qualquer elemento de um array pelo seu index
+let primeiro = frutas[0] // retorna laranja
+
+// podemos percorrer um array com o laço for
+for (let index = 0; index < frutas.length; index++) {
+  const fruta = frutas[index];
+}
+
+// podemos adicionar um elemento no final do array usando o método 'push'
+frutas.push('banana')
+
+console.log(frutas) // [ 'laranja', 'manga', 'caju', 'banana' ]
+
+/* podemos remover um elemento do array usando o método 'splice', 
+que recebe dois parâmetros, o primeiro parâmetro é o index de onde inicia a remoção,
+o segundo é quantidade de itens que serão removidos, 
+no exemplo abaixo está sendo removido somente o item de index 2
+*/
+frutas.splice(2, 1)
+
+console.log(frutas) // [ 'laranja', 'manga', 'banana' ]
+```
+
+No exemplo acima, os comentários do código descreve todas as operações realizadas. Para saber mais sobre Javascript Arrays, acesse: [https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global\_Objects/Array](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array)
+
+> **Umas das principais utilidades do Javascrip no lado cliente é a manipulação de elementos HTML, se quiser aprender como manipular elementos HTML e deixar sua página Web dinâmica e interativa veja o vídeo abaixo:**
+
+{% embed url="https://www.youtube.com/watch?v=T24q\_2wuwDM" %}
 
 
 
