@@ -344,15 +344,164 @@ Segue a explicação de cada um dos comandos da declaração acima:
 
 ### Declarações de repetição
 
+As declarações de repetição \(também conhecidas como laço\) oferere um forma simples de executar ações repetidas, ou seja, executar repetidas vezes um mesmo trecho de código. No Javascript, há diversos tipos de declarações para execução de repetição, no entanto vamos focar apenas em dois, que são os mais utilizados, você vai resolver 99,99% do problemas de repetição com eles.
 
+* **Declaração for**
+
+A declaração [`for`](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/for) é repetido até que a condição especificada seja falsa. Uma declaração `for` tem a seguinte sintaxe:
+
+```javascript
+for ([expressaoInicial]; [condicao]; [incremento]){
+  instruções... 
+}
+```
+
+Quando um `for` é executado, ocorre os seguintes passos:
+
+1. A  `expressaoInicial` é inicializada e, caso atenda a condição especificada, é executada. 
+2. A  `condicao` é avaliada. caso o resultado de `condicao` seja verdadeiro, o laço é executado. Se o valor de `condicao` é falso, então o laço terminará. 
+3.  As instruções, que geralmente devem ser envolvidas por um par de chaves {...}, são executadas enquanto a condição for verdadeira.
+4. Em cada repetição o `incremento` deve ser atualizado e retorna o controle para o passo seguinte, onde a condição é novamente verificada \(passo 2\).
+
+Vamos de um exemplo prático, caso tenhamos uma lista de nomes para ser exibida, temos que percorrer toda a lista para exibir cada nome individualmente. Nesse caso, podemos muito bem usar o laço `for`, veja o código abaixo:
+
+```javascript
+const nomes = ['Jesiel', 'Viana', 'Silva']
+
+for (let index = 0; index < nomes.length; index++) {
+  console.log(nomes[index])
+}
+```
+
+* let index = 0; é a expressão inicial, onde é criado uma variável chamada index e atribuído o valor 0 a ela;
+* index &lt; nomes.length; é a condição, onde verifica se a variável index é menor do que o tamanho do array nomes;
+* index++; é o incremento, ou seja, soma se mais 1 a variável index a cada repetição do laço
+
+Diante disso, o laço acima será executado 3 vezes:
+
+1. Na primeira repetição,  o `index` é 0, menor do que o tamanho do array de `nomes` que é 3, então é executada a instrução dentro do bloco `for`:  `console.log(nomes[index])` , exbindo o primeiro nome no console _"Jesiel"_, ao final da repetição é incrementado 1 à variável `index`;
+2. Na segunda repetição, o index é 1, menor do que o tamanho do array de `nomes` que é 3, então é executada a instrução dentro do bloco `for`:  `console.log(nomes[index])` , exbindo o segundo nome no console _"Viana"_, ao final da repetição é incrementado 1 à variável `index`;
+3. Na terceira repetição, o index é 2, menor do que o tamanho do array de `nomes` que é 3, então é executada a instrução dentro do bloco `for`:  `console.log(nomes[index])` , exbindo o terceiro nome no console "_Jesiel"_, ao final da repetição é incrementado 1 à variável `index`;
+4. Na tentativa da quarta repetição, o `index` é 3 que é igual ao tamanho do array de `nomes` que também é 3, nesse caso a condição do `for` é considerada falsa e o laço for é encerrado.
+
+### **Declaração while**
+
+Uma declaração [`while`](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/while) executa suas instruções, desde que uma condição especificada seja avaliada como verdadeira. Segue uma declaração `while`: 
+
+```javascript
+while (condicao){
+  declarações...
+}
+```
+
+O teste da condição ocorre antes que o laço seja executado. Desta forma se a condição for verdadeira o laço executará e a cada repetição testará a condição novamente. Quando a condição for falsa o laço termina e passa o controle para as instruções após o laço. 
+
+A condição deve ser modificada dentro do bloco `while`, porque uma vez que a condição seja verdeira e se ela nunca for modificada dentro do bloco `while`, o laço entrarar num ciclo de repetição infinita.
 
 ### Funções
 
+Um ponto chave na resolução de um problema complexo é conseguir dividi-lo em subproblemas menores.
 
+Ao criarmos um programa para resolver um problema,  é essencial quebrar um código grande em partes menores, fáceis de serem entendidas e administradas. Costumamos chamar essa prática de dividir para conquistar:
+
+* Um problema é dividido em diversos sub­problemas;
+* As soluções dos sub­problemas são combinadas numa solução do problema maior;
+
+Na programação para solucionar o problema que foi "quebrado" em subproblemas criamos um programa dividido em subprogramas. Em Javascript estes subprogramas são chamados de **funções**.
+
+**Uma função é uma sequência de comandos que executa alguma tarefa, pode retornar algo ou não e tem um nome. A sua principal finalidade é nos ajudar a organizar programas em pedaços que correspondam a como imaginamos uma solução do problema.**
+
+Resumindo, funções são blocos de instruções que realizam tarefas específicas.
+
+Uma função consiste em um nome que é dado a uma sequência de comandos de forma que, quando os programas correspondentes precisam dela, basta chamá-la pelo seu nome em vez de ter que copiar seu código ou programá-la totalmente de novo.
+
+Funções são importantes porque permitem que programadores abstraiam certas sequências de comandos que são utilizadas com frequência.
+
+Sintaxe de uma função Javascript:
+
+```javascript
+function nomeDaFuncao(parametros){
+    instruções...
+    return valor
+}
+```
+
+* `function` - palavra reservada para iniciar uma função \(**obrigatório**\);
+* `nomeDaFuncao` - nome da função, sempre deve vir acompanhado de parênteses \(**obrigatório**\);
+* `parametros` - variáveis que serão usadas dentro da função \(**opcional**\);
+* `{}` - chaves definem o escopo da função \(**obrigatório**\);
+* `instruções` - declarações que serão executados dentro da função \(**obrigatório**\);
+* `return valor` - valor devolvido para o invocador da função o resultado da execução desta \(**opcional**\).
+
+Veja mais exemplos de funções:
+
+```javascript
+function raizQuadradaDe (numero) {
+  return numero * numero
+}
+
+function exibeNoConsole (valor) {
+  console.log(valor)
+}
+```
+
+Descrição das funções acima:
+
+* A função `raizQuadradaDe` recebe um `numero` com parâmetro \(entre parênteses\) e retorna a raiz quadrada desse número.
+* Já a função `exibeNoConsole` recebe um `valor` como como parâmetro e imprime esse valor no console. Esta função não tem retorno.
+
+Também podemos criar funções sem parâmetros, ou seja, funções que não tem nada entre os seus parênteses.
 
 ### Escopo local x global
 
+Quando declaramos uma variável fora de qualquer bloco de instruções, ela é chamada de variável global, porque está disponível para qualquer outro código no documento atual. Quando você declara uma variável dentro de uma função ou um bloco de instruções \(`if, for, while`\), ela é chamada de variável local,  pois ela está disponível somente dentro desse bloco ou função. O escopo de bloco e funções no Javascript é definido por um par de chaves. Veja exemplos abaixo:
 
+```javascript
+let x = 10
+
+if (true) {
+  let y = 20
+}
+
+function executa () {
+  let z = 30
+}
+
+```
+
+Veja os detalhes de escopo de acada variável do exemplo acima:
+
+* `x` - variável global, visível em qualquer parte do arquivo Javascript em que ela está declarada, ou seja, pode ser acessada dentro do bloco `if`, dentro da função `executa`, etc.
+* `y` - variável de escopo de bloco, só pode ser acessada dentro do bloco `if` onde ela foi declarada, a delimitação do escopo do bloco é baseada nas chaves \(linhas 3 e 5 do exemplo acima\)
+* `z` - variável de escopo local, só pode ser acessada dentro da função \(`executa`\) onde ela foi declarada, a delimitação do escopo da função é baseada nas chaves \(linhas 7 e 9 do exemplo acima\)
+
+> JavaScript antes do ECMAScript 6 \(2015\) não possuía escopo de declaração de bloco; pelo contrário, uma variável declarada dentro de um bloco de uma função era uma variável local e quando declarada dentro de um bloco global era uma variável global.
+
+Essa modificação do escopo de variáveis no ECMAScript 6 ocorreu pela inserção da palavra chave `let` para criação de variáveis.
+
+`let` permite que você declare variáveis limitando seu escopo no bloco, instrução, ou em uma expressão na qual ela é usada. Isso é inverso da palavra chave `var`, que define uma variável globalmente ou no escopo inteiro de uma função, independentemente do escopo de bloco. Veja o exemplo abaixo para enteder melhor as diferenças de escopo entre let e var.
+
+```javascript
+if (true) {
+  var a = 10
+}
+
+if (true) {
+  let b = 20
+}
+
+console.log(a)
+console.log(b)
+```
+
+A código acima funciona até chegar a linha 10, vamos entender:
+
+* `var a` - definie uma variável com escopo global dentro de um bloco if
+* `let b` - definie uma variável com escopo de bloco dentro de um bloco if
+
+Com isso, é possível acessar a variável a fora do bloco onde ela foi declarada, já a variável b só pode ser acessada dentro do bloco onde foi criada.
+
+Diante disso, evite usar o var para definição de variáveis, **USE SEMPRE let para criação de variáveis** e tenha mais controle do seu escopo \([Recomendado pelo Google Style Guide](https://google.github.io/styleguide/jsguide.html#features-local-variable-declarations)\).
 
 ### Arrays
 
