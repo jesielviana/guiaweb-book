@@ -4,6 +4,11 @@ description: Apresentação das técnicas que formam o design responsivo.
 
 # Web Design Responsivo
 
+> **Objetivos de aprendizagem**
+>
+> * Conhecer as técnicas que formam o conceito de design responsivo
+> * Aprender a construir páginas Web responsivas com flexbox
+
 #### Introdução
 
 **Design responsivo é feito por meio do CSS, portanto o conhecimento de CSS é um pré-requisito para este capítulo.**
