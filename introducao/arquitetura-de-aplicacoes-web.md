@@ -20,7 +20,7 @@ O modelo mais simples são as aplicações estáticas, construída com HTML, CSS
 
 A figura abaixo mostra uma arquitetura básica  de uma aplicação web estática, basicamente é o modelo cliente-servidor de forma simples e pura.
 
-![Modelo arquitetural e fluxo de acesso de um site estático](../.gitbook/assets/site-estatico.png)
+![Arquitetura e fluxo de acesso de sites dinâmicos](../.gitbook/assets/site-estatico.png)
 
 Detalhamento do fluxo de acesso a um site estático, representado no diagrama acima.&#x20;
 
