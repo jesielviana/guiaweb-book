@@ -29,12 +29,12 @@ Quando o usuário deseja acessar uma determinada página, ele informa o seu ende
 1. O navegador envia uma requisição para o servidor HTTP solicitando a referida página HTML (especificada via URL).&#x20;
 2. o servidor recupera o documento solicitado (página HTML) de seu sistema de arquivos; e&#x20;
 3. retorna uma resposta HTTP contendo a página HTML para o navegador.&#x20;
-4. Por fim, o navegador exibe o conteúdo da página HTML formatada para visualização do usuário. **O conteúdo exibido para o usuário é o mesmo que está salvo no sistema de arquivos do servidor.**
+4. por fim, o navegador exibe o conteúdo da página HTML formatada para visualização do usuário. **O conteúdo exibido para o usuário é o mesmo que está salvo no sistema de arquivos do servidor.**
 
 Outras características dos sites estáticos:
 
-* Não possibilita a interação do usuários;
-* Possui um número fixo de páginas;
+* Simples, ótimo para blogs, portfólios e sites pessoais;
+* Não tem necessidade de banco de dados;
 * O conteúdo e layout de cada página é o mesmo para qualquer cliente.
 
 Na próxima seção vamos conhecer a arquitetura de aplicações dinâmicas.
