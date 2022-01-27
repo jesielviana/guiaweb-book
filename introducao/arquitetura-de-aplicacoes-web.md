@@ -18,7 +18,7 @@ Utilizando o modelo cliente-servidor é possível estruturar uma aplicação web
 
 Site estático é o modelo mais simples de aplicação web, construído com HTML, CSS e Javascript (opcional). Um site estático é aquele que retorna o mesmo conteúdo que está salvo no servidor sempre que uma determinada página é solicitada.&#x20;
 
-A figura abaixo mostra uma arquitetura básica  de uma aplicação web estática, basicamente é o modelo cliente-servidor de forma simples e pura.
+A figura abaixo mostra de forma simplificada os principais componentes e fluxo de acesso à uma aplicação web estática, basicamente é o modelo cliente-servidor de forma simples e pura.
 
 ![](../.gitbook/assets/site-estatico.png)
 
@@ -27,7 +27,7 @@ Detalhamento do fluxo de acesso a um site estático, representado no diagrama ac
 Quando o usuário deseja acessar uma determinada página, ele informa o seu endereço (URL) ao navegador, e em seguida:
 
 1. O navegador envia uma requisição para o servidor HTTP solicitando a referida página HTML (especificada via URL).&#x20;
-2. o servidor recupera o documento solicitado (página HTML) de seu sistema de arquivos; e&#x20;
+2. o servidor HTTP recupera o documento solicitado (página HTML) de seu sistema de arquivos; e&#x20;
 3. retorna uma resposta HTTP contendo a página HTML para o navegador.&#x20;
 4. por fim, o navegador exibe o conteúdo da página HTML formatada para visualização do usuário. **O conteúdo exibido para o usuário é o mesmo que está salvo no sistema de arquivos do servidor.**
 
@@ -51,6 +51,21 @@ Em uma aplicação dinâmica, o servidor é o responsável por  receber a requis
 
 Veja um exemplo de acesso à um site dinâmico de _e-commerce_: o servidor possui os arquivos HTML com os layouts das páginas e armazena os dados dos produtos em um banco de dados (com isso uma página HTML com mesmo layout/modelo pode ser exibida com informações de diferentes produtos carregados dinamicamente do banco de dados). Com isso, ao receber uma solicitação HTTP para exibir um determinado produto , o servidor busca os dados do produto no banco de dados e, em seguida, constrói a página HTML para a resposta inserindo os dados dinâmicos em um modelo HTML.&#x20;
 
-O diagrama abaixo mostra os principais elementos e o fluxo de dados do exemplo acima.
+A figura abaixo mostra os principais elementos e o fluxo de acesso a um site dinâmico, como o descrito no exemplo acima.
 
 ![](../.gitbook/assets/site-dinamico.png)
+
+Detalhamento da figura acima. Supomos que quando o usuário deseja acessar um determinado produto em um site, ele informa o seu endereço (URL) ao navegador, e em seguida os seguintes passos são executados (conforme numeração na figura acima):
+
+1. O navegador envia uma requisição para o servidor HTTP solicitando os dados produto;
+2. &#x20;O servidor de aplicação busca o modelo HTML para exibir dos dados do produto baseado na solicitação e identifica as lacunas que devem ser preenchidas com dados dinâmicos;
+3. O servidor de aplicação carrega do banco de dados os dados do produto solicitado;
+4. O servidor de aplicação monta dinamicamente uma página HTML preenchendo o modelo HTML com os dados dinâmicos carregados do banco de dados e envia como resposta para o cliente.
+5. por fim, o navegador exibe o conteúdo da página HTML formatada para visualização do usuário. O conteúdo exibido para o usuário é composto pelo modelo HTML e pelos dados dinâmicos carregados do banco de dados.
+
+Vale destacar que a figura acima é uma representação simplificada do fluxo de acesso à uma aplicação dinâmica, onde foi ocultado o carregamento de recursos estáticos (CSS, Javascript, imagens, etc).
+
+Dentro do contexto de aplicações web dinâmicas chamados de front-end a parte visual da aplicação, que provê interação com o usuário e back-end a parte que envolve a programação no lado do servidor (regras de negócio, acesso a banco de dados, etc).
+
+Para construção do front-end, geralmente é utilizado HTML, CSS, Javascript e seus frameworks (Angular, React, Vue.js, etc). Já no back-end é comum a utilização de tecnologias Java, Javascript, Python, Ruby, etc.
+
