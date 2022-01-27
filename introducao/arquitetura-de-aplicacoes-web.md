@@ -20,9 +20,9 @@ Site estático é o modelo mais simples de aplicação web, construído com HTML
 
 A figura abaixo mostra uma arquitetura básica  de uma aplicação web estática, basicamente é o modelo cliente-servidor de forma simples e pura.
 
-![Arquitetura e fluxo de acesso de sites dinâmicos](../.gitbook/assets/site-estatico.png)
-
 Detalhamento do fluxo de acesso a um site estático, representado no diagrama acima.&#x20;
+
+![](../.gitbook/assets/site-estatico.png)
 
 Quando o usuário deseja acessar uma determinada página, ele informa o seu endereço (URL) ao navegador, e em seguida:
 
@@ -53,5 +53,5 @@ Veja um exemplo de acesso à um site dinâmico de _e-commerce_: o servidor possu
 
 O diagrama abaixo mostra os principais elementos e o fluxo de dados do exemplo acima.
 
-
+![](../.gitbook/assets/site-dinamico.png)
 
