@@ -69,3 +69,5 @@ Dentro do contexto de aplicações web dinâmicas chamados de front-end a parte 
 
 Para construção do front-end, geralmente é utilizado HTML, CSS, Javascript e seus frameworks (Angular, React, Vue.js, etc). Já no back-end é comum a utilização de tecnologias Java, Javascript, Python, Ruby, etc.
 
+Do ponto de vista da organização do front-end e back-end de uma aplicação dinâmica, eles podem ser acoplados, front-end e back-end são desenvolvidos juntos, usando a mesma tecnologia e hospedados no mesmo servidor. Outra forma de desenvolver aplicações é separar o back-end do front-end, são desenvolvidos e hospedados separadamente. Esta abordagem ganhou bastante relevância devido aos modelo REST e frameworks SPA.
+
