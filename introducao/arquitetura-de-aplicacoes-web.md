@@ -63,11 +63,29 @@ Detalhamento da figura acima. Supomos que quando o usuário deseja acessar um de
 4. O servidor de aplicação monta dinamicamente uma página HTML preenchendo o modelo HTML com os dados dinâmicos carregados do banco de dados e envia como resposta para o cliente.
 5. por fim, o navegador exibe o conteúdo da página HTML formatada para visualização do usuário. O conteúdo exibido para o usuário é composto pelo modelo HTML e pelos dados dinâmicos carregados do banco de dados.
 
-Vale destacar que a figura acima é uma representação simplificada do fluxo de acesso à uma aplicação dinâmica, onde foi ocultado o carregamento de recursos estáticos (CSS, Javascript, imagens, etc).
+> NOTA: Vale destacar que a figura acima é uma representação simplificada do fluxo de acesso à uma aplicação dinâmica, onde foi ocultado o carregamento de recursos estáticos (CSS, Javascript, imagens, etc).
 
-Dentro do contexto de aplicações web dinâmicas chamados de front-end a parte visual da aplicação, que provê interação com o usuário e back-end a parte que envolve a programação no lado do servidor (regras de negócio, acesso a banco de dados, etc).
+Dentro do contexto de aplicações web dinâmicas chamados de front-end a interface visual da aplicação, que provê interação com o usuário e back-end a parte que envolve a programação no lado do servidor (regras de negócio, acesso a banco de dados, etc).
 
 Para construção do front-end, geralmente é utilizado HTML, CSS, Javascript e seus frameworks (Angular, React, Vue.js, etc). Já no back-end é comum a utilização de tecnologias Java, Javascript, Python, Ruby, etc.
 
-Do ponto de vista da organização do front-end e back-end de uma aplicação dinâmica, eles podem ser acoplados, front-end e back-end são desenvolvidos juntos, usando a mesma tecnologia e hospedados no mesmo servidor. Outra forma de desenvolver aplicações é separar o back-end do front-end, são desenvolvidos e hospedados separadamente. Esta abordagem ganhou bastante relevância devido aos modelo REST e frameworks SPA.
+Do ponto de vista da organização do front-end e back-end de uma aplicação dinâmica, eles podem ser acoplados, front-end e back-end são desenvolvidos juntos, usando a mesma tecnologia e hospedados no mesmo servidor. Outra forma de desenvolver aplicações é separar o back-end do front-end, são desenvolvidos e hospedados separadamente.&#x20;
+
+A figura apresentada acima representa uma aplicação com **front-end e back-end acoplados**. Neste tipo de aplicação a interface de usuário, código de regras de negócio e acesso aos dados são combinados em um único programa hospedados em um único servidor.&#x20;
+
+Já na abordagem de separação do front-end e back-end, as duas partes são desenvolvidas e hospedadas separadamente, podendo usar tecnologias diferentes. Na maioria das vezes a comunicação entre o front-end e back-end é realizada seguindo o modelo arquitetural [REST](https://developer.mozilla.org/pt-BR/docs/Glossary/REST). Esta abordagem ganhou bastante mercado com o surgimento e utilização dos frameworks SPA (Angular, React, Vue.js, etc).
+
+Vantagens de aplicações com front-end separado do back-end:
+
+* Promove a modularização com a separação de tecnologias, frameworks e melhores práticas específicos para cada tipo;
+* Facilita a organização das equipes por área de desenvolvimento;
+* Reduz o tamanho da base de código de cada parte;
+
+Desvantagens de aplicações com front-end separado do back-end:
+
+* Pode dificultar a comunicação entre equipes de front-end e back-end;
+* Aumenta os cuidados com gerenciamento e segurança da aplicação;
+* A integração entre front-end e back-end pode aumentar a quantidade de bugs;
+
+
 
