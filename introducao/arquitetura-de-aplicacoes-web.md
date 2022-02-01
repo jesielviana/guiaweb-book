@@ -75,6 +75,10 @@ A figura apresentada acima representa uma aplicação com **front-end e back-end
 
 Já na abordagem de separação do front-end e back-end, as duas partes são desenvolvidas e hospedadas separadamente, podendo usar tecnologias diferentes. Na maioria das vezes a comunicação entre o front-end e back-end é realizada seguindo o modelo arquitetural [REST](https://developer.mozilla.org/pt-BR/docs/Glossary/REST). Esta abordagem ganhou bastante mercado com o surgimento e utilização dos frameworks SPA (Angular, React, Vue.js, etc).
 
+A figura abaixo mostra os principais elementos e o fluxo de acesso a uma aplicação com front-end separado do back-end.
+
+![](../.gitbook/assets/front-vs-back.png)
+
 Vantagens de aplicações com front-end separado do back-end:
 
 * Promove a modularização com a separação de tecnologias, frameworks e melhores práticas específicos para cada tipo;
