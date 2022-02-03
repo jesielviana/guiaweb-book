@@ -101,5 +101,14 @@ Desvantagens de aplicações com front-end separado do back-end:
 * Aumenta os cuidados com gerenciamento e segurança da aplicação;
 * A integração entre front-end e back-end pode aumentar a quantidade de bugs;
 
+### Conclusão
 
+A escolha do tipo de arquitetura a ser utilizado em uma determinada aplicação web deve partir da sua necessidade. Opte pela mais simples que resolve seu problema. Para aplicações que possui apenas conteúdo estático. Use a arquitetura de site estático, é mais simples e mais fácil de gerenciar e manter.
 
+Para aplicações com conteúdo dinâmico, verifique o melhor modelo que pode ser aplicado: front-end e back-end acoplados ou separados. Geralmente leve em consideração o tamanho da aplicação, quantidade de pessoas envolvidas no projeto e conhecimento tecnológico da equipe.
+
+Se você é iniciando no desenvolvimento web, recomendo você iniciar desenvolvendo aplicações estáticas para aprender e dominar HTML, CSS, Javascript e HTTP e depois seguir para o desenvolvimento de aplicações dinâmicas.
+
+**Gostou deste conteúdo?** <mark style="background-color:green;">**Compartilhe**</mark>.&#x20;
+
+Tem alguma dúvida ou sugestão de melhoria/correção, ficarei muito contente em recebê-la: [https://jesielviana.com/about](https://jesielviana.com/about)
