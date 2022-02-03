@@ -20,7 +20,7 @@ Site estático é o modelo mais simples de aplicação web, construído com HTML
 
 A figura abaixo mostra de forma simplificada os principais componentes e fluxo de acesso à uma aplicação web estática, basicamente é o modelo cliente-servidor de forma simples e pura.
 
-![](../.gitbook/assets/site-estatico.png)
+![Principais componentes e fluxo de acesso à uma aplicação web estática](../.gitbook/assets/site-estatico.png)
 
 Detalhamento do fluxo de acesso a um site estático, representado no diagrama acima.&#x20;
 
@@ -53,11 +53,11 @@ Veja um exemplo de acesso à um site dinâmico de _e-commerce_: o servidor possu
 
 A figura abaixo mostra os principais elementos e o fluxo de acesso a um site dinâmico, como o descrito no exemplo acima.
 
-![](../.gitbook/assets/site-dinamico.png)
+![ Principais elementos e fluxo de acesso a um site dinâmico](../.gitbook/assets/site-dinamico.png)
 
 Detalhamento da figura acima. Supomos que quando o usuário deseja acessar um determinado produto em um site, ele informa o seu endereço (URL) ao navegador, e em seguida os seguintes passos são executados (conforme numeração na figura acima):
 
-1. O navegador envia uma requisição para o servidor HTTP solicitando os dados produto;
+1. O navegador envia uma requisição para o servidor HTTP solicitando a página HTML com os dados do produto;
 2. &#x20;O servidor de aplicação busca o modelo HTML para exibir dos dados do produto baseado na solicitação e identifica as lacunas que devem ser preenchidas com dados dinâmicos;
 3. O servidor de aplicação carrega do banco de dados os dados do produto solicitado;
 4. O servidor de aplicação monta dinamicamente uma página HTML preenchendo o modelo HTML com os dados dinâmicos carregados do banco de dados e envia como resposta para o cliente.
@@ -77,7 +77,17 @@ Já na abordagem de separação do front-end e back-end, as duas partes são des
 
 A figura abaixo mostra os principais elementos e o fluxo de acesso a uma aplicação com front-end separado do back-end.
 
-![](../.gitbook/assets/front-vs-back.png)
+![Principais elementos e fluxo de acesso a uma aplicação com front-end separado do back-end](../.gitbook/assets/back-front.png)
+
+Detalhamento da figura acima, supomos que quando o usuário deseja acessar um determinado produto em um site de _e-commerce_ que tem o back-end separado do front-end, ele informa a URL do produto ao navegador, e em seguida os seguintes passos são executados (conforme numeração na figura acima)
+
+1. Navegador envia requisição ao servidor do front-end solicitando a página HTML de produtos;
+2. Servidor do front-end retorna a página HTML que contém só o modelo com as lacunas para serem preenchidas com os dados dinâmicos do produto;
+3. Navegador começa a montar a página HTML e identifica que há lacunas para serem preenchidas com os dados do produto;
+4. Navegador envia um requisição ao servidor do back-end solicitando os dados do produto;
+5. O servidor do back-end recebe a requisição, recupera os dados do produto do banco de dados; e
+6. Retorna os dados do produto para o navegador (geralmente esses dados são enviado no formato JSON);
+7. Por fim, o navegador preenche as lacunas da página HTML com os dados do produto que veio do servidor de back-end e exibe-a (página completa: modelo HTML que veio do front-end com os dados dinâmicos que veio do back-end) para o usuário final.
 
 Vantagens de aplicações com front-end separado do back-end:
 
