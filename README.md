@@ -1,17 +1,17 @@
 ---
 description: >-
-  Este material faz parte das disciplinas de Programação para Web do Curso
-  Superior de Tecnologia em Análise e Desenvolvimento de Sistemas (ADS) do IFPI
-  Campus Picos. By prof. Jesiel Viana.
+  Este ebook é utilizado como material didático nas disciplinas de Programação
+  para Web do Curso Superior de Tecnologia em Análise e Desenvolvimento de
+  Sistemas (ADS) do IFPI Campus Picos.
 ---
 
 # Apresentação
 
 ### Visão Geral
 
-Este ebook apresenta os conceitos fundamentais da Web e como utilizar as tecnologias básicas da Web \(HTML, CSS e Javascript\) para criação de aplicativos. No decorrer do curso o aluno vai ver como os conceitos fundamentais do desenvolvimento da Web podem ser aplicados para desenvolver software da Web real, independentemente das tecnologias, idiomas ou estruturas. Embora enfatizemos os conceitos, você demonstrará sua competência no desenvolvimento da Web desenvolvendo software dinâmico da Web com as tecnologias de programação mais comumente usadas.
+Este ebook apresenta os conceitos fundamentais da Web e como utilizar as tecnologias básicas da Web (HTML, CSS e Javascript) para criação de aplicativos. No decorrer do curso o aluno vai ver como os conceitos fundamentais do desenvolvimento da Web podem ser aplicados para desenvolver software da Web real, independentemente das tecnologias, idiomas ou estruturas. Embora enfatizemos os conceitos, você demonstrará sua competência no desenvolvimento da Web desenvolvendo software dinâmico da Web com as tecnologias de programação mais comumente usadas.
 
-_Problem-Based Learning \(PBL\)_ é o método de ensino utilizado neste curso, cujo objetivo é trabalhar e desenvolver conhecimentos e habilidades técnicas, além de desenvolver habilidades interpessoais, tais como trabalho em equipe, comunicação, gerenciamento de tempo e resolução de problemas reais.
+_Problem-Based Learning (PBL)_ é o método de ensino utilizado neste curso, cujo objetivo é trabalhar e desenvolver conhecimentos e habilidades técnicas, além de desenvolver habilidades interpessoais, tais como trabalho em equipe, comunicação, gerenciamento de tempo e resolução de problemas reais.
 
 Após concluir este curso, você compreenderá o funcionamento da Web e estará capacitado para resolver problemas que envolva o projeto e implementação de páginas Web utilizando HTML, CSS e Javascript.
 
@@ -43,12 +43,12 @@ Após concluir este curso, você compreenderá o funcionamento da Web e estará 
 
 ### Ferramentas
 
-* [**Brave**](https://brave.com/) - Brave é um navegador web livre e de código aberto, baseado no navegador web Chromium.
-* [**Visual Studio Code \(VS Code\)**](https://code.visualstudio.com/) - é um editor de código/IDE altamente recomendado para desenvolvimento web. É gratuito, _open-source_ e está disponível para todos os principais sistemas operacionais. O VS Code oferece muitas extensões, e o melhor são fáceis de instalar e configurar. Recomendo a instalação do pacote de extensões [**Web Dev Extension Pack**](https://marketplace.visualstudio.com/items?itemName=jesielviana.web-dev-extension-pack)\*\*\*\*
-* [**Git**](https://git-scm.com/) - é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software.
-* [**Github**](https://github.com/) - é uma plataforma de hospedagem de código-fonte com controle de versão usando o Git.
+* [**Brave**](https://brave.com) - Brave é um navegador web livre e de código aberto, baseado no navegador web Chromium.
+* [**Visual Studio Code (VS Code)**](https://code.visualstudio.com) - é um editor de código/IDE altamente recomendado para desenvolvimento web. É gratuito, _open-source_ e está disponível para todos os principais sistemas operacionais. O VS Code oferece muitas extensões, e o melhor são fáceis de instalar e configurar. Recomendo a instalação do pacote de extensões [**Web Dev Extension Pack**](https://marketplace.visualstudio.com/items?itemName=jesielviana.web-dev-extension-pack)****
+* [**Git**](https://git-scm.com) - é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software.
+* [**Github**](https://github.com) - é uma plataforma de hospedagem de código-fonte com controle de versão usando o Git.
 
-### Material para estudos \(Referências\)
+### Material para estudos (Referências)
 
 Não existe um livro didático obrigatório para este curso, e não conheço um livro que seja uma combinação perfeita com o material para um curso de Web. O conteúdo do curso é definido pelo conteúdo programático e suas respectivas aulas. Em toda aula será informado o material base de referência e outros materiais extras. Você precisará de material de referência adicional para concluir os projetos de programação, mas esse material está disponível na Web. Uma boa fonte online para documentação de referência em HTML, CSS e DOM é a [**Mozilla Developer Network - MDN**](https://developer.mozilla.org/pt-BR/).
 
@@ -61,7 +61,6 @@ Não existe um livro didático obrigatório para este curso, e não conheço um 
 
 Este material foi criado e mantido pelo professor Jesiel Viana, fale comigo pelos contatos abaixo.
 
-* Twitter: [**https://twitter.com/jesielviana**](https://twitter.com/jesielviana)\*\*\*\*
-* Github: [**https://github.com/jesielviana**](https://github.com/jesielviana)\*\*\*\*
-* Blog:  [**https://www.jesielviana.com/**](https://www.jesielviana.com/)\*\*\*\*
-
+* Twitter: [**https://twitter.com/jesielviana**](https://twitter.com/jesielviana)****
+* Github: [**https://github.com/jesielviana**](https://github.com/jesielviana)****
+* Blog:  [**https://www.jesielviana.com/**](https://www.jesielviana.com)****
