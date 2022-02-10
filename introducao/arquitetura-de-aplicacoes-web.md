@@ -6,6 +6,12 @@ description: >-
 
 # Arquitetura de aplicações web
 
+> **Objetivos de aprendizagem**
+>
+> * Conhecer os tipos básicos de arquitetura de aplicações web
+> * Entender o fluxo de funcionamento dos tipos de arquitetura apresentados
+> * Entender o contexto de uso de cada tipo de arquitetura
+
 ### Introdução&#x20;
 
 A arquitetura de aplicações web descreve a estrutura interna e interações entre seus componentes, bancos de dados e sistemas externos.

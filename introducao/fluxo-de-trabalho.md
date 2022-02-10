@@ -66,9 +66,9 @@ A utilização do Git é baseada em comandos via terminal, existem comandos para
 
 Para começar a usar o git para controle de versão de um projeto devemos executar um dos seguintes comandos: _**init**_ ou _**clone**_ no diretório raiz do projeto.
 
-* `git init` - transforma o diretório em um repositório git;
+* `git init` - transforma o diretório local em um repositório git;
 
-O comando **clone**, clona(copia código e histórico) para o diretório corrente um repositório armazenado remotamente, por exemplo: um repositório do GitHub.
+O comando **clone**, clona(copia código e histórico) para o diretório local um repositório armazenado remotamente, por exemplo: um repositório do GitHub.
 
 * `git clone` [`https://github.com/NOME-USER/NOME-REPO`](https://github.com/NOME-USER/NOME-REPO) - clona o repositório do link para seu computador.
 
@@ -107,7 +107,7 @@ A forma mais prática e fácil de disponibilizar uma aplicação Web online é c
 Abaixo é listada algumas dessas plataformas e suas principais características.
 
 * [Heroku](https://www.heroku.com) - é uma plataforma em nuvem como um serviço que suporta várias linguagens de programação. Tem planos gratuito e pago. Recomendo a sua utilização para a implantação de aplicações de back-end.
-* [Netlify](https://www.netlify.com) - plataforma de computação em nuvem que oferece hospedagem e serviços de back-end sem servidor (serverless) para aplicativos da web e sites estáticos. Recomendo para a implantação de sites estáticos e aplicações de front-end. Simples de utilizar e performática, com uma ótima integração com Github.
+* [Netlify](https://www.netlify.com) - plataforma de computação em nuvem que oferece hospedagem e serviços de back-end sem servidor (_serverless_) para aplicativos da web e sites estáticos. Recomendo para a implantação de sites estáticos e aplicações de front-end. Simples de utilizar e performática, com uma ótima integração com Github.
 * [Vercel](https://vercel.com) - basicamente oferece os mesmos recursos que a Netlify.
 * [GitHub Pages](https://pages.github.com) - plataforma do Github para hospedagem de sites estáticos e aplicações de front-ed a partir de repositórios do Github.
 
@@ -115,9 +115,9 @@ Para hospedagem dos exemplos deste livro, utilizamos e recomendamos o Github Pag
 
 ### Conclusão
 
-Em qualquer área atuação sempre há um conjunto de ferramentas que são essenciais para auxiliar o profissional para realização do seu trabalho. No desenvolvimento de software para Web não é diferente, para a construção de uma página Web ou uma API é essencial o uso de ferramentas que apoiam o desenvolvvimento e produtividade, principalmente aquelas que dão suporte à colaboração.
+Em qualquer área atuação sempre há um conjunto de ferramentas que são essenciais para auxiliar o profissional para realização do seu trabalho. No desenvolvimento de software para Web não é diferente, para a construção de uma página Web ou uma API é essencial o uso de ferramentas que apoiam o desenvolvimento e produtividade, principalmente aquelas que dão suporte à colaboração.
 
-Escolhas suas ferramentas e domine-as. O conhecimento de Git é essencial e obrigatório para todo desenvolvedor de software. Use sempre, mesmo naqueles projetinhos pessoais e atividades acadêmicas.
+Escolhas suas ferramentas e domine-as. **O conhecimento de Git é essencial e obrigatório para todo desenvolvedor de software.** Use sempre, mesmo naqueles "projetinhos" pessoais e atividades acadêmicas.
 
 ### Materiais complementares
 
