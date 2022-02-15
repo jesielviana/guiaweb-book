@@ -98,3 +98,7 @@ Use o atributo `async` para carregar scripts independentes, aqueles que não dep
 Geralmente utiliza-se Javascript nas páginas web para adicionar comportamentos dinâmicos por meio da manipulação dos elementos HTML, conhecido como Document Object Model (DOM).
 
 ### O que é DOM?
+
+DOM é a representação de dados dos objetos que compõem a estrutura e o conteúdo de um documento na Web. Tem o formato de uma árvore composta por nós.
+
+O DOM também fornece uma interface de programação para manipulação dos elementos HTML. Por meio dele é possível alterar a estrutura de documento HTML, alterar o estilo e conteúdo.
