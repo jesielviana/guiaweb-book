@@ -18,17 +18,44 @@ O JavaScript pode ser inserido em uma página web de formas diferentes: interno,
 
 * JavaScript interno, quando o código Javascript é  inserido dentro do código HTML por meio da tag `<script>`, conforme o exemplo abaixo:
 
+{% code title="index.html" %}
 ```html
 <html>
 ....
 <script>
 
-  // código javascriot aq
+  // código javascript aqui
 
 </script>
 </html>
 ```
+{% endcode %}
 
-* JavaScript externo
+* JavaScript externo, quando o código Javascript é escrito em um arquivo "`.js`" separado do HTML. Utiliza-se a tag `<script>` com a propriedade `src` recebendo como valor o caminho do arquivo Javascript, conforme o exemplo abaixo. Esta é a opção recomendada para integrar Javascript com HTML.
+
+{% tabs %}
+{% tab title="index.html" %}
+```html
+<html>
+....
+<script src=""> </script>
+</html>
+```
+{% endtab %}
+
+{% tab title="main.js" %}
+```
+// Some code<html>
+....
+<script>
+
+  // código javascript aqui
+
+</script>
+</html><>
+```
+{% endtab %}
+{% endtabs %}
+
 * JavaScript inline
 
