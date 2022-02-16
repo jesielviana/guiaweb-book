@@ -99,6 +99,10 @@ Geralmente utiliza-se Javascript nas páginas web para adicionar comportamentos 
 
 ### O que é DOM?
 
-DOM é a representação de dados dos objetos que compõem a estrutura e o conteúdo de um documento na Web. Tem o formato de uma árvore composta por nós.
+Uma página da web exibida pelo navegador é um documento HTML. O DOM é a representação de dados dos objetos que compõem a estrutura e o conteúdo desse documento. O DOM é composto por uma árvore de objetos (nós), conforme o exemplo abaixo:
 
-O DOM também fornece uma interface de programação para manipulação dos elementos HTML. Por meio dele é possível alterar a estrutura de documento HTML, alterar o estilo e conteúdo.
+O DOM também fornece uma interface de programação para manipulação dos elementos HTML. Por meio dele é possível modificar a estrutura e conteúdo do documento HTML e alterar o estilo da página.&#x20;
+
+Para manipulação do DOM utiliza-se uma linguagem de script como JavaScript. Todas as propriedades, métodos e eventos disponíveis para manipular o DOM são representados por objetos.
+
+### Objeto document
