@@ -120,3 +120,7 @@ O objeto document possui alguns métodos para manipulação dos elementos HTML, 
 | document.getElementsByClassName(_name_) | Retorna uma lista de elementos de acordo com a classe especificada.                                      |
 | document.querySelector(selector)        | Retorna o primeiro elemento encontrado na página que corresponde ao seletor especificado.                |
 | document.querySelectorAll(selector)     | Retorna uma lista com todos os elementos encontrados na página que correspondem ao seletor especificado. |
+
+Utilizando um dos métodos listados acima é possível acessar e manipular qualquer elemento do documento HTML que está no navegador.
+
+### Capturando ação do usuário
