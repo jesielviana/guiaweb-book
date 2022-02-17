@@ -106,3 +106,17 @@ O DOM também fornece uma interface de programação para manipulação dos elem
 Para manipulação do DOM utiliza-se uma linguagem de script como JavaScript. Todas as propriedades, métodos e eventos disponíveis para manipular o DOM são representados por objetos.
 
 ### Objeto document
+
+O objeto de documento representa a página web que está visível no navegador, ele é a raiz da árvore de elementos HTML que contém todos os objetos da página.
+
+A partir do objeto document é possível acessar qualquer elemento HTML que está na página, ele é o ponto inicial para acessar os demais objetos.
+
+O objeto document possui alguns métodos para manipulação dos elementos HTML, os mais utilizados são os métodos de acesso aos elementos. A tabela abaixo apresenta os principais métodos do objeto document para acessar os elementos HTML da página web.&#x20;
+
+| Método                                  | Descrição                                                                                                |
+| --------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| document.getElementById(_id_)           | Retorna um elemento de acordo com seu id.                                                                |
+| document.getElementsByTagName(_tag_)    | Retorna uma lista de elementos de acordo com a tag especificada.                                         |
+| document.getElementsByClassName(_name_) | Retorna uma lista de elementos de acordo com a classe especificada.                                      |
+| document.querySelector(selector)        | Retorna o primeiro elemento encontrado na página que corresponde ao seletor especificado.                |
+| document.querySelectorAll(selector)     | Retorna uma lista com todos os elementos encontrados na página que correspondem ao seletor especificado. |
