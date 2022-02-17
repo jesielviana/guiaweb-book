@@ -99,27 +99,27 @@ Geralmente utiliza-se Javascript nas páginas web para adicionar comportamentos 
 
 ### O que é DOM?
 
-Uma página da web exibida pelo navegador é um documento HTML. O DOM é a representação de dados dos objetos que compõem a estrutura e o conteúdo desse documento. O DOM é composto por uma árvore de objetos (nós), conforme o exemplo abaixo:
+Uma página da web exibida pelo navegador é um documento HTML. **O DOM é a representação de dados dos objetos que compõem a estrutura e o conteúdo desse documento.** O DOM é representado no formato de uma árvore de objetos (nós), conforme o exemplo abaixo:
 
-O DOM também fornece uma interface de programação para manipulação dos elementos HTML. Por meio dele é possível modificar a estrutura e conteúdo do documento HTML e alterar o estilo da página.&#x20;
+**O DOM também fornece uma interface de programação para manipulação dos elementos HTML**. Por meio dele é possível modificar a estrutura e conteúdo do documento HTML e alterar o estilo da página.&#x20;
 
 Para manipulação do DOM utiliza-se uma linguagem de script como JavaScript. Todas as propriedades, métodos e eventos disponíveis para manipular o DOM são representados por objetos.
 
 ### Objeto document
 
-O objeto de documento representa a página web que está visível no navegador, ele é a raiz da árvore de elementos HTML que contém todos os objetos da página.
+O objeto `document` representa a página web que está no navegador, ele é a raiz da árvore de elementos HTML que contém todos os objetos da página.
 
-A partir do objeto document é possível acessar qualquer elemento HTML que está na página, ele é o ponto inicial para acessar os demais objetos.
+A partir do objeto `document` é possível acessar qualquer elemento HTML que está na página, ele é o ponto inicial para acessar os demais objetos.
 
-O objeto document possui alguns métodos para manipulação dos elementos HTML, os mais utilizados são os métodos de acesso aos elementos. A tabela abaixo apresenta os principais métodos do objeto document para acessar os elementos HTML da página web.&#x20;
+O objeto `document` possui alguns métodos para manipulação dos elementos HTML, os mais utilizados são os métodos de acesso aos elementos. A tabela abaixo apresenta os principais métodos do objeto `document` para acessar os elementos HTML de páginas web.&#x20;
 
-| Método                                  | Descrição                                                                                                |
-| --------------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| document.getElementById(_id_)           | Retorna um elemento de acordo com seu id.                                                                |
-| document.getElementsByTagName(_tag_)    | Retorna uma lista de elementos de acordo com a tag especificada.                                         |
-| document.getElementsByClassName(_name_) | Retorna uma lista de elementos de acordo com a classe especificada.                                      |
-| document.querySelector(selector)        | Retorna o primeiro elemento encontrado na página que corresponde ao seletor especificado.                |
-| document.querySelectorAll(selector)     | Retorna uma lista com todos os elementos encontrados na página que correspondem ao seletor especificado. |
+| Método                                        | Descrição                                                                                                |
+| --------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| `document.getElementById(`_`id`_`)`           | Retorna um elemento de acordo com seu `id`.                                                              |
+| `document.getElementsByTagName(`_`tag`_`)`    | Retorna uma lista de elementos de acordo com a tag especificada.                                         |
+| `document.getElementsByClassName(`_`name`_`)` | Retorna uma lista de elementos de acordo com a classe especificada.                                      |
+| `document.querySelector(selector)`            | Retorna o primeiro elemento encontrado na página que corresponde ao seletor especificado.                |
+| `document.querySelectorAll(selector)`         | Retorna uma lista com todos os elementos encontrados na página que correspondem ao seletor especificado. |
 
 Utilizando um dos métodos listados acima é possível acessar e manipular qualquer elemento do documento HTML que está no navegador.
 
