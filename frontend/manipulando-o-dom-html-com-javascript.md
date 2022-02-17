@@ -21,14 +21,14 @@ O JavaScript pode ser inserido em uma página web de formas diferentes: interno,
 {% code title="index.html" %}
 ```html
 <html>
-    <head>
-    </head>
-    <body>
-        ...
-        <script>
-            // código javascript aqui
-        </script>
-    </body>
+<head>
+</head>
+<body>
+    ...
+    <script>
+        // código javascript aqui
+    </script>
+</body>
 </html>
 ```
 {% endcode %}
@@ -39,12 +39,12 @@ O JavaScript pode ser inserido em uma página web de formas diferentes: interno,
 {% tab title="index.html" %}
 ```html
 <html>
-    <head>
-    </head>
-    <body>
-        ...
-        <script src="main.js"> </script>
-    </body>
+<head>
+</head>
+<body>
+    ...
+    <script src="main.js"> </script>
+</body>
 </html>
 ```
 {% endtab %}
@@ -63,12 +63,12 @@ function init(){
 
 ```html
 <html>
-    <head>
-    </head>
-    <body>
-        ...
-        <button onclick="alert('Oi')">Clique!</button>
-    </body>
+<head>
+</head>
+<body>
+    ...
+    <button onclick="alert('Oi')">Clique!</button>
+</body>
 </html>
 ```
 
@@ -99,9 +99,33 @@ Geralmente utiliza-se Javascript nas páginas web para adicionar comportamentos 
 
 ### O que é DOM?
 
-Uma página da web exibida pelo navegador é um documento HTML. **O DOM é a representação de dados dos objetos que compõem a estrutura e o conteúdo desse documento.** O DOM é representado no formato de uma árvore de objetos (nós), conforme o exemplo abaixo:
+O DOM é a representação em formato de árvore de todos os objetos que compõem a estrutura e o conteúdo de uma página web. Todos os elementos HTML de um página web possuem representações dentro do DOM. Veja abaixo uma representação gráfica de DOM:
 
-**O DOM também fornece uma interface de programação para manipulação dos elementos HTML**. Por meio dele é possível modificar a estrutura e conteúdo do documento HTML e alterar o estilo da página.&#x20;
+{% tabs %}
+{% tab title="index.html" %}
+```html
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+  <title>Documento HTML</title>
+</head>
+<body>
+  <header>
+    <h1>Web dev book</h1>
+    <p>Manipulando o DOM</p>
+    <button name="btn">Clique aqui!</button>
+  </header>
+</body>
+</html>
+```
+{% endtab %}
+
+{% tab title="Representação do DOM do index.html" %}
+
+{% endtab %}
+{% endtabs %}
+
+O DOM fornece uma interface de programação para manipulação dos elementos HTML. Por meio dele é possível modificar a estrutura e conteúdo do documento HTML e alterar o estilo da página.&#x20;
 
 Para manipulação do DOM utiliza-se uma linguagem de script como JavaScript. Todas as propriedades, métodos e eventos disponíveis para manipular o DOM são representados por objetos.
 
