@@ -76,7 +76,7 @@ O uso de Javascript inline dentro dos elementos polui o código HTML com Javascr
 
 Sempre que possível use a integração via arquivo externo.
 
-#### Ordem de carregamento do Javascript
+### Ordem de carregamento do Javascript
 
 Um página web é carregada pelo navegador de acordo com a ordem de escrita do HTML, de cima para baixo.&#x20;
 
