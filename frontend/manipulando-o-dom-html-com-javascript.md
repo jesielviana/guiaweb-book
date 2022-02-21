@@ -52,7 +52,7 @@ O JavaScript pode ser inserido em uma página web de formas diferentes: interno,
 {% tab title="main.js" %}
 ```javascript
 // arquivo com código javascript
-alert('ç)
+alert('arquivo javascript carregado') // função que exibe um pop-up na tela
 ```
 {% endtab %}
 {% endtabs %}
@@ -186,12 +186,80 @@ Os manipuladores de eventos geralmente têm nomes que começam com `on`, por exe
 
 A tabela abaixa apresenta alguns dos eventos HTML emitidos pelo navegador:
 
-| Evento emitido | Função de captura do evento | Quando o evento ocorre                           |
-| -------------- | --------------------------- | ------------------------------------------------ |
-| load           | `onload`                    | Quando o navegador termina de carregar a página. |
-| click          | `onclick`                   | Ao clicar com o mouse em um elemento.            |
-| change         | `onchange`                  | Quando o usuário altera o valor de um elemento.  |
-| mouseover      | `onmouseover`               | Quando o cursor do mouse passa sobre o elemento. |
-| mouseout       | `onmouseout`                | Quando o cursor do mouse sai de um elemento      |
-| keydown        | `onkeydown`                 | Quando o usuário pressiona uma tecla do teclado. |
+| Evento emitido | Função manipuladora do evento (event handler)) | Quando o evento ocorre                           |
+| -------------- | ---------------------------------------------- | ------------------------------------------------ |
+| load           | `onload`                                       | Quando o navegador termina de carregar a página. |
+| click          | `onclick`                                      | Ao clicar com o mouse em um elemento.            |
+| change         | `onchange`                                     | Quando o usuário altera o valor de um elemento.  |
+| mouseover      | `onmouseover`                                  | Quando o cursor do mouse passa sobre o elemento. |
+| mouseout       | `onmouseout`                                   | Quando o cursor do mouse sai de um elemento      |
+| keydown        | `onkeydown`                                    | Quando o usuário pressiona uma tecla do teclado. |
+
+Os manipuladores de eventos podem ser usados para manipular e verificar o carregamento da página, as ações do usuário e as ações do navegador. Existem basicamente duas maneiras de atribuir manipuladores de eventos aos elementos HTML:
+
+1. Adicionando o event handler como atributo HTML
+
+Umas das formas de adicionar manipular um evento de um determinado elemento é adicionar a função manipuladora do evento (event handler) como atributo do elemento HTML. E passar como valor do atributo a função Javascript que será executada quando o evento ocorrer.  \
+Veja o exemplo de como exibir uma mensagem pop-up sobre a página quando o usuário clicar no botão "Clique aqui!".
+
+{% tabs %}
+{% tab title="index.html" %}
+```html
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+  <title>Documento HTML</title>
+</head>
+<body>
+  <header>
+    <h1>Web dev book</h1>
+    <p>Manipulando o DOM</p>
+    <button onclick="executaEvento() id="btn">Clique aqui!</button>
+  </header>
+  <script src="main.js"></script>
+</body>
+</html>
+```
+{% endtab %}
+
+{% tab title="main.js" %}
+```javascript
+// acessando o elemento que poussui o id 'btn', a # indica que o seletor é atributo id
+const botao = document.querySelector("#btn")
+botao.addEventListener('')
+
+```
+{% endtab %}
+{% endtabs %}
+
+A manipulação de eventos usando atributos de manipuladores de eventos HTML é considerada uma má prática, pois mistura o código Javascript com o código HTML, tornando mais difícil e leitura e entendimento do código e sua manutenção. Além disso, pode ocorrer problemas na ordem do carregamento, tendo em visa que geralmente o HTML é carregado antes do Javascript. Portanto, EVITE!
+
+1. Manipulando eventos por meio do DOM (Recomendado)
+
+Dessa forma, é possível acessar o elemento via DOM usando Javascript e adicionar funções manipuladores sem interferir diretamente no código HTML. Veja o exemplo abaixo de como obter o mesmo resultado do exemplo acima manipulando eventos via DOM.
+
+{% tabs %}
+{% tab title="index.html" %}
+```html
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+  <title>Documento HTML</title>
+</head>
+<body>
+  <header>
+    <h1>Web dev book</h1>
+    <p>Manipulando o DOM</p>
+    <button id="btn">Clique aqui!</button>
+  </header>
+  <script src="main.js"></script>
+</body>
+</html>
+```
+{% endtab %}
+
+{% tab title="main.js" %}
+
+{% endtab %}
+{% endtabs %}
 
