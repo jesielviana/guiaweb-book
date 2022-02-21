@@ -147,4 +147,12 @@ O objeto `document` possui alguns métodos para manipulação dos elementos HTML
 
 Utilizando um dos métodos listados acima é possível acessar e manipular qualquer elemento do documento HTML que está no navegador.
 
-### Capturando ação do usuário
+### Lidando com eventos
+
+Um evento é uma ação disparada pelo navegador web quando ocorre alguma mudança de estado dos objetos de uma página web que está sendo exibida. É possível utilizar-se Javascript para ""
+
+Por exemplo, quando os usuários clicam em um botão em uma página da Web, convém responder a esse evento de clique exibindo uma caixa de diálogo.
+
+Cada evento pode ter um manipulador de eventos que é um bloco de código que será executado quando o evento ocorrer.
+
+Um manipulador de eventos também é conhecido como ouvinte de eventos. Ele escuta o evento e é executado quando o evento ocorre.
