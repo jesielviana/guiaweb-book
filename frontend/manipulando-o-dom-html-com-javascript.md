@@ -52,9 +52,7 @@ O JavaScript pode ser inserido em uma página web de formas diferentes: interno,
 {% tab title="main.js" %}
 ```javascript
 // arquivo com código javascript
-function init(){
- 
-}
+alert('ç)
 ```
 {% endtab %}
 {% endtabs %}
@@ -169,8 +167,9 @@ Utilizando um dos métodos listados acima é possível acessar e manipular qualq
 
 {% tab title="main.js" %}
 ```javascript
-// acessando o elemento que poussui o id ''
+// acessando o elemento que poussui o id 'btn', a # indica que o seletor é atributo id
 const botao = document.querySelector("#btn")
+
 ```
 {% endtab %}
 {% endtabs %}
