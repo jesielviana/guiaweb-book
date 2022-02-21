@@ -113,7 +113,7 @@ O DOM é a representação em formato de árvore de todos os objetos que compõe
   <header>
     <h1>Web dev book</h1>
     <p>Manipulando o DOM</p>
-    <button name="btn">Clique aqui!</button>
+    <button id="btn">Clique aqui!</button>
   </header>
 </body>
 </html>
@@ -145,14 +145,51 @@ O objeto `document` possui alguns métodos para manipulação dos elementos HTML
 | `document.querySelector(selector)`            | Retorna o primeiro elemento encontrado na página que corresponde ao seletor especificado.                |
 | `document.querySelectorAll(selector)`         | Retorna uma lista com todos os elementos encontrados na página que correspondem ao seletor especificado. |
 
-Utilizando um dos métodos listados acima é possível acessar e manipular qualquer elemento do documento HTML que está no navegador.
+Utilizando um dos métodos listados acima é possível acessar e manipular qualquer elemento do documento HTML que está no navegador. Veja o exemplo abaixo:
+
+{% tabs %}
+{% tab title="index.html" %}
+```html
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+  <title>Documento HTML</title>
+</head>
+<body>
+  <header>
+    <h1>Web dev book</h1>
+    <p>Manipulando o DOM</p>
+    <button id="btn">Clique aqui!</button>
+  </header>
+  <script src="">
+</body>
+</html>
+```
+{% endtab %}
+
+{% tab title="main.js" %}
+
+{% endtab %}
+{% endtabs %}
 
 ### Lidando com eventos
 
-Um evento é uma ação disparada pelo navegador web quando ocorre alguma mudança de estado dos objetos de uma página web que está sendo exibida. É possível utilizar-se Javascript para ""
+Um evento é uma ação disparada pelo navegador web quando ocorre alguma mudança de estado dos elementos de uma página HTML. É possível utilizar-se Javascript para "ouvir" os eventos disparados pelo navegador e em seguida realizar alguma operação.
 
-Por exemplo, quando os usuários clicam em um botão em uma página da Web, convém responder a esse evento de clique exibindo uma caixa de diálogo.
+Por exemplo, quando o usuário clica em um botão em uma página da web, o navegador dispara o evento de clique, que pode ser capturado pelo Javascript para executar alguma ação.
 
-Cada evento pode ter um manipulador de eventos que é um bloco de código que será executado quando o evento ocorrer.
+O Javascript possui um conjunto de funções para tratar os eventos dos elementos HTML, essas funções são conhecidas como manipuladores de eventos (event handlers em inglês). Essas funções permite capturar eventos específicos e fazer alguma manipulação.
 
-Um manipulador de eventos também é conhecido como ouvinte de eventos. Ele escuta o evento e é executado quando o evento ocorre.
+Os manipuladores de eventos geralmente têm nomes que começam com `on`, por exemplo, o manipulador de eventos para o evento click é `onclick`.
+
+A tabela abaixa apresenta alguns dos eventos HTML emitidos pelo navegador:
+
+| Evento emitido | Função de captura do evento | Quando o evento ocorre                           |
+| -------------- | --------------------------- | ------------------------------------------------ |
+| load           | `onload`                    | Quando o navegador termina de carregar a página. |
+| click          | `onclick`                   | Ao clicar com o mouse em um elemento.            |
+| change         | `onchange`                  | Quando o usuário altera o valor de um elemento.  |
+| mouseover      | `onmouseover`               | Quando o cursor do mouse passa sobre o elemento. |
+| mouseout       | `onmouseout`                | Quando o cursor do mouse sai de um elemento      |
+| keydown        | `onkeydown`                 | Quando o usuário pressiona uma tecla do teclado. |
+
