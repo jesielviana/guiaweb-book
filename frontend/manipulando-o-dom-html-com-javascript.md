@@ -161,14 +161,17 @@ Utilizando um dos métodos listados acima é possível acessar e manipular qualq
     <p>Manipulando o DOM</p>
     <button id="btn">Clique aqui!</button>
   </header>
-  <script src="">
+  <script src="main.js"></script>
 </body>
 </html>
 ```
 {% endtab %}
 
 {% tab title="main.js" %}
-
+```javascript
+// acessando o elemento que poussui o id ''
+const botao = document.querySelector("#btn")
+```
 {% endtab %}
 {% endtabs %}
 
