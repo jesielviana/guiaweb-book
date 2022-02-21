@@ -167,7 +167,7 @@ Utilizando um dos métodos listados acima é possível acessar e manipular qualq
 
 {% tab title="main.js" %}
 ```javascript
-// acessando o elemento que poussui o id 'btn', a # indica que o seletor é atributo id
+// pegando o elemento button pelo seu id 'btn', a # indica que o seletor é atributo id
 const botao = document.querySelector("#btn")
 
 ```
@@ -238,7 +238,7 @@ A manipulação de eventos usando atributos de manipuladores de eventos HTML é 
 
 Dessa forma, é possível acessar o elemento via DOM usando Javascript e adicionar funções manipuladores sem interferir diretamente no código HTML.&#x20;
 
-Cada elemento disponível no DOM possui propriedades manipuladoras de eventos, como por exemplo a propriedade `onclick`. Para atribuir um manipulador de eventos, basta atribuir uma função para a propriedade. Veja o exemplo abaixo:
+Todo elemento disponível no DOM possui propriedades manipuladoras de eventos, como por exemplo a propriedade `onclick`. Para atribuir um manipulador de eventos, basta atribuir uma função para a propriedade. Veja o exemplo abaixo:
 
 {% tabs %}
 {% tab title="index.html" %}
@@ -262,7 +262,7 @@ Cada elemento disponível no DOM possui propriedades manipuladoras de eventos, c
 
 {% tab title="main.js" %}
 ```javascript
-  // acessando o elemento que poussui o id 'btn'
+  // pegando o elemento button pelo seu id 'btn'
   const botao = document.querySelector('#btn')
   
   /* atrbuindo uma função anônima para o atributo onclick */
@@ -273,4 +273,43 @@ Cada elemento disponível no DOM possui propriedades manipuladoras de eventos, c
 {% endtab %}
 {% endtabs %}
 
-O código acima na linha 2 "pega" o elemento button da página HTML e armazena na constante "`botao`". Em seguida, nas linhas de 5 a 7, adiciona uma função anônima para o atributo `onclick` do `botao`, essa função anônima será executada toda vez o evento de _click_ for disparado, ou seja, toda vez que o usuário clicar no botão vai ser exibido uma pop-up com o texto "você clicou no botão!"&#x20;
+O código do arquivo `main.js` na linha 2 "pega" o elemento button da página HTML e armazena na constante "`botao`". Em seguida, nas linhas de 5 a 7, adiciona uma função anônima para o atributo `onclick` do `botao`, essa função anônima será executada toda vez o evento de _click_ for disparado, ou seja, toda vez que o usuário clicar no botão vai ser exibido uma pop-up com o texto _"você clicou no botão!"_&#x20;
+
+Por meio do DOM também é possível vincular uma função para um evento de um determinado elemento usando o método `addEventListener`, todo elemento disponível no DOM também possui este método.&#x20;
+
+O método `addEventListener` pode receber três parâmetros, mas geralmente é utilizado somente com dois: o nome do evento e a função de manipulação do evento. Veja abaixo como utilizar a função `addEventListener` para manipular o evento de click do botão.
+
+{% tabs %}
+{% tab title="index.html" %}
+```html
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+  <title>Documento HTML</title>
+</head>
+<body>
+  <header>
+    <h1>Web dev book</h1>
+    <p>Manipulando o DOM</p>
+    <button id="btn">Clique aqui!</button>
+  </header>
+  <script src="main.js"></script>
+</body>
+</html>
+```
+{% endtab %}
+
+{% tab title="main.js" %}
+```javascript
+// pegando o elemento button pelo seu id 'btn'
+const botao = document.querySelector('#btn')
+
+/* atribuindo uma função anônima para o evento de click */
+botao.addEventListener('click', () => {
+  alert('você clicou no botão!')
+})
+```
+{% endtab %}
+{% endtabs %}
+
+Assim como no exemplo anterior, o código do arquivo `main.js` na linha 2 "pega" o elemento button da página HTML e armazena na constante "`botao`". Em seguida, nas linhas de 5 a 7, é utilizada o método `addEventListener` para vincular uma função anônima para o evento de _click_ do `botao`, essa função anônima será executada toda vez o evento de _click_ for disparado, ou seja, toda vez que o usuário clicar no botão vai ser exibido uma pop-up com o texto _"você clicou no botão!"_&#x20;
