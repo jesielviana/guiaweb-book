@@ -267,10 +267,10 @@ Cada elemento disponível no DOM possui propriedades manipuladoras de eventos, c
   
   /* atrbuindo uma função anônima para o atributo onclick */
   botao.onclick = () => {
-    alert('você clicou no botão!')
+    alert('você clicou no botão!') // função que exibe um pop-pu sobre a tela com o texto "você clicou no botão!"
   }
 ```
 {% endtab %}
 {% endtabs %}
 
-O código acima na linha 2 "pega" o elemento button da página HTML e armazena na constante "botao". Em seguida, nas linhas de 5 a 7, adiciona uma função anônima para o atributo onclick do botao, essa função anônima será executada toda vez o evento de click for disparado, ou seja, toda vez que o usuário clicar no botão vai ser exibido uma pop-up com o texto ""ddd
+O código acima na linha 2 "pega" o elemento button da página HTML e armazena na constante "`botao`". Em seguida, nas linhas de 5 a 7, adiciona uma função anônima para o atributo `onclick` do `botao`, essa função anônima será executada toda vez o evento de _click_ for disparado, ou seja, toda vez que o usuário clicar no botão vai ser exibido uma pop-up com o texto "você clicou no botão!"&#x20;
