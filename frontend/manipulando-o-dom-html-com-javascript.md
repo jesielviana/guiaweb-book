@@ -300,7 +300,7 @@ botao.addEventListener('click', () => {
 
 Assim como no exemplo anterior, o código do arquivo `main.js` na linha 2 "pega" o elemento button da página HTML e armazena na constante "`botao`". Em seguida, nas linhas de 5 a 7, é utilizada o método `addEventListener` para vincular uma função anônima para o evento de _click_ do `botao`, essa função anônima será executada toda vez o evento de _click_ for disparado, ou seja, toda vez que o usuário clicar no botão vai ser exibido uma pop-up com o texto _"você clicou no botão!"_&#x20;
 
-### Alterando o conteúdo da página HTML dinamicamente
+### Alterando o conteúdo da página HTML dinamicamente via DOM
 
 Usando a API do DOM podemos acessar elementos da página HTML, alterar seus valores e atualizar a página de forma dinâmica (baseada em alguma ação do usuário) sem a necessidade de recarregá-la.&#x20;
 
@@ -342,4 +342,10 @@ inputText.addEventListener('input', () => {
 {% endtab %}
 {% endtabs %}
 
-O código do arquivo `main.js` nas linhas 2 e 5 "pega" os elementos de input e parágrafo da página HTML e armazena nas constante "inputText" e "". Em seguida, nas linhas de 5 a 7, é utilizada o método `addEventListener` para vincular uma função anônima para o evento de _click_ do `botao`, essa função anônima será executada toda vez o evento de _click_ for disparado, ou seja, toda vez que o usuário clicar no botão vai ser exibido uma pop-up com o texto _"você clicou no botão!"_&#x20;
+O código do arquivo `main.js` nas linhas 2 e 5 "pega" os elementos de input e parágrafo da página HTML e armazena nas constante "`inputText`" e "`message`" respectivamente. Em seguida, nas linhas de 8 a 11, é utilizada o método `addEventListener` para vincular uma função anônima para o evento de _input_ do campo _input_. Essa função (linha 10) atualiza o conteúdo do parágrafo com o valor que está no campo de input. Ela é executada toda vez o evento de _input_ for disparado, ou seja, toda vez que o usuário digitar alguma caracter no campo de input (Lembrando que o evento de input é disparado toda vez que o valor do campo de entrada de texto ao qual ele está vinculado é alterado). &#x20;
+
+Dessa forma, através do DOM é possível atualizar dinamicamente o conteúdo de uma página HTML sem a necessidade de recarregá-la.&#x20;
+
+No exemplo anterior foi realizado apenas uma simples demonstração de alteração dinâmica de uma página web baseada na ação do usuário. Utilizando a API do DOM é possível fazer muito mais, tais como adicionar novos elementos HTML na página, remover elementos e alterar a estrutura da página. [Veja mais...](https://developer.mozilla.org/pt-BR/docs/Web/API/Document\_Object\_Model/Introduction)
+
+### Alterando o estilo (CSS) da página via DOM
