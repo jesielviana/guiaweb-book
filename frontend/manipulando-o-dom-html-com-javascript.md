@@ -108,11 +108,8 @@ O DOM é a representação em formato de árvore de todos os objetos que compõe
   <title>Documento HTML</title>
 </head>
 <body>
-  <header>
-    <h1>Web dev book</h1>
-    <p>Manipulando o DOM</p>
-    <button id="btn">Clique aqui!</button>
-  </header>
+  <h1>Web dev book</h1>
+  <button id="btn">Clique aqui!</button>
 </body>
 </html>
 ```
@@ -154,11 +151,8 @@ Utilizando um dos métodos listados acima é possível acessar e manipular qualq
   <title>Documento HTML</title>
 </head>
 <body>
-  <header>
-    <h1>Web dev book</h1>
-    <p>Manipulando o DOM</p>
-    <button id="btn">Clique aqui!</button>
-  </header>
+  <h1>Web dev book</h1>
+  <button id="btn">Clique aqui!</button>
   <script src="main.js"></script>
 </body>
 </html>
@@ -186,18 +180,19 @@ Os manipuladores de eventos geralmente têm nomes que começam com `on`, por exe
 
 A tabela abaixa apresenta alguns dos eventos HTML emitidos pelo navegador:
 
-| Evento emitido | Função manipuladora do evento (event handler)) | Quando o evento ocorre                           |
-| -------------- | ---------------------------------------------- | ------------------------------------------------ |
-| load           | `onload`                                       | Quando o navegador termina de carregar a página. |
-| click          | `onclick`                                      | Ao clicar com o mouse em um elemento.            |
-| change         | `onchange`                                     | Quando o usuário altera o valor de um elemento.  |
-| mouseover      | `onmouseover`                                  | Quando o cursor do mouse passa sobre o elemento. |
-| mouseout       | `onmouseout`                                   | Quando o cursor do mouse sai de um elemento      |
-| keydown        | `onkeydown`                                    | Quando o usuário pressiona uma tecla do teclado. |
+| Evento emitido | Função manipuladora do evento (event handler)) | Quando o evento ocorre                                     |
+| -------------- | ---------------------------------------------- | ---------------------------------------------------------- |
+| load           | `onload`                                       | Quando o navegador termina de carregar a página.           |
+| click          | `onclick`                                      | Ao clicar com o mouse em um elemento.                      |
+| input          | `oninput`                                      | Quando o valor de um campo de entrada de texto e alterado. |
+| change         | `onchange`                                     | Quando o usuário altera o valor de um elemento.            |
+| mouseover      | `onmouseover`                                  | Quando o cursor do mouse passa sobre o elemento.           |
+| mouseout       | `onmouseout`                                   | Quando o cursor do mouse sai de um elemento                |
+| keydown        | `onkeydown`                                    | Quando o usuário pressiona uma tecla do teclado.           |
 
 Os manipuladores de eventos podem ser usados para manipular e verificar o carregamento da página, as ações do usuário e as ações do navegador. Existem basicamente duas maneiras de atribuir manipuladores de eventos aos elementos HTML:
 
-1. Adicionando o event handler como atributo HTML
+* **Adicionando o event handler como atributo HTML**
 
 Umas das formas de adicionar manipular um evento de um determinado elemento é adicionar a função manipuladora do evento (event handler) como atributo do elemento HTML. E passar como valor do atributo a função Javascript que será executada quando o evento ocorrer.  \
 Veja o exemplo de como exibir uma mensagem pop-up sobre a página quando o usuário clicar no botão "Clique aqui!".
@@ -211,11 +206,8 @@ Veja o exemplo de como exibir uma mensagem pop-up sobre a página quando o usuá
   <title>Documento HTML</title>
 </head>
 <body>
-  <header>
-    <h1>Web dev book</h1>
-    <p>Manipulando o DOM</p>
-    <button onclick="executaEvento() id="btn">Clique aqui!</button>
-  </header>
+  <h1>Web dev book</h1>
+  <button onclick="executaEvento() id="btn">Clique aqui!</button>
   <script src="main.js"></script>
 </body>
 </html>
@@ -234,7 +226,7 @@ function executaEvento(){
 
 A manipulação de eventos usando atributos de manipuladores de eventos HTML é considerada uma má prática, pois mistura o código Javascript com o código HTML, tornando mais difícil e leitura e entendimento do código e sua manutenção. Além disso, pode ocorrer problemas na ordem do carregamento, tendo em visa que geralmente o HTML é carregado antes do Javascript. Portanto, EVITE!
 
-1. Manipulando eventos por meio do DOM (Recomendado)
+* **Manipulando eventos por meio do DOM (Recomendado)**
 
 Dessa forma, é possível acessar o elemento via DOM usando Javascript e adicionar funções manipuladores sem interferir diretamente no código HTML.&#x20;
 
@@ -249,11 +241,8 @@ Todo elemento disponível no DOM possui propriedades manipuladoras de eventos, c
   <title>Documento HTML</title>
 </head>
 <body>
-  <header>
-    <h1>Web dev book</h1>
-    <p>Manipulando o DOM</p>
-    <button id="btn">Clique aqui!</button>
-  </header>
+  <h1>Web dev book</h1>
+  <button id="btn">Clique aqui!</button>
   <script src="main.js"></script>
 </body>
 </html>
@@ -288,11 +277,8 @@ O método `addEventListener` pode receber três parâmetros, mas geralmente é u
   <title>Documento HTML</title>
 </head>
 <body>
-  <header>
-    <h1>Web dev book</h1>
-    <p>Manipulando o DOM</p>
-    <button id="btn">Clique aqui!</button>
-  </header>
+  <h1>Web dev book</h1>
+  <button id="btn">Clique aqui!</button>
   <script src="main.js"></script>
 </body>
 </html>
@@ -313,3 +299,47 @@ botao.addEventListener('click', () => {
 {% endtabs %}
 
 Assim como no exemplo anterior, o código do arquivo `main.js` na linha 2 "pega" o elemento button da página HTML e armazena na constante "`botao`". Em seguida, nas linhas de 5 a 7, é utilizada o método `addEventListener` para vincular uma função anônima para o evento de _click_ do `botao`, essa função anônima será executada toda vez o evento de _click_ for disparado, ou seja, toda vez que o usuário clicar no botão vai ser exibido uma pop-up com o texto _"você clicou no botão!"_&#x20;
+
+### Alterando o conteúdo da página HTML dinamicamente
+
+Usando a API do DOM podemos acessar elementos da página HTML, alterar seus valores e atualizar a página de forma dinâmica (baseada em alguma ação do usuário) sem a necessidade de recarregá-la.&#x20;
+
+Já aprendemos usar a API do DOM via Javascript para acessar elementos da página e executar alguma operação baseada em eventos disparados navegador. Agora vamos ver como alterar elementos utilizando o DOM.
+
+O código abaixo mostra um exemplo com dois elementos HTML: um input (elemento de entrada de texto) e um parágrafo (elemento de saída de texto). Vamos utilizar Javascript para atualizar o campo de saída de texto com o conteúdo digitado pelo usuário no campo de input.
+
+{% tabs %}
+{% tab title="index.html" %}
+```html
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+  <title>Documento HTML</title>
+</head>
+<body>
+  <input id="text" type="text">
+  <p id="message"></p>
+  <script src="main.js"></script>
+</body>
+</html>
+```
+{% endtab %}
+
+{% tab title="main.js" %}
+```javascript
+// pega o elemento de input pelo seu id 'text' 
+const inputText = document.querySelector('#text')
+
+// pega o elemento de parágrafo pelo seu id 'message' 
+const message = document.querySelector('#message')
+
+// adiciona uma função para manipular evento de 'input' do campo de input 
+inputText.addEventListener('input', () => {
+ // pega o valor do campo de input e adiciona no elemento parágrafo
+  message.textContent = inputText.value 
+})
+```
+{% endtab %}
+{% endtabs %}
+
+O código do arquivo `main.js` nas linhas 2 e 5 "pega" os elementos de input e parágrafo da página HTML e armazena nas constante "inputText" e "". Em seguida, nas linhas de 5 a 7, é utilizada o método `addEventListener` para vincular uma função anônima para o evento de _click_ do `botao`, essa função anônima será executada toda vez o evento de _click_ for disparado, ou seja, toda vez que o usuário clicar no botão vai ser exibido uma pop-up com o texto _"você clicou no botão!"_&#x20;
