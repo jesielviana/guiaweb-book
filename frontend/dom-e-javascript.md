@@ -2,7 +2,7 @@
 description: Introdução a manipulação de elementos HTML com Javascript
 ---
 
-# Manipulando o DOM HTML com Javascript
+# DOM e Javascript
 
 ### Introdução
 
@@ -228,7 +228,7 @@ A manipulação de eventos usando atributos de manipuladores de eventos HTML é 
 
 * **Manipulando eventos por meio do DOM (Recomendado)**
 
-Dessa forma, é possível acessar o elemento via DOM usando Javascript e adicionar funções manipuladores sem interferir diretamente no código HTML.&#x20;
+Usando apenas Javascript é possível acessar os elementos HTML via DOM e vincular funções manipuladores sem interferir diretamente no código HTML.&#x20;
 
 Todo elemento disponível no DOM possui propriedades manipuladoras de eventos, como por exemplo a propriedade `onclick`. Para atribuir um manipulador de eventos, basta atribuir uma função para a propriedade. Veja o exemplo abaixo:
 
@@ -349,3 +349,47 @@ Dessa forma, através do DOM é possível atualizar dinamicamente o conteúdo de
 No exemplo anterior foi realizado apenas uma simples demonstração de alteração dinâmica de uma página web baseada na ação do usuário. Utilizando a API do DOM é possível fazer muito mais, tais como adicionar novos elementos HTML na página, remover elementos e alterar a estrutura da página. [Veja mais...](https://developer.mozilla.org/pt-BR/docs/Web/API/Document\_Object\_Model/Introduction)
 
 ### Alterando o estilo (CSS) da página via DOM
+
+A API do DOM disponibiliza algumas propriedades para manipulação do estilo CSS dos elementos HTML. As propriedades mais utilizadas são _style_ (`element.style`) e _classList (`element.classList`)_, todo elemento HTML possui essas propriedades.
+
+Usando a propriedade style do elemento HTML é possível definir propriedades CSS embutidas (_CSS inline_) para o elemento HTML., conforme pode ser visto no exemplo abaixo.
+
+{% tabs %}
+{% tab title="index.html" %}
+```html
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+  <title>Documento HTML</title>
+</head>
+<body>
+  <h1 id="titulo">Web dev book</h1>
+  <button id="verde">Título Verde</button>
+  <button id="azul">Título Azul</button>
+  
+  <script src="main.js"></script>
+</body>
+</html>
+```
+{% endtab %}
+
+{% tab title="main.js" %}
+```javascript
+const elementoTitulo = document.querySelector('#titulo')
+const elementoBtnVerde = document.querySelector('#verde')
+const elementoBtnAzul = document.querySelector('#azul')
+
+elementoBtnVerde.addEventListener('click', () => {
+  // altera a cor da fonte do elementoTitulo para verde (green)
+  elementoTitulo.style.color = 'green'
+})
+
+elementoBtnAzul.addEventListener('click', () => {
+  // quando o usuário clieca no botão "" altera a cor da fonte do elementoTitulo para azul (blue)
+  elementoTitulo.style.color = 'blue'
+})
+```
+{% endtab %}
+{% endtabs %}
+
+Já por meio da propriedade classList é possível manipular as classes CSS do elemento: listar, remover e adicionar novas classes.
