@@ -352,7 +352,11 @@ No exemplo anterior foi realizado apenas uma simples demonstração de alteraç�
 
 A API do DOM disponibiliza algumas propriedades para manipulação do estilo CSS dos elementos HTML. As propriedades mais utilizadas são _style_ (`element.style`) e _classList (`element.classList`)_, todo elemento HTML possui essas propriedades.
 
-Usando a propriedade style do elemento HTML é possível definir propriedades CSS embutidas (_CSS inline_) para o elemento HTML., conforme pode ser visto no exemplo abaixo.
+Usando a propriedade style do elemento HTML é possível definir propriedades CSS embutidas (_CSS inline_) para o elemento HTML.&#x20;
+
+A propriedade style retorna o objeto CSSStyleDeclaration somente de leitura que contém uma lista das propriedades CSS. Por exemplo, para alterar a cor da fonte de um elemento é o seguinte código: `elemento.style.color = "novaCor"`, para alterar o tamanho da fonte:  `elemento.style.fontSize = "novoTamanho"`, etc.  Se a propriedade CSS contiver hífens (-) por exemplo `font-size`, você pode remover o hífen e usar o padrão camel-case conforme o exemplo anterior.
+
+&#x20;Vamos ver um exemplo de como alterar a cor da fonte de um elemento dinamicamente de acordo com a ação do usuário. No exemplo abaixo a página HTML possui um elemento de título (`<h1>`) e dois elementos de botões (`<button>`), o usuário pode clicar nos botões para definir uma cor para o texto do título.
 
 {% tabs %}
 {% tab title="index.html" %}
@@ -380,12 +384,12 @@ const elementoBtnVerde = document.querySelector('#verde')
 const elementoBtnAzul = document.querySelector('#azul')
 
 elementoBtnVerde.addEventListener('click', () => {
-  // altera a cor da fonte do elementoTitulo para verde (green)
+  // quando o usuário clieca no botão "Título Verde"  altera a cor da fonte do elementoTitulo para verde (green)
   elementoTitulo.style.color = 'green'
 })
 
 elementoBtnAzul.addEventListener('click', () => {
-  // quando o usuário clieca no botão "" altera a cor da fonte do elementoTitulo para azul (blue)
+  // quando o usuário clieca no botão "Título Azul" altera a cor da fonte do elementoTitulo para azul (blue)
   elementoTitulo.style.color = 'blue'
 })
 ```
@@ -393,3 +397,5 @@ elementoBtnAzul.addEventListener('click', () => {
 {% endtabs %}
 
 Já por meio da propriedade classList é possível manipular as classes CSS do elemento: listar, remover e adicionar novas classes.
+
+Vamos implementar o mesmo exemplo anterior, mas ao invés de alterar a cor do texto por meio da propriedade style vamos utilizar classes do CSS.
