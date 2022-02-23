@@ -471,7 +471,9 @@ Sempre que precisar integrar Javascript com páginas HTML use arquivos separados
 
 Seja cuidadoso com o tipo e a ordem de carregamento dos scripts para evitar lentidão de carregamento da página e problemas dependências entre arquivos. Sempre que possível use a propriedade `async` no carregamento dos scrips para não bloquear a renderização da página.
 
-Use a API do DOM para manipulação dinâmica de páginas HTML sem a necessidade de recarregamento. Conheça o objeto document e os eventos emitidos pelo navegador para capturar r&#x20;
+Use a API do DOM para manipulação dinâmica de páginas HTML sem a necessidade de recarregamento. Conheça o objeto `document` e os eventos emitidos pelo navegador para capturar ações do usuário, manipular o conteúdo da página e gerar melhor usabilidade.&#x20;
+
+Sempre que possível separe o código Javascript do HTML, evite usar as propriedades manipuladoras de eventos diretamente nos elementos HTML (por exemplo onclick="" ), prefira sempre atrelar eventos aos elementos HTML via DOM diretamente no Javascript (acesse o elemento e vincule a função de manipulação do evento)
 
 Use as propriedades do objeto element.style para definir as propriedades CSS embutidas para o elemento HTML.
 
