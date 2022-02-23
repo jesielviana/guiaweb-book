@@ -97,7 +97,7 @@ Geralmente utiliza-se Javascript nas páginas web para adicionar comportamentos 
 
 ### O que é DOM?
 
-O DOM é a representação em formato de árvore de todos os objetos que compõem a estrutura e o conteúdo de uma página web. Todos os elementos HTML de um página web possuem representações dentro do DOM. Veja abaixo uma representação gráfica de DOM:
+O DOM (Document Object Model) é a representação em formato de árvore de todos os objetos que compõem a estrutura e o conteúdo de uma página web. Todos os elementos HTML de um página web possuem representações dentro do DOM. Veja abaixo uma representação gráfica de DOM:
 
 {% tabs %}
 {% tab title="index.html" %}
