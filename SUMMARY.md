@@ -16,7 +16,7 @@
 * [HTML](frontend/html.md)
 * [CSS](frontend/css.md)
 * [Javascript](frontend/javascript.md)
-* [Web Design Responsivo](frontend/web-design-responsivo.md)
+* [Web Responsiva](frontend/web-design-responsivo.md)
 * [DOM e Javascript](frontend/dom-e-javascript.md)
 
 ## Backend
