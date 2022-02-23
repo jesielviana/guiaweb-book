@@ -190,9 +190,9 @@ A tabela abaixa apresenta alguns dos eventos HTML emitidos pelo navegador:
 | mouseout       | `onmouseout`                                   | Quando o cursor do mouse sai de um elemento                |
 | keydown        | `onkeydown`                                    | Quando o usuário pressiona uma tecla do teclado.           |
 
-Os manipuladores de eventos podem ser usados para manipular e verificar o carregamento da página, as ações do usuário e as ações do navegador. Existem basicamente duas maneiras de atribuir manipuladores de eventos aos elementos HTML:
+Os manipuladores de eventos podem ser usados para manipular e verificar o carregamento da página, as ações do usuário e as ações do navegador. Existem basicamente duas maneiras de atribuir manipuladores de eventos aos elementos HTML.
 
-* **Adicionando o event handler como atributo HTML**
+### **Usando event handler no elemento HTML**
 
 Umas das formas de adicionar manipular um evento de um determinado elemento é adicionar a função manipuladora do evento (event handler) como atributo do elemento HTML. E passar como valor do atributo a função Javascript que será executada quando o evento ocorrer.  \
 Veja o exemplo de como exibir uma mensagem pop-up sobre a página quando o usuário clicar no botão "Clique aqui!".
@@ -226,7 +226,7 @@ function executaEvento(){
 
 A manipulação de eventos usando atributos de manipuladores de eventos HTML é considerada uma má prática, pois mistura o código Javascript com o código HTML, tornando mais difícil e leitura e entendimento do código e sua manutenção. Além disso, pode ocorrer problemas na ordem do carregamento, tendo em visa que geralmente o HTML é carregado antes do Javascript. Portanto, EVITE!
 
-* **Manipulando eventos por meio do DOM (Recomendado)**
+### **Manipulando eventos por meio do DOM (Recomendado)**
 
 Usando apenas Javascript é possível acessar os elementos HTML via DOM e vincular funções manipuladores sem interferir diretamente no código HTML.&#x20;
 
@@ -473,7 +473,7 @@ Seja cuidadoso com o tipo e a ordem de carregamento dos scripts para evitar lent
 
 Use a API do DOM para manipulação dinâmica de páginas HTML sem a necessidade de recarregamento. Conheça o objeto `document` e os eventos emitidos pelo navegador para capturar ações do usuário, manipular o conteúdo da página e gerar melhor usabilidade.&#x20;
 
-Sempre que possível separe o código Javascript do HTML, evite usar as propriedades manipuladoras de eventos diretamente nos elementos HTML (por exemplo onclick="" ), prefira sempre atrelar eventos aos elementos HTML via DOM diretamente no Javascript (acesse o elemento e vincule a função de manipulação do evento)
+Sempre que possível separe o código Javascript do HTML, evite usar as propriedades manipuladoras de eventos diretamente nos elementos HTML, prefira sempre atrelar eventos aos elementos HTML via DOM usando somente Javascript conforme mostrado nessa [seção](dom-e-javascript.md#manipulando-eventos-por-meio-do-dom-recomendado).
 
 Use as propriedades do objeto element.style para definir as propriedades CSS embutidas para o elemento HTML.
 
