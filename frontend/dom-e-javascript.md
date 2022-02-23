@@ -398,4 +398,81 @@ elementoBtnAzul.addEventListener('click', () => {
 
 Já por meio da propriedade classList é possível manipular as classes CSS do elemento: listar, remover e adicionar novas classes.
 
-Vamos implementar o mesmo exemplo anterior, mas ao invés de alterar a cor do texto por meio da propriedade style vamos utilizar classes do CSS.
+A `classList` é uma propriedade somente leitura de um elemento que retorna uma coleção ativa de classes CSS. Essa propriedade dispõe de vários métodos para manipulação  das classes.
+
+Para adicionar uma ou mais classes CSS à lista de classes de um elemento, use o método `add()` da classList. Por exemplo, o código a seguir adiciona a classe `"verde"` ao elemento `<h1>` com o  id `titulo`:
+
+```javascript
+ const elementoTitulo = document.querySelector('#titulo')
+ elementoTitulo.classList.add('verde')
+```
+
+Para remover uma classe CSS da lista de classes de um elemento, use o método `remove()`. O exemplo a seguir remove a classe verde do elemento `<h1>` com o  id `titulo`:
+
+```javascript
+va const elementoTitulo = document.querySelector('#titulo')
+ elementoTitulo.classList.remove('verde')
+```
+
+É comum a implementação de CSS para alternância de elementos HTML, tais como mostrar e esconder um elemento dependendo de alguma ação do usuário. Para isso podemos usar o método `toggle()` da propriedade classList, que tem o seguinte comportamento: Se o elemento contiver a classe especificada no método `toggle()`, ele o removerá. Se o elemento não contiver a classe, o método `toggle()` o adicionará ao elemento.
+
+Vamos implementar o exemplo da alternância de cor do texto do título utilizando o método `toggle()` da propriedade `classList`.  Para isso, vamos adicionar as classes CSS no mesmo arquivo HTML (`index.html`).
+
+{% tabs %}
+{% tab title="index.html" %}
+```html
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+  <title>Documento HTML</title>
+  <style>
+    .verde {
+      color: green;
+    }
+
+    .azul {
+      color: blue;
+    }
+  </style>
+</head>
+<body>
+  <h1 id="titulo">Web dev book</h1>
+  <button id="verde">Título Verde</button>
+  <button id="azul">Título Azul</button>
+  
+  <script src="main.js"></script>
+</body>
+</html>
+```
+{% endtab %}
+
+{% tab title="main.js" %}
+```javascript
+const elementoTitulo = document.querySelector('#titulo')
+const elementoBtnVerde = document.querySelector('#verde')
+const elementoBtnAzul = document.querySelector('#azul')
+
+elementoBtnVerde.addEventListener('click', () => {
+  elementoTitulo.classList.toggle('verde')
+})
+
+elementoBtnAzul.addEventListener('click', () => {
+  elementoTitulo.classList.toggle('azul')
+})
+```
+{% endtab %}
+{% endtabs %}
+
+Quando houver a necessidade de manipulação do estilo CSS por meio do DOM considere as opções listadas acima. Dependendo do contexto e necessidade uma pode ser mais adequada, no entanto, não existe uma única solução perfeita para todos os casos. Avalie e use a solução que achar mais apropriada.&#x20;
+
+### Conclusão
+
+Sempre que precisar integrar Javascript com páginas HTML use arquivos separados, deixe seu código mais limpo e mais fácil ler e manter.
+
+Seja cuidadoso com o tipo e a ordem de carregamento dos scripts para evitar lentidão de carregamento da página e problemas dependências entre arquivos. Sempre que possível use a propriedade `async` no carregamento dos scrips para não bloquear a renderização da página.
+
+Use a API do DOM para manipulação dinâmica de páginas HTML sem a necessidade de recarregamento. Conheça o objeto document e os eventos emitidos pelo navegador para capturar r&#x20;
+
+Use as propriedades do objeto element.style para definir as propriedades CSS embutidas para o elemento HTML.
+
+A propriedade classList do elemento retorna a coleção ativa de classes CSS do elemento. Essas propriedade possui um conjunto de métodos para manipulação das classes CSS do elemento HTML. Use `add()`  e `remove()` para adicionar e remover respectivamente classes CSS à um elemento HTML. Use o método toggle() para alternar uma classe do elemento.
