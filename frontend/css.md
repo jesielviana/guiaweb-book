@@ -409,6 +409,8 @@ Construir uma página web pessoal (portfólio) baseado nesses exemplos de layout
 
 ### Referências
 
-{% embed url="https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/CSS_basics" %}
+{% embed url="https://developer.mozilla.org/pt-BR/docs/Learn/CSS/First_steps/What_is_CSS" %}
 
-{% embed url="https://www.w3schools.com/css/default.asp" %}
+{% embed url="https://developer.mozilla.org/pt-BR/docs/Web/CSS/Syntax" %}
+
+{% embed url="https://developer.mozilla.org/pt-BR/docs/Learn/CSS/First_steps/Getting_started" %}
