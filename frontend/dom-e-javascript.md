@@ -6,6 +6,13 @@ description: >-
 
 # Páginas web dinâmicas com Javascript
 
+> **Objetivos de aprendizagem**
+>
+> * Aprender a integrar Javascript com HTML
+> * Entender o carregamento de uma página web
+> * Entender o que é DOM (Document Object Model)
+> * Aprender a manipular o DOM com Javascript para criação de páginas web dinâmicas
+
 ### Introdução
 
 Javascript é uma linguagem de programação bastante utilizada para implementar funcionalidades em página web no lado cliente, ou seja, funções que são executadas pelo navegador.&#x20;
@@ -475,7 +482,7 @@ Seja cuidadoso com o tipo e a ordem de carregamento dos scripts para evitar lent
 
 Use a API do DOM para manipulação dinâmica de páginas HTML sem a necessidade de recarregamento. Conheça o objeto `document` e os eventos emitidos pelo navegador para capturar ações do usuário, manipular o conteúdo da página e gerar melhor usabilidade.&#x20;
 
-Sempre que possível separe o código Javascript do HTML, evite usar as propriedades manipuladoras de eventos diretamente nos elementos HTML, prefira sempre atrelar eventos aos elementos HTML via DOM usando somente Javascript conforme mostrado nessa [seção](paginas-web-dinamicas-com-javascript.md#manipulando-eventos-por-meio-do-dom-recomendado).
+Sempre que possível separe o código Javascript do HTML, evite usar as propriedades manipuladoras de eventos diretamente nos elementos HTML, prefira sempre atrelar eventos aos elementos HTML via DOM usando somente Javascript conforme mostrado nessa [seção](dom-e-javascript.md#manipulando-eventos-por-meio-do-dom-recomendado).
 
 Use as propriedades do objeto element.style para definir as propriedades CSS embutidas para o elemento HTML.
 
