@@ -17,7 +17,7 @@
 * [CSS](frontend/css.md)
 * [Javascript](frontend/javascript.md)
 * [Design Responsivo](frontend/web-design-responsivo.md)
-* [DOM e Javascript](frontend/dom-e-javascript.md)
+* [Páginas web dinâmicas com Javascript](frontend/paginas-web-dinamicas-com-javascript.md)
 
 ## Backend
 

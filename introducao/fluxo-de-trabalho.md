@@ -28,11 +28,11 @@ Os editores de textos mais simples para desenvolvedores são conhecidos como edi
 
 Editor de código ou IDE é uma ferramenta essencial para a escrita de código e desenvolvimento de software, conhecer os atalhos e funcionalidades disponíveis é importante para aumento da produtividade e resolução de problemas por meio de ‘debug’ e recursos que auxiliam o desenvolvedor durante o processo de escrita e sincronização de código e implantação do software.&#x20;
 
-A escolha do editor pode variar de acordo com a linguagem de programação a ser utilizada. Atualmente um dos editores mais utilizado é o Visual Studio Code ([VS Code](https://code.visualstudio.com)), que é _open-source_ desenvolvido pela Microsoft. Outro que é muito bom também é o [Sublime Text](https://www.sublimetext.com), simples e muito rápido.
+A escolha do editor pode variar de acordo com a linguagem de programação a ser utilizada. Atualmente um dos editores mais utilizado é o Visual Studio Code ([VS Code](https://code.visualstudio.com/)), que é _open-source_ desenvolvido pela Microsoft. Outro que é muito bom também é o [Sublime Text](https://www.sublimetext.com/), simples e muito rápido.
 
 A instalação de qualquer um desses editores é bem simples, basta acessar o link e seguir o passo-a-passo para instalação que tem no próprio site da ferramenta.
 
-Para desenvolvimento Web eu recomendo fortemente o **** [**VS Code**](https://code.visualstudio.com), fácil de instalar e já vem com todos os recursos necessários para iniciar no desenvolvimento, além disso, possui um _marketplace_ de extensões fantástico, com muitas extensões para tudo que precisamos durante o desenvolvimento Web.
+Para desenvolvimento Web eu recomendo fortemente o **** [**VS Code**](https://code.visualstudio.com/), fácil de instalar e já vem com todos os recursos necessários para iniciar no desenvolvimento, além disso, possui um _marketplace_ de extensões fantástico, com muitas extensões para tudo que precisamos durante o desenvolvimento Web.
 
 ### Armazenamento de código e controle de versão
 
@@ -106,10 +106,10 @@ A forma mais prática e fácil de disponibilizar uma aplicação Web online é c
 
 Abaixo é listada algumas dessas plataformas e suas principais características.
 
-* [Heroku](https://www.heroku.com) - é uma plataforma em nuvem como um serviço que suporta várias linguagens de programação. Tem planos gratuito e pago. Recomendo a sua utilização para a implantação de aplicações de back-end.
-* [Netlify](https://www.netlify.com) - plataforma de computação em nuvem que oferece hospedagem e serviços de back-end sem servidor (_serverless_) para aplicativos da web e sites estáticos. Recomendo para a implantação de sites estáticos e aplicações de front-end. Simples de utilizar e performática, com uma ótima integração com Github.
-* [Vercel](https://vercel.com) - basicamente oferece os mesmos recursos que a Netlify.
-* [GitHub Pages](https://pages.github.com) - plataforma do Github para hospedagem de sites estáticos e aplicações de front-ed a partir de repositórios do Github.
+* [Heroku](https://www.heroku.com/) - é uma plataforma em nuvem como um serviço que suporta várias linguagens de programação. Tem planos gratuito e pago. Recomendo a sua utilização para a implantação de aplicações de back-end.
+* [Netlify](https://www.netlify.com/) - plataforma de computação em nuvem que oferece hospedagem e serviços de back-end sem servidor (_serverless_) para aplicativos da web e sites estáticos. Recomendo para a implantação de sites estáticos e aplicações de front-end. Simples de utilizar e performática, com uma ótima integração com Github.
+* [Vercel](https://vercel.com/) - basicamente oferece os mesmos recursos que a Netlify.
+* [GitHub Pages](https://pages.github.com/) - plataforma do Github para hospedagem de sites estáticos e aplicações de front-ed a partir de repositórios do Github.
 
 Para hospedagem dos exemplos deste livro, utilizamos e recomendamos o Github Pages e Netlify para hospedagem de frontend (HTML, CSS, Javascript, Vue.js, etc.) e o Heroku para hospedagem de backend Node.js.
 
