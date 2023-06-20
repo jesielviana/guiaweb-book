@@ -445,8 +445,6 @@ No exemplo acima, os comentários do código descreve todas as operações reali
 
 > **Umas das principais utilidades do Javascrip no lado cliente é a manipulação de elementos HTML, se quiser aprender como manipular elementos HTML e deixar sua página Web dinâmica e interativa veja o vídeo abaixo:**
 
-{% embed url="https://www.youtube.com/watch?v=T24q_2wuwDM" %}
-
 
 
 ### Referências
