@@ -34,7 +34,11 @@ A comunicação entre dois ou mais dispositivos na Internet é realizada por mei
 
 De forma resumida, para que um dispositivo A possa se comunicar com um dispositivo B, o dispositivo A precisa saber o endereço IP de B e saber qual a porta de B está disponível para ele (oferece o serviço que ele espera). A figura abaixo ilustra a comunicação entre dois computadores (dispositivos A e B). Onde o computador A pode acessar o serviço Web (porta 80) do computador B.&#x20;
 
-![Comunicação entre dois computadores via Internet](../.gitbook/assets/conexao-na-web.png)
+```mermaid
+flowchart LR
+    id1(Computador A) <-->  id2(((Internet)))
+    id2(((Internet))) <-->  id3(Computador B)
+```
 
 De acordo com a explicação acima, para nós podermos acessar um determinado site, deveríamos saber qual o endereço IP do servidor que armazena site e a porta em que aquele site está disponível, mas, na prática, não fazemos isso.
 
