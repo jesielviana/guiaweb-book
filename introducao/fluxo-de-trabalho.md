@@ -32,7 +32,7 @@ A escolha do editor pode variar de acordo com a linguagem de programação a ser
 
 A instalação de qualquer um desses editores é bem simples, basta acessar o link e seguir o passo-a-passo para instalação que tem no próprio site da ferramenta.
 
-Para desenvolvimento Web eu recomendo fortemente o **** [**VS Code**](https://code.visualstudio.com/), fácil de instalar e já vem com todos os recursos necessários para iniciar no desenvolvimento, além disso, possui um _marketplace_ de extensões fantástico, com muitas extensões para tudo que precisamos durante o desenvolvimento Web.
+Para desenvolvimento Web eu recomendo fortemente o [**VS Code**](https://code.visualstudio.com/), fácil de instalar e já vem com todos os recursos necessários para iniciar no desenvolvimento, além disso, possui um _marketplace_ de extensões fantástico, com muitas extensões para tudo que precisamos durante o desenvolvimento Web.
 
 ### Armazenamento de código e controle de versão
 
@@ -119,14 +119,3 @@ Em qualquer área atuação sempre há um conjunto de ferramentas que são essen
 
 Escolhas suas ferramentas e domine-as. **O conhecimento de Git é essencial e obrigatório para todo desenvolvedor de software.** Use sempre, mesmo naqueles "projetinhos" pessoais e atividades acadêmicas.
 
-### Materiais complementares
-
-{% embed url="https://jesielviana.github.io/web-dev/slides/aula-04#/" %}
-
-{% embed url="https://www.youtube.com/watch?v=fVVSBXbVhog" %}
-
-{% embed url="https://www.youtube.com/watch?v=UMhskLXJuq4" %}
-
-{% embed url="https://www.youtube.com/watch?v=P4BNi_yPehc" %}
-
-{% embed url="https://open.spotify.com/episode/28lVsU2OqtkdwmijazZdYt" %}

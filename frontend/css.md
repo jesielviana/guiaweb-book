@@ -399,8 +399,6 @@ Construir uma página web pessoal (portfólio) baseado nesses exemplos de layout
 
 ### Materiais complementares
 
-{% embed url="https://www.youtube.com/watch?v=1IeAU1y_1hA&list=PLAxN8g6Knm0c3lzNJwrTZVlMKpH8vi5bu&index=6" %}
-
 {% embed url="https://www.youtube.com/watch?v=zfN2XOn01vY&list=PLAxN8g6Knm0c3lzNJwrTZVlMKpH8vi5bu&index=7" %}
 
 {% embed url="https://www.youtube.com/watch?v=1mf4mZE9o_4&list=PLAxN8g6Knm0c3lzNJwrTZVlMKpH8vi5bu&index=10" %}

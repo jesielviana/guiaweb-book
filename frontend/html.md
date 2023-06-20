@@ -241,12 +241,6 @@ Por fim, acesse o material complementar.
 
 ### Material Complementar
 
-{% embed url="https://www.youtube.com/watch?v=WluzG6RN5qA" %}
-
-{% embed url="https://www.youtube.com/watch?v=2w5ss6jwceA" %}
-
-{% embed url="https://open.spotify.com/episode/4WwDrxqrgqBBIEdbt5jm0b" %}
-
 {% embed url="https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/HTML_basics" %}
 
 {% embed url="https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/What_will_your_website_look_like" %}
