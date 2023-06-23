@@ -487,3 +487,5 @@ Sempre que possível separe o código Javascript do HTML, evite usar as propried
 Use as propriedades do objeto element.style para definir as propriedades CSS embutidas para o elemento HTML.
 
 A propriedade classList do elemento retorna a coleção ativa de classes CSS do elemento. Essas propriedade possui um conjunto de métodos para manipulação das classes CSS do elemento HTML. Use `add()`  e `remove()` para adicionar e remover respectivamente classes CSS à um elemento HTML. Use o método toggle() para alternar uma classe do elemento.
+
+{% @mailchimp/mailchimpSubscribe %}

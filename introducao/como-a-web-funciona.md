@@ -32,7 +32,7 @@ Como vimos no capítulo de Introdução a Web, a Web é um serviço que é execu
 
 A comunicação entre dois ou mais dispositivos na Internet é realizada por meio endereços (conhecido como endereço IP) que identificam os dispositivos na rede e portas que fornecem pontos de conexão para aplicações e serviços específicos.&#x20;
 
-De forma resumida, para que um dispositivo A possa se comunicar com um dispositivo B, o dispositivo A precisa saber o endereço IP de B e saber qual a porta de B está disponível para ele (oferece o serviço que ele espera). A figura abaixo ilustra a comunicação entre dois computadores (dispositivos A e B). Onde o computador A pode acessar o serviço Web (porta 80) do computador B.&#x20;
+De forma resumida, para que um dispositivo A possa se comunicar com um dispositivo B, o dispositivo A precisa saber o endereço IP de B e saber qual a porta de B está disponível para ele (oferece o serviço que ele espera). A figura abaixo ilustra a comunicação entre dois computadores (dispositivos A e B). Onde o computador A pode acessar o serviço Web (porta 80) do computador B.
 
 ```mermaid
 flowchart LR
@@ -94,6 +94,8 @@ Segue a explicação de cada passo mostrado na figura acima:
 3. O navegador manda uma mensagem de requisição HTTP para o servidor que está hospedando o site, pedindo que o servidor envie uma cópia de determinada página, de acordo com a URL informada pelo usuário.
 4. Se o servidor aprovar a requisição do cliente, o servidor enviará ao cliente uma mensagem de "OK",  e então começa a enviar os arquivos da página solicitada para o navegador.
 5. O navegador carrega os arquivos recebidos (html, css, js, etc), monta a página e exibe-a para o usuário.
+
+{% @mailchimp/mailchimpSubscribe %}
 
 ### Referências&#x20;
 

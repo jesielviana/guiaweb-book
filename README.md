@@ -7,6 +7,8 @@ description: >-
 
 # Apresentação
 
+{% @mailchimp/mailchimpSubscribe %}
+
 ### Visão Geral
 
 Este ebook apresenta os conceitos fundamentais da web e suas tecnologias básicas (HTTP, HTML, CSS e Javascript). Além dos conceitos teóricos, são apresentados exemplos práticos de desenvolvimento de aplicações web reais.
