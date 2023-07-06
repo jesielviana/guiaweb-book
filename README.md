@@ -24,3 +24,5 @@ A **introdução** contém os conceitos fundamentais da web, seus principais com
 No parte do **front-end** são as três tecnologias base do desenvolvimento de aplicação web: HTML, CSS e Javascript.
 
 Já no **back-end** são apresentados conceitos mais profundos do modelo cliente-servidor, manipulação de APIs, automatização e implantação de sistemas web.
+
+> Este ebook tem o apoio do [GitBook](https://www.gitbook.com/).
