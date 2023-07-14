@@ -7,7 +7,7 @@ description: >-
 
 # Apresentação
 
-OBS: <mark style="background-color:red;">Este ebook ainda está em construção...</mark> se encontrar algum problema ou queira enviar alguma sugestão não hesite em contactar o autor.
+**OBS**: <mark style="color:orange;">Este ebook ainda está em construção...</mark> se encontrar algum problema ou queira enviar alguma sugestão não hesite em contactar o autor.
 
 <mark style="color:purple;">Para receber informações sobre atualizações e materiais de apoio se inscreva na nossa newsletter.</mark>
 
