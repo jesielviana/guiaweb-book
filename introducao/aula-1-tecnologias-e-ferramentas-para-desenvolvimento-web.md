@@ -103,8 +103,8 @@ Todas as plataformas listadas acima possuem um plano de utilização grátis, qu
 
 #### 1.3 Conclusão
 
-Em qualquer área atuação sempre há um conjunto de ferramentas que são essenciais para auxiliar o profissional para realização do seu trabalho. No desenvolvimento de software para web não é diferente, para a construção de uma página web ou uma API é essencial o uso de ferramentas que apoiam o desenvolvimento e implantação dessas aplicações, principalmente aquelas que promovem à produtividade e colaboração.
+Essas são apenas algumas das principais ferramentas utilizadas pelos desenvolvedores web. A escolha das ferramentas depende das preferências pessoais, requisitos do projeto e tecnologias utilizadas.
 
-Se você está iniciando ou quer iniciar na carreira de desenvolvedor web recomendo fortemente que você estude e domine pelo menos uma ferramenta de cada uma das categorias citadas acima. Escolhas suas ferramentas e domine-as. z
+Se você está iniciando ou quer iniciar na carreira de desenvolvedor web recomendo fortemente que você estude e domine pelo menos uma ferramenta de cada uma das categorias citadas acima. **Escolhas suas ferramentas e domine-as.**&#x20;
 
 > **O conhecimento de Git é essencial e obrigatório para todo desenvolvedor de software.** Use sempre, mesmo naqueles projetos pessoais e atividades acadêmicas.
