@@ -25,6 +25,6 @@ Os capítulos sobre **front-end** foca nas três tecnologias base do desenvolvim
 
 Já nos capítulos sobre **back-end** são apresentados conceitos mais profundos do modelo cliente-servidor, construção e manipulação de APIs, automatização e implantação de sistemas web.
 
-<mark style="color:green;">Cada capítulo vem acompanhado de slides para uso como material de apoio por professores.</mark>
+<mark style="color:purple;">Cada capítulo vem acompanhado de slides para uso como material de apoio por professores.</mark>
 
 > **Este ebook tem o apoio do** [**GitBook**](https://www.gitbook.com/)**.**
