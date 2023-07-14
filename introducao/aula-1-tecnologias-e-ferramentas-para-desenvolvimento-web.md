@@ -51,9 +51,9 @@ Importante destacar que o foco é descrever o tipo/categoria da ferramenta ao in
 
 Assim como tem os editores de textos para escrita de documentos tais como _Microsoft Office_ e _Google Docs_. Temos os editores de texto específicos para escrita de código-fonte, são os editores utilizados pelos desenvolvedores para escrita do HTML, CSS, Javascript, etc.
 
-Os editores de textos mais simples para desenvolvedores são conhecidos como editor de código-fonte. Também existem o editores que são chamados de IDE _(Integrated Development Environment)_, que além de editor de código-fonte fornece uma plataforma completa para desenvolvimento, composto por um conjunto de recursos que possibilita a escrita e teste do código, depuração e integração com diversas outras ferramentas.
+Os editores de textos mais simples para desenvolvedores são conhecidos como editor de código-fonte. Também existem o editores com mais recursos que são chamados de IDE _(Integrated Development Environment)_, que além de editor de código-fonte fornece uma plataforma completa para desenvolvimento, composto por um conjunto de recursos que possibilita a escrita e teste do código, depuração e integração com diversas outras ferramentas.&#x20;
 
-Editor de código ou IDE são ferramentas essenciais para a escrita de código e desenvolvimento de software, conhecer os atalhos e funcionalidades disponíveis é importante para aumento da produtividade e resolução de problemas por meio de ‘debug’ e recursos que auxiliam o desenvolvedor durante o processo de escrita e sincronização de código e implantação do software.
+O uso de um bom editor de código ou IDE é essencial para a escrita de código e desenvolvimento de software. Essas ferramentas fornecem recursos avançados de edição de código, autocompletar, realce de sintaxe, sugestões inteligentes, depuração e integração com controle de versão. Portanto, conhecer os atalhos e funcionalidades disponíveis é importante para aumento da produtividade e resolução de problemas por meio de depuração e recursos que auxiliam o desenvolvedor durante o processo de escrita e sincronização de código e implantação do software.
 
 A escolha do editor pode variar de acordo com a linguagem de programação a ser utilizada. Atualmente um dos editores mais utilizado é o Visual Studio Code ([VS Code](https://code.visualstudio.com/)), que é _open-source_ desenvolvido pela Microsoft.
 
@@ -87,7 +87,11 @@ Para saber como utiliziar Git e GitHub veja o capítulo X.
 
 #### 1.2.3 Disponibilizando de aplicação online
 
-A forma mais prática e fácil de disponibilizar uma aplicação Web online é colocando-a em uma plataforma de nuvem (_cloud_). Portanto, é importante que qualquer desenvolvedor conheça algumas dessas plataformas para disponibilizar suas aplicações. Além disso, quase todas as empresas utilizam essas plataformas para disponibilização de suas aplicações e serviços online, sendo um requisito básico para qualquer desenvolvedor conhecer essas plataformas.
+Para disponibilizar uma aplicação web online é necessário o uso de um servidor web. Servidores web, como [Apache](https://httpd.apache.org/) e [Nginx](https://www.nginx.com/), são usados para hospedar e servir aplicações web em um ambiente de produção. Eles fornecem recursos de roteamento, balanceamento de carga e segurança e exigem um certo grau de conhecimento de redes de computadores e da própria ferramenta para configuração e uso.
+
+No entanto, atualmente existem formas simplicadas de colocar aplicações para uso em produção, ao invés de configurar o próprio servidor web usamos plataformas de serviços de computação em nuvem para fazer todo o gerenciamento e disponibilização da aplicação online.&#x20;
+
+Portanto, é importante que qualquer desenvolvedor conheça algumas dessas plataformas  para disponibilizar suas aplicações. Além disso, quase todas as empresas utilizam essas plataformas para disponibilização de suas aplicações e serviços online, sendo um requisito básico para qualquer desenvolvedor conhecer essas plataformas.
 
 Abaixo é listada algumas dessas plataformas e suas principais características.
 
