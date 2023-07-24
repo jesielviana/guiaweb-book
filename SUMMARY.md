@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Apresentação](README.md)
+* [Guia Web](README.md)
 * [Licença](licenca.md)
 
 ## Introdução
