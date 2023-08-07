@@ -4,7 +4,7 @@ description: >-
   para criar páginas Web
 ---
 
-# HTML
+# 3. HTML
 
 > **Objetivos de aprendizagem**
 >
@@ -14,21 +14,19 @@ description: >-
 
 ### Introdução
 
-Como descrito na aula anterior, a Web é baseada na interligação de documentos de hipermídia que podem conter textos, imagens, vídeos, etc. Para criação desses documentos, conhecidos como páginas Web, utiliza-se a linguagem de marcação HTML - Hypertext Markup Language.&#x20;
+A Web é baseada na interligação de documentos de hipermídia que podem conter textos, imagens, vídeos, etc. Para criação desses documentos, conhecidos como páginas Web, utiliza-se a linguagem de marcação HTML - Hypertext Markup Language.&#x20;
 
-A linguagem HTML permite estruturar uma página web e seu conteúdo com texto, imagens, vídeos, etc. E interligá-los com outras páginas na Web de forma simples e padronizada.
+HTML é a base sobre a qual a Web foi construída. É uma linguagem de marcação que permite estruturar o conteúdo de uma página da web de forma significativa e semântica e interligá-las com outras páginas Web de forma simples e padronizada.
 
-HTML **não** é uma linguagem de **programação**, na verdade, HTML é uma linguagem de marcação, formada por um conjunto de elementos. Os elementos HTML são definidos por meio de _tags,_ que são utilizadas para definir a estrutura do conteúdo.
+HTML **não** é uma linguagem de programação! HTML é uma linguagem de marcação, formada por um conjunto de elementos. Os elementos HTML são definidos por meio de marcadores chamados de "_tags",_ para identificar elementos dentro do documento. Cada tag possui uma função específica, como definir um cabeçalho, parágrafo, lista, imagem, link, entre outros. As tags são interpretadas pelo navegador para exibir o conteúdo de maneira apropriada.
 
-As tags HTML são utilizadas para delimitar ou agrupar diferentes partes do conteúdo para ele apareça ou atue de determinada maneira. A interpretação do HTML e apresentação do conteúdo fica a cargo dos navegadores Web.
-
-Por exemplo, como transformar a frase abaixo em um parágrafo HTML?
+Por exemplo, como escrever a frase abaixo no formado de um parágrafo HTML?
 
 > Sou um desenvolvedor Web.
 
 Basta envolver a frase em uma tag `<p>`, tal como: `<p>Sou um desenvolvedor Web</p>`
 
-Todo o conteúdo de um documento HTML deve ser envolvido por tags, há tags específicas para cada tipo de conteúdo, como a tag `<p>` para parágrafo. Mais a frente vamos conhecer as principais tags HTML e como utilizá-las.
+Todo o conteúdo de um documento HTML deve ser envolvido por _tags_, há _tags_ específicas para cada tipo de conteúdo, como a tag `<p>` para parágrafo.&#x20;
 
 ### Estrutura de uma página HTML
 
@@ -53,15 +51,17 @@ Um documento HTML é formado por elementos, que na sua maioria é composto por u
 
 * `<!DOCTYPE html>` - declaração que define que este documento é do tipo HTML5, deve ser a primeira _tag_ do documento (obrigatório);
 * `<html>` - é o elemento raiz de uma página HTML, composto pela _tag_ `<html>`, que indica o início do documento e pela _tag_ `</html>` que delimita o final do documento. Observe que a tag de fechamento tem uma `/`. Isso é padrão para todos os elementos que possuem tag de fechamento;
-* `<head>` - elemento que contém configurações e meta informações sobre o documento, o conteúdo colocado dentro deste elemento não fica visível no página Web, quando acessada pelo navegador. Este elemento também formado pelas tags de abertura e fechamento;
+* `<head>` - elemento que contém configurações e metadados sobre o documento, o conteúdo colocado dentro deste elemento não fica visível no página Web, quando acessada pelo navegador. Este elemento também formado pelas tags de abertura e fechamento;
 * `<body>`  - elemento que indica o corpo do documento, contém todo conteúdo  visível da página Web. Também formado pelas tags de abertura e fechamento.
 * `<!-- Conteúdo aqui -->` - esse trecho de código na linha 9 é um exemplo de comentário. Comentários é como fazemos anotações em nosso HTML, eles são ignorados pelo navegador. Começamos um comentário HTML com `<! -` e terminamos um comentário com `->`.
+
+O HTML oferece uma variedade de tags para estruturar diferentes tipos de conteúdo. Mais a frente vamos conhecer as principais tags HTML e como utilizá-las.
 
 ### Anatomia de um elemento HTML
 
 A figura abaixo apresenta detalhadamente as partes que compõe um elemento HTML, no exemplo é utilizada a tag `p` que representa um parágrafo num documento HTML. No entanto, essa estrutura é aplicada a qualquer elemento que possui tag de abertura e fechamento. Como vamos ver mais a frente, alguns elementos HTML possuem apenas a tag de abertura.
 
-![Anatomia de um elemento HTML](../.gitbook/assets/anatomia-elemento-html.png)
+![Anatomia de um elemento HTML](.gitbook/assets/anatomia-elemento-html.png)
 
 As principais partes de um elemento são:
 
@@ -159,9 +159,11 @@ Já outros elementos vazios possuem atributos específicos que são utilizados p
 
 Para adicionar uma imagem em uma página HTML utiliza-se o elemento `<img>` passando o endereço da imagem para o atributo `src.` Agora quando você salvar o código do exemplo acima e abrir no navegador será exibida abaixo do texto a imagem "carregada" do link/endereço passado como valor para o atributo `src`  do elemento `<img>`.
 
-### Elementos semânticos
+### HTML Semântico
 
-Os elementos HTML que proveem conteúdo para ser exibido pelo navegador possuem um valor semântico, por exemplo: `<h1>Novo título</h1>`, qualquer texto colocado dentro do elemento `h1` tem o valor semântico de um título, o navegador entende isso e exibe-o com destaque (negrito e grande), além disso, qualquer desenvolvedor que conhece HTML  ao ver o código sabe que representa um título.&#x20;
+Uma das características mais importantes do HTML é a sua capacidade de fornecer significado semântico ao conteúdo. Isso significa que podemos usar tags para descrever o propósito do conteúdo, tornando-o mais acessível e compreensível para pessoas e mecanismos de busca.&#x20;
+
+Os elementos HTML que contém conteúdo para ser exibido pelo navegador possuem um valor semântico, por exemplo: `<h1>Novo título</h1>`, qualquer texto colocado dentro do elemento `h1` tem o valor semântico de um título, o navegador entende isso e exibe-o com destaque (negrito e grande), além disso, qualquer desenvolvedor que conhece HTML  ao ver o código sabe que representa um título.&#x20;
 
 Porém, nem todos os elementos HTML geram conteúdo para ser exibido, alguns elementos são utilizados apenas para delimitação de código ou agrupamento de outros elementos, são elementos que não geram conteúdo visual na página, mas tem valores semânticos específicos, são geralmente conhecidos como **elementos semânticos**.
 
@@ -173,13 +175,13 @@ Além de estrutura os documentos HTML o principal objetivo dos elementos semânt
 * `<section>` - Representa uma seção dentro de um documento HTML.
 * `<aside>` - Utilizado para definir um conteúdo secundário ao conteúdo principal, geralmente um conteúdo lateral;
 * `<footer>` - Define o rodapé (parte final de uma página) de um documento HTML.
-* Veja mais elementos em: [https://developer.mozilla.org/pt-BR/docs/Glossary/Semantics#elementos\_sem%C3%A2nticos](https://developer.mozilla.org/pt-BR/docs/Glossary/Semantics#elementos\_sem%C3%A2nticos)
+* Veja mais elementos em [MDN Web Docs](https://developer.mozilla.org/pt-BR/docs/Glossary/Semantics#elementos\_sem%C3%A2nticos).
 
 Veja abaixo uma representação gráfica dos elementos semântico e seu código HTML (_obs.: para que os elementos HTML sejam exibidos conforme a figura é necessário fazer a estilização com CSS, assunto do próximo capítulo_)
 
 {% tabs %}
 {% tab title="Imagem" %}
-![Elementos semânticos do HTML](../.gitbook/assets/elementos-sema-nticos.png)
+![Elementos semânticos do HTML](.gitbook/assets/elementos-sema-nticos.png)
 {% endtab %}
 
 {% tab title="Código HTML semântico" %}
@@ -231,16 +233,10 @@ Veja abaixo uma representação gráfica dos elementos semântico e seu código 
 
 ### Conclusão
 
-Nesta aula conhecemos a linguagem de marcação HTML e para que ela é utilizada. Além disso, aprendemos o básico de sua sintaxe e a utilizar de forma prática as tags básicas para criar elementos, atributos e páginas Web.
+O HTML é o pilar fundamental da World Wide Web. Ele permite que criemos páginas da web estruturadas e significativas, fornecendo a base para o desenvolvimento de experiências digitais ricas e interativas. À medida que avançamos no livro, exploraremos como o HTML interage com outras tecnologias, como CSS e JavaScript, para criar páginas web dinâmicas e atraentes.
 
-**O mais importante nesse momento é compreender a estrutura da HTML e ter a consciência de que existem elementos específicos para cata tipo de conteúdo que pode ser exibido em uma página HTML, tais como títulos, parágrafos, tabelas, listas ordenadas e não ordenadas, imagens, vídeos,  etc.**(Conheça todos os elementos HTML).
+**O mais importante nesse momento é compreender a estrutura de uma página HTML e ter a consciência de que existe elementos específicos para cada tipo de conteúdo que possa ser exibido em uma página HTML, tais como títulos, parágrafos, tabelas, listas ordenadas e não ordenadas, imagens, vídeos,  etc**.
 
-Agora é com você, modifique os exemplos criados na aula, adicione mais elementos nas páginas e crie outros documentos HTML.&#x20;
+> Agora é com você, modifique os exemplos criados na aula, adicione mais elementos nas páginas e crie outros documentos HTML.&#x20;
 
-Por fim, acesse o material complementar.
-
-### Material Complementar
-
-{% embed url="https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/HTML_basics" %}
-
-{% embed url="https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/What_will_your_website_look_like" %}
+Para se aprofundar mais sobre HTML visite a documentação da [MDN Web Docs](https://developer.mozilla.org/pt-BR/docs/Web/HTML).
