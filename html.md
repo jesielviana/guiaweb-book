@@ -20,7 +20,7 @@ HTML é a base sobre a qual a Web foi construída. É uma linguagem de marcaçã
 
 HTML **não** é uma linguagem de programação! HTML é uma linguagem de marcação, formada por um conjunto de elementos. Os elementos HTML são definidos por meio de marcadores chamados de "_tags",_ para identificar elementos dentro do documento. Cada tag possui uma função específica, como definir um cabeçalho, parágrafo, lista, imagem, link, entre outros. As tags são interpretadas pelo navegador para exibir o conteúdo de maneira apropriada.
 
-Por exemplo, como escrever a frase abaixo no formado de um parágrafo HTML?
+Por exemplo, como escrever a frase abaixo no formato de um parágrafo HTML?
 
 > Sou um desenvolvedor Web.
 
@@ -51,8 +51,8 @@ Um documento HTML é formado por elementos, que na sua maioria é composto por u
 
 * `<!DOCTYPE html>` - declaração que define que este documento é do tipo HTML5, deve ser a primeira _tag_ do documento (obrigatório);
 * `<html>` - é o elemento raiz de uma página HTML, composto pela _tag_ `<html>`, que indica o início do documento e pela _tag_ `</html>` que delimita o final do documento. Observe que a tag de fechamento tem uma `/`. Isso é padrão para todos os elementos que possuem tag de fechamento;
-* `<head>` - elemento que contém configurações e metadados sobre o documento, o conteúdo colocado dentro deste elemento não fica visível no página Web, quando acessada pelo navegador. Este elemento também formado pelas tags de abertura e fechamento;
-* `<body>`  - elemento que indica o corpo do documento, contém todo conteúdo  visível da página Web. Também formado pelas tags de abertura e fechamento.
+* `<head>` - elemento que contém configurações e metadados sobre o documento, o conteúdo colocado dentro deste elemento não fica visível na página Web, quando acessada pelo navegador. Este elemento também formado pelas tags de abertura e fechamento;
+* `<body>`  - elemento que indica o corpo do documento, contém todo conteúdo  visível da página Web. Também é formado pelas tags de abertura e fechamento.
 * `<!-- Conteúdo aqui -->` - esse trecho de código na linha 9 é um exemplo de comentário. Comentários é como fazemos anotações em nosso HTML, eles são ignorados pelo navegador. Começamos um comentário HTML com `<! -` e terminamos um comentário com `->`.
 
 O HTML oferece uma variedade de tags para estruturar diferentes tipos de conteúdo. Mais a frente vamos conhecer as principais tags HTML e como utilizá-las.
