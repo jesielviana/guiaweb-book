@@ -1,11 +1,11 @@
 ---
 description: >-
   Guia Web é um livro-texto(ebook) destinado a alunos e professores de cursos de
-  graduação em computação, e também, para qualquer pessoa que tem interesse pela
+  graduação em computação, e também, para qualquer pessoa, com interesse pela
   área de desenvolvimento web.
 ---
 
-# Apresentação
+# Guia Web
 
 **OBS**: <mark style="color:orange;">Este ebook ainda está em construção...</mark> se encontrar algum problema ou queira enviar alguma sugestão não hesite em contactar o autor.
 
